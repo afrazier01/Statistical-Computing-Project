@@ -6,4 +6,4 @@ There are several theories about how the original area codes were assigned in 19
 
 In this report, I have used data I preprocessed in a separate QMD file to explore different questions through advanced data transformations and statistical methods.
 
-I have uploaded both rendered QMD and PDF files for the pre-analysis data transformations and final project report. You must download the files for view.
+I uploaded the rendered QMD and PDF file for both the pre-analysis data transformations and final project report. You must download them to view.
