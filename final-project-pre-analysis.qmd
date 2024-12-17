@@ -1,0 +1,810 @@
+---
+title: "Final Project Pre-analysis and Data Transformations"
+author: "Aveontae Frazier"
+format: 
+  html:
+    embed-resources: true
+    toc: true
+    html-math-method: katex
+    css: styles.css
+editor: source
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+#| message: FALSE
+#| warning: FALSE
+#| echo: FALSE
+library(tidyverse)
+library(ggplot2)
+library(broom)
+library(sf)
+library(readxl)
+library(rvest)
+library(janitor)
+library(visdat)
+library(kknn)
+library(recipes)
+library(parsnip)
+library(tidymodels)
+theme_set(theme_bw())
+```
+
+# **Data and Project Narrative**
+
+## AREA CODE DATA BY SELECT CITIES
+
+The file `cities_area_codes_final.csv` contains roughly 3700 city-area code pairs from the modern day.
+
+Its variables `city` and `state_or_province`, and `country` provide the name of a city/town and the state/province in which it is located.
+
+`latitude` and `longitude` provide the spatial coordinates of the midpoint of the city/town.
+
+`area_code` provides a modern-day three digit area code assigned to this city.
+
+Some notes:
+
+-   because cities now have multiple associated area codes, a city may occur multiple times in the dataset.
+
+-   the list is non-exhaustive. That is, not all possible area code/city combinations are included. So, don’t be worried if you do not see your particular city/area code combination.
+
+-   Moreover, not all cities/towns in the US are included. This data is just a smattering I was able to dig up, but it should be enough to adequately complete your task.
+
+```{r}
+cities_area_codes_final <- read_csv("data/cities_area_codes_final.csv") |> 
+  glimpse()
+```
+
+## COUNTY CENSUS INFO
+
+The file `county_census_info.csv` contains helpful info assembled from the 1950 census, as well as some additional helpful information.
+
+It contains 3123 rows, one for each county in the USA at the time.
+
+The variable `state_name` provides the name of the state in upper case.
+
+The variable `state_fips_code` provides the unqiue two-digit [Federal Information Processing System](https://transition.fcc.gov/oet/info/maps/census/fips/fips.txt) code assigned to the state.
+
+Likewise, the variable `county_name` provides the name of the county, and the variable `county_fips_code` provides the unique three-digit county suffix for each individual county within its state.
+
+These FIPS codes are helpful because they are easier to match than county names which are harder to standardize, and may change over time.
+
+The variable `population_1950` provides the total population in the county as estimated by the 1950 census. Likewise, the variables `population_under5_1950`, `population_over65_1950`, and `black_pop` give the count of people aged below 5, above 65, and identified as Black/African American in the census.
+
+The variable `residence_telephones_1945` provides the number of telephones in the county as 1945 (I was unable to find 1950 data).
+
+The variable `births` provides the number of births in the county in 1950.
+
+```{r}
+county_census_info <- read_csv("data/county_census_info.csv") |> 
+  mutate(across(ends_with("name"), str_to_lower)) |> #lower state and county
+  glimpse()
+```
+
+## SIMPLE FEATURES SHAPE FILE FOR US COUNTIES
+
+The folder `co99_d00_shp` contains the shape file `co99_d00.shp` for the simple features map of the counties of the US.
+
+In it, possibly relevant variables include:
+
+-   `AREA`: the area of the region in terms of thousands of square kilometers.
+
+-   `STATE`: providing the state FIPS code.
+
+-   `COUNTY`: providing the county FIPS code.
+
+-   `NAME`: Providing the name of the county
+
+-   `geometry` containing the simple features object of the area.
+
+Note that this file contains states (like Alaska) and territories that will need to be excluded from the analysis. Also, some counties are split across multiple rows.
+
+```{r}
+counties_sf <- st_read("data/co99_d00_shp/co99_d00.shp") |>
+  glimpse()
+```
+
+## SPLITS AND OVERLAYS DATA
+
+Recall that many of the original area codes now have new “descendant” area codes that were added to the region by process of either split or overlay.
+
+The spreadsheet `splits_overlays.xlsx` contains on sheet for each of the original american area codes, labeled by the three digit area code. Within each sheet, there is a row for each of the current area codes now occupying that original region.
+
+The column `code` provides the code, the column `year` provides the year that code was first used, the column `original` is a logical variable specifying whether or not it was the original area code for this region, and the `territory` variable gives a description of the area covered by the code today.
+
+Note: I do not intend for you to have to use the `year` or `territory` variables in your analysis.
+
+```{r}
+splits_overlays_203 <- read_xlsx("data/splits_overlays.xlsx", 
+                                  sheet = "203") |> #try sheet #2
+  glimpse()
+```
+
+## NEW COUNTIES AND MERGED COUNTIES
+
+Depending on how your approach your data merging, these files might be helpful at reconciling issues:
+
+Since 1947, some counties have ceased to exist, and others have been created.
+
+For those 16 counties that have ceased to exist, they have each been merged into another county. The file `merged_counties_since_1950.csv` contains a row for each county that got eliminated.
+
+The variables `county_name`, `state_fips` and `state_name` provides the name, state fips code, and state of the county that was eliminated. The variable `old_county_fips` provides its fips code before it was eliminated. The variable `new_county_fips` provides the fips code of the county it was merged into.
+
+For the two new counties that have been created, they were both created by breaking off a piece of existing counties.
+
+The file `new_counties_since_1950.csv` contains a row for each. The variables `state`, `state_fips`, `old_county_name` and `old_county_fips` provide the name and FIPS of both the state and county where the separation happened, and the variables `new_county_name` and `new_county_fips` provide the name and FIPS for the new county that was created.
+
+```{r}
+#Read in and clean data
+merged_counties_since_1950 <- read.csv("data/merged_counties_since_1950.csv") |>
+  mutate(state = str_to_lower(state_name),
+         county = str_to_lower(county_name)) |> 
+  mutate(across(ends_with("fips"), as.character)) |> # for consistency
+  select(-c(state_name, 
+            county_name)) |> 
+  glimpse()
+
+new_counties_since_1950 <- read.csv("data/new_counties_since_1950.csv") |>
+  mutate(state = str_to_lower(state),
+         new_county_name = str_to_lower(new_county_name),
+         old_county_name = str_to_lower(old_county_name)) |> 
+  mutate(across(ends_with("fips"), as.character)) |> # for consistency
+  glimpse()
+```
+
+# **Pre-Analysis**
+
+## *Merge Current and Old Area Codes*
+
+```{r}
+print(cities_area_codes_final, n = 20) #take a look at the area code dataset
+
+cities_area_codes_final <- cities_area_codes_final |> 
+  filter(country == "US") #save just the US
+
+print(splits_overlays_203) #look at one older area code
+
+# Will scrape the original area codes from the internet
+# url: https://en.wikipedia.org/wiki/Original_North_American_area_codes
+
+url <- "https://en.wikipedia.org/wiki/Original_North_American_area_codes"
+
+html <- url |> 
+  read_html()
+
+html
+
+original_area_codes_table_html <- html_table(html)
+
+original_area_codes_table_html  |> 
+  class()
+
+original_area_codes_table <- original_area_codes_table_html[[2]] #second table
+
+original_area_codes <- original_area_codes_table |> 
+  clean_names() |>  
+  pull(area_code)
+
+original_area_codes
+
+n_distinct(original_area_codes) #expected number of area codes!
+```
+
+```{r}
+# Remove Area Codes in conflict with splits overlays csv
+area_codes_to_exclude <- c(204, 
+                           306, 
+                           403, 
+                           418, 
+                           514, 
+                           604, 
+                           613, 
+                           416, 
+                           902)
+
+area_code_table <-tibble(original_area_code = as.character(original_area_codes)) |>
+  filter(!original_area_codes %in% area_codes_to_exclude) |> #remove 
+  glimpse()
+
+# Read in the split overlay data
+area_code_table <- area_code_table |> 
+  rowwise() |> 
+  mutate(splits_overlays = list(read_xlsx("data/splits_overlays.xlsx", 
+                                  sheet = original_area_code))) |> 
+  unnest(splits_overlays) #unnest to get nice result
+
+# Prepare data
+area_code_table <- area_code_table |> 
+  select(original_area_code, # Get rid of year and territory
+         code,
+         original) |> 
+  rename(new_area_code = code) |> #new area code
+  mutate(original_area_code = as.integer(original_area_code), #convert to int for later
+         new_area_code = as.integer(new_area_code)) |> 
+  glimpse()
+
+# Add the codes_created to count number of new area codes per original area code
+area_code_table_counts <- area_code_table |> 
+  group_by(original_area_code) |> 
+  mutate(n_codes_created = (n_distinct(new_area_code))) |> 
+  ungroup() |> # Remove grouping to return to regular data frame
+  distinct(original_area_code,
+         n_codes_created) |> 
+  glimpse()
+
+# Write area_code_table_counts to csv
+# write_csv(area_code_table_counts, "data/area_code_table_counts_final.csv")
+```
+
+```{r}
+# Merge data with the current area code data
+cities_area_codes_final |> 
+  glimpse()
+
+cities_area_codes_final <- cities_area_codes_final |> 
+  mutate(area_code = as.integer(area_code)) #convert for join
+
+cities_area_codes_merged <- cities_area_codes_final |> 
+  left_join(area_code_table,
+            by = join_by(area_code == new_area_code)) |> 
+  rename(new_area_code = area_code)
+
+# Confirm join worked as expected
+cities_area_codes_merged |> 
+  filter(original == FALSE) |> 
+  glimpse()
+```
+
+## *Convert Area Code data frame into Simple Features*
+
+```{r}
+cities_area_codes_merged_sf <- st_as_sf(cities_area_codes_merged,
+                                        coords = c("longitude", "latitude"),
+                                        crs = st_crs(4269))
+
+counties_sf <- counties_sf |> 
+  filter(!(counties_sf$STATE %in% c("02", #Alaska
+                        "15" #Hawaii
+                        )))
+
+counties_sf <- st_set_crs(counties_sf, 4269) # set same CRS for join
+
+# Perform spatial join based on geometry
+counties_with_area_codes_sf <- st_join(counties_sf,
+                              cities_area_codes_merged_sf,
+                              join = st_intersects) 
+
+# All the relevant city, state, and county pairings for new and old area codes
+counties_with_area_codes <- counties_with_area_codes_sf |>  
+  select(new_area_code,
+         original_area_code,
+         original,
+         city,
+         state_or_province, 
+         county = NAME,
+         state_code = STATE,
+         county_code = COUNTY) |> 
+  st_drop_geometry() |>  #remove the special geometry attribute
+  glimpse()
+
+# Write to csv
+# write_csv(counties_with_area_codes, "data/counties_with_area_codes_final.csv")
+```
+
+## *Merge Area Code Data with Counties_SF*
+
+```{r}
+# Read in counties simple features
+counties_sf <- st_read("data/co99_d00_shp/co99_d00.shp") |>
+  glimpse()
+
+# Counties that have data!
+counties_with_area_codes_sf |> 
+  filter(!is.na(original_area_code)) |> 
+  glimpse()
+```
+
+```{r}
+# A list of states to plot, must use state FIPS codes not state_or_province
+states_to_plot <- c("09",     # Connecticut
+                    "36",     # New York
+                    "48",     # Texas
+                    "29",     # Missouri
+                    "23",     # Maine
+                    "55",     # Wisconsin
+                    "19")     # Iowa
+
+# Create variables for each state
+connecticut <- counties_with_area_codes_sf |> 
+  filter(STATE == states_to_plot[1])
+
+new_york <- counties_with_area_codes_sf |> 
+  filter(STATE == states_to_plot[2])
+
+texas <- counties_with_area_codes_sf |> 
+  filter(STATE == states_to_plot[3])
+
+missouri <- counties_with_area_codes_sf |> 
+  filter(STATE == states_to_plot[4])
+
+maine <- counties_with_area_codes_sf |> 
+  filter(STATE == states_to_plot[5])
+
+wisconsin <- counties_with_area_codes_sf |> 
+  filter(STATE == states_to_plot[6])
+
+iowa <- counties_with_area_codes_sf |> 
+  filter(STATE == states_to_plot[7])
+
+
+## Plot states
+
+#Connecticut
+ggplot() +
+  geom_sf(data = connecticut,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + # fill empty area with grey
+  labs(fill = "Original Area Code") 
+
+#New York
+ggplot() +
+  geom_sf(data = new_york,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code") 
+
+#Texas
+ggplot() +
+  geom_sf(data = texas,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code") 
+
+#Missouri
+ggplot() +
+  geom_sf(data = missouri,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code") 
+
+#Maine
+ggplot() +
+  geom_sf(data = maine,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code") 
+
+#Wisconsin
+ggplot() +
+  geom_sf(data = wisconsin,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code") 
+
+#Final check—Iowa
+ggplot() +
+  geom_sf(data = iowa,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code") 
+```
+
+## *Add the location of the center of each shape in the simple features*
+
+```{r}
+counties_with_area_codes_sf <- counties_with_area_codes_sf |> 
+  mutate(centroid = st_centroid(geometry) |>
+           st_coordinates(),
+         centroid_lat = centroid[,2],
+         centroid_long = centroid[,1]) |> 
+  mutate(original_area_code = as.factor(original_area_code)) #prepare for modeling
+```
+
+## *Impute original area codes for cities without one using the K-nearest neighbors algorithm*
+
+```{r}
+set.seed(3)
+
+## Partition data based on NAs
+
+# Test data are rows with NAs for original_area_codes
+test_data <- counties_with_area_codes_sf |> 
+  filter(is.na(original_area_code)) |> 
+  glimpse()
+
+# Train data are rows with no NAs for original_area_codes
+train_data <- counties_with_area_codes_sf |> 
+  filter(!is.na(original_area_code)) |> 
+  glimpse()
+
+# Create workflow  
+rknn_recipe <- recipe(original_area_code ~ STATE + centroid_lat + centroid_long,
+                      data = train_data) |>
+  step_other(STATE, threshold = 0.001) |> 
+  step_dummy(all_nominal_predictors()) |>
+  step_normalize(all_predictors()) 
+  
+
+classification_rknn <- nearest_neighbor(neighbors = 1,
+                                 weight_func = "rectangular") |>
+  set_engine("kknn") |>
+  set_mode("classification")
+
+workflow_rknn <- workflow() |>
+  add_model(classification_rknn) |>
+  add_recipe(rknn_recipe)
+
+# Fit the model
+workflow_rknn_fit <- workflow_rknn |>
+  fit(train_data)
+
+# Predict the original area code on the test partition
+workflow_rknn_preds <- workflow_rknn_fit |>
+  predict(test_data)
+
+workflow_rknn_preds
+
+## To assess model performance, I will check the accuracy of predictions against the train partition
+
+# Predict on training data
+train_predictions <- workflow_rknn_fit |>
+  predict(train_data) |>
+  bind_cols(train_data)  #combine predictions with actual data for comparison
+
+# Assess accuracy
+accuracy <- mean(train_predictions$.pred_class == train_predictions$original_area_code) 
+str_glue("Training Accuracy: {accuracy*100}%")
+
+# Merge the predictions with the test data
+imputed_data <- test_data |> 
+  bind_cols(workflow_rknn_preds) |> 
+  select(-original_area_code) |>  #drop NAs
+  rename(original_area_code = .pred_class) 
+
+train_data |> 
+  glimpse()
+
+imputed_data |> 
+  glimpse()
+
+# Combine train_data with the imputed data
+counties_area_codes_sf_imputed <- bind_rows(train_data, 
+                                            imputed_data) |> 
+  glimpse()
+```
+
+## *Check to determine whether states are imputed properly*
+
+```{r}
+# Modify state variables
+connecticut2 <- counties_area_codes_sf_imputed |> 
+  filter(STATE == states_to_plot[1])
+
+new_york2 <- counties_area_codes_sf_imputed |> 
+  filter(STATE == states_to_plot[2])
+
+texas2 <- counties_area_codes_sf_imputed |> 
+  filter(STATE == states_to_plot[3])
+
+missouri2 <- counties_area_codes_sf_imputed |> 
+  filter(STATE == states_to_plot[4])
+
+maine2 <- counties_area_codes_sf_imputed |> 
+  filter(STATE == states_to_plot[5])
+
+wisconsin2 <- counties_area_codes_sf_imputed |> 
+  filter(STATE == states_to_plot[6])
+
+iowa2 <- counties_area_codes_sf_imputed |> 
+  filter(STATE == states_to_plot[7])
+
+## Plot states
+
+#Connecticut
+ggplot() +
+  geom_sf(data = connecticut2,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + # fill empty area with grey
+  labs(fill = "Original Area Code") 
+
+#New York
+ggplot() +
+  geom_sf(data = new_york2,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code") 
+
+#Texas
+ggplot() +
+  geom_sf(data = texas2,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code") 
+
+#Missouri
+ggplot() +
+  geom_sf(data = missouri2,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code") 
+
+#Maine
+ggplot() +
+  geom_sf(data = maine2,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code") 
+
+#Wisconsin
+ggplot() +
+  geom_sf(data = wisconsin2,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code") 
+
+#Final check—Iowa
+ggplot() +
+  geom_sf(data = iowa2,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code") 
+
+#It worked!
+
+# All the relevant city, state, and county pairings for new and old area codes
+counties_area_codes_imputed <- counties_area_codes_sf_imputed |>
+  select(new_area_code,
+         original_area_code,
+         original,
+         city,
+         state_or_province,
+         NAME,
+         STATE,
+         COUNTY) |>
+  st_drop_geometry() |>  #remove the special geometry attribute
+  glimpse()
+
+# Write to csv
+# write_csv(counties_area_codes_imputed, "data/counties_area_codes_imputed_final.csv")
+```
+
+## *Handle New and Merged Counties*
+
+```{r}
+ county_census_info <- county_census_info |> #counties present in 1950 consensus
+   mutate(across(ends_with("_code"), parse_number)) |> #convert to numbersd to avoid conflict
+   glimpse()
+
+#Read in and clean data, adding appropriate prefixes to making merging easier
+merged_counties_since_1950 <- merged_counties_since_1950 |> #counties that have been merged
+  mutate(across(ends_with("_fips"), parse_number)) |> #convert fips codes to numbers to avoid conflicts
+  glimpse()
+
+new_counties_since_1950 <- new_counties_since_1950 |> #new counties that have been created
+  mutate(across(ends_with("_fips"), parse_number)) |> #convert fips codes to numbers to avoid conflicts
+  glimpse()
+
+# Before getting started reconciling my county data, I will clean 'counties_area_codes_imputed'
+counties_area_codes_imputed <- counties_area_codes_imputed |>
+  rename(current_state = state_or_province, #add 'current_' prefix
+         current_county = NAME,
+         current_state_fip = STATE,
+         current_county_fip = COUNTY)
+
+# Use regex to remove leading zeros
+counties_area_codes_imputed <- counties_area_codes_imputed |>
+  mutate(current_county_fip = str_remove(current_county_fip, "^0+")) |>
+  mutate(across(ends_with("_fip"), parse_number)) |> #convert fips codes to numbers to avoid conflicts
+  mutate(across(ends_with("county"), str_to_lower)) #lower state and county
+
+
+counties_area_codes_imputed |> #includes current county data and associated area codes
+  glimpse()
+```
+
+```{r}
+# Illustrate that area codes that have since gotten new ones are already present
+counties_area_codes_imputed |>
+  inner_join(new_counties_since_1950,
+            by = c("current_county_fip" = "old_county_fips",
+                   "current_state_fip" = "state_fips")) |>
+  select(original_area_code,
+         old_county_name,
+         new_county_name)
+
+# Join the Counties that have been merged
+counties_area_codes_imputed <- counties_area_codes_imputed |>
+  left_join(merged_counties_since_1950,
+           by = c("current_county_fip" = "new_county_fips",
+                   "current_state_fip" = "state_fips")) |>
+  glimpse()
+
+
+counties_area_codes_imputed <- counties_area_codes_imputed |>
+  left_join(county_census_info,
+            by = c("current_county_fip" = "county_fips_code",
+                   "current_state_fip" = "state_fips_code")) |>
+  select(-c(state_name,
+            county_name,
+            #new_area_code
+            ))
+
+# Write to csv
+# write_csv(counties_area_codes_imputed, "data/counties_area_codes_imputed_with_censensus_final.csv")
+```
+
+```{r}
+# Custom dial pull function
+dial_pull <- function(area_code){
+
+  # Split area code digits
+  area_code_digits <- strsplit(as.character(area_code), "")[[1]]
+
+  # Ensure digits are integers
+  dial_pull_values <- as.integer(area_code_digits)
+
+  # calculate the dial pull
+  dial_pull_values <- ifelse(dial_pull_values == 0,
+                             10, #zero is special case
+                             dial_pull_values) #otherwise number
+
+  # Sum the dial pulls for the three digits
+  total_dial_pulls <- sum(dial_pull_values)
+
+  return(total_dial_pulls)
+}
+
+# test function to ensure expected values
+dial_pull("212")
+dial_pull("412")
+dial_pull("902")
+
+# Apply function
+counties_area_codes_imputed <- counties_area_codes_imputed |>
+  rowwise() |>
+  mutate(dial_pulls = dial_pull(original_area_code))
+
+counties_area_codes_imputed |>
+  glimpse()
+
+# get total population and black population, calulating the percent black
+area_code_summary <- counties_area_codes_imputed |>
+  distinct(original_area_code,
+         current_county, 
+         population_1950, 
+         black_pop,
+         current_county_fip) |> 
+  group_by(original_area_code) |>
+  summarize(total_population = sum(population_1950,
+                                   na.rm = TRUE),
+            black_pop = sum(black_pop,
+                            na.rm = TRUE)) |>
+  rowwise() |>
+  mutate(dial_pulls = dial_pull(original_area_code),
+         percent_black = (black_pop / total_population)) 
+  
+
+# Write to csv
+# write_csv(area_code_summary, "data/area_code_summary.csv")
+
+# Write to csv
+# write_csv(counties_area_codes_imputed, "data/counties_area_codes_imputed_with_dial_pulls_final.csv")
+```
+
+```{r}
+# write_csv(counties_area_codes_imputed, "data/counties_area_codes_imputed_with_population_final.csv")
+
+#number of NA new area codes
+is.na(counties_area_codes_imputed$new_area_code) |> 
+  sum()
+
+new_area_code_summary <- counties_area_codes_imputed |>
+  distinct(new_area_code, original_area_code) |> 
+  group_by(original_area_code) |>
+  summarize(
+    unique_count = n_distinct(new_area_code, na.rm = TRUE))
+
+new_area_code_summary 
+```
+
+## Predicting new area codes with random forest
+
+```{r}
+# Read in counties simple features again
+counties_sf <- st_read("data/co99_d00_shp/co99_d00.shp") |> 
+  mutate(STATE = parse_number(STATE),
+         COUNTY = parse_number(COUNTY)) |> 
+  mutate(NAME = str_to_lower(NAME)) #lower state and county
+
+# Join counties_sf with counties_area_codes_imputed
+counties_area_codes_sf <- counties_area_codes_imputed |> 
+  left_join(counties_sf,
+            by = c("current_county" = "NAME", 
+                   "current_state_fip" = "STATE",
+                   "current_county_fip" = "COUNTY")) |> 
+  distinct(new_area_code,
+           original_area_code,
+           original,
+           city,
+           current_state,
+           current_county, 
+           current_state_fip,
+           current_county_fip,
+           population_1950,
+           AREA,
+           PERIMETER,
+           geometry) |>
+  glimpse()
+
+counties_area_codes_sf <- counties_area_codes_sf |> 
+  mutate(centroid = st_centroid(geometry) |>
+           st_coordinates(),
+         centroid_lat = centroid[,2],
+         centroid_long = centroid[,1]) |> 
+  mutate(original_area_code = as.factor(original_area_code)) #prepare for modeling
+```
+
+```{r}
+set.seed(4)
+
+counties_area_codes_sf <-  counties_area_codes_sf |> 
+  mutate(new_area_code = as.factor(new_area_code),
+         original_area_code = as.character(original_area_code),
+         original = as.character(original)) |> 
+  filter(!is.na(population_1950)) |> 
+  glimpse()
+
+# Partition data based on NAs
+
+# Test data are rows with NAs for original_area_codes
+test_data <- counties_area_codes_sf |> 
+  filter(is.na(new_area_code)) |> 
+  glimpse()
+
+# Train data are rows with no NAs for original_area_codes
+train_data <- counties_area_codes_sf |> 
+  filter(!is.na(new_area_code)) |> 
+  glimpse()
+
+# Create workflow  
+rf_recipe <- recipe(new_area_code ~ 
+                        current_county + 
+                        current_state_fip + 
+                        current_county_fip +
+                        centroid_lat + 
+                        centroid_long +
+                        AREA +
+                        original_area_code,
+                      data = train_data) |>
+  step_novel(all_nominal_predictors()) |>
+  step_dummy(all_nominal_predictors()) |>
+  step_zv(all_predictors()) |> 
+  step_normalize(all_predictors()) 
+  
+
+classification_rf <- rand_forest() |>
+  set_engine("ranger") |>
+  set_mode("classification")
+
+workflow_rf <- workflow() |>
+  add_model(classification_rf) |>
+  add_recipe(rf_recipe)
+
+# Fit the model
+workflow_rf_fit <- workflow_rf |>
+  fit(train_data)
+
+# Predict the original area code on the test partition
+workflow_rf_preds <- workflow_rf_fit |>
+  predict(test_data)
+
+workflow_rf_preds
+
+area_code_data <- test_data |> 
+  bind_cols(workflow_rf_preds) |> 
+  select(-new_area_code) |>  #drop NAs
+  rename(new_area_code = .pred_class) |> 
+  relocate(new_area_code, 
+           .before = 2)
+```

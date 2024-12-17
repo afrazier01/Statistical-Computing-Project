@@ -1,0 +1,806 @@
+---
+title: "Stat-5405 Final Project Report"
+author: "Aveontae Frazier"
+format: 
+  html:
+    embed-resources: true
+    toc: true
+    html-math-method: katex
+    css: styles.css
+editor: source
+editor_options: 
+  chunk_output_type: console
+---
+
+# **Project Description**
+
+The American Telephone and Telegraph Company (AT&T) initially established 86 area codes in North America. These area codes are the three digits dialed before a phone number. For instance, in Connecticut, the current area codes are 203, 475, 860, and 959.
+
+There are several theories about how the original area codes were assigned in 1947. Most notably, it is believed that the most populated areas, counties, or regions were assigned area codes that were faster to dial. This was because rotary phones required "dialing back" after each number was selected. Consequently, as the theory proposes, area codes like 213 and 312 were assigned to densely populated areas, as they required only six dial pulls, compared to area codes like 704, which required 18 dial pulls.
+
+In this report, I have used data I preprocessed in a separate QMD file to explore different questions through advanced data transformations and statistical methods.
+
+```{r}
+#| message: FALSE
+#| warning: FALSE
+#| echo: FALSE
+
+# required packages
+library(tidyverse)
+library(sf)
+library(visdat)
+library(broom)
+library(recipes)
+library(parsnip)
+library(tidymodels)
+library(yardstick)
+library(kknn)
+library(ranger)
+theme_set(theme_bw())
+```
+
+## ***Component 1:** Map visualizations of the complete areas corresponding to the original area codes*
+
+```{r}
+#| echo: FALSE
+#| message: FALSE
+#| warning: FALSE
+
+# Read in pre-processed data
+counties_area_codes_imputed <- read_csv("data/counties_area_codes_imputed_final.csv") 
+
+# Read in counties simple features
+counties_sf <- st_read("data/co99_d00_shp/co99_d00.shp") 
+
+# Join counties_sf with counties_area_codes_imputed
+counties_area_codes_sf <- counties_sf |> 
+  left_join(counties_area_codes_imputed,
+            by = c("NAME", 
+                   "STATE",
+                   "COUNTY")) |> 
+  glimpse()
+```
+
+```{r}
+#| echo: FALSE
+#| message: FALSE
+#| warning: FALSE
+
+# A list of states to plot, must use state FIPS codes not state_or_province
+states_to_plot <- c("09",     # Connecticut
+                    "36",     # New York
+                    "48",     # Texas
+                    "29",     # Missouri
+                    "23",     # Maine
+                    "55",     # Wisconsin
+                    "19")     # Iowa
+
+# Create variables for each state
+connecticut <- counties_area_codes_sf |> 
+  filter(STATE == states_to_plot[1])
+
+new_york <- counties_area_codes_sf |> 
+  filter(STATE == states_to_plot[2])
+
+texas <- counties_area_codes_sf |> 
+  filter(STATE == states_to_plot[3])
+
+missouri <- counties_area_codes_sf |> 
+  filter(STATE == states_to_plot[4])
+
+maine <- counties_area_codes_sf |> 
+  filter(STATE == states_to_plot[5])
+
+wisconsin <- counties_area_codes_sf |> 
+  filter(STATE == states_to_plot[6])
+
+iowa <- counties_area_codes_sf |> 
+  filter(STATE == states_to_plot[7])
+```
+
+##### **Include individual graphics for six different states of your choice:**
+
+###### *Connecticut*
+
+```{r}
+#| echo: FALSE
+ggplot() +
+  geom_sf(data = connecticut,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code") 
+```
+
+###### *New York*
+
+```{r}
+#| echo: FALSE
+ggplot() +
+  geom_sf(data = new_york,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code") 
+```
+
+###### *Texas*
+
+```{r}
+#| echo: FALSE
+ggplot() +
+  geom_sf(data = texas,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code") 
+```
+
+###### *Missouri*
+
+```{r}
+#| echo: FALSE
+ggplot() +
+  geom_sf(data = missouri,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code") 
+```
+
+###### *Maine*
+
+```{r}
+#| echo: FALSE
+ggplot() +
+  geom_sf(data = maine,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code")
+```
+
+###### *Wisconsin*
+
+```{r}
+#| echo: FALSE
+ggplot() +
+  geom_sf(data = wisconsin,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code") 
+```
+
+###### *Final sanity check—Iowa*
+
+```{r}
+#| echo: FALSE
+ggplot() +
+  geom_sf(data = iowa,
+          aes(fill = as.factor(original_area_code)),
+          color = "grey") + 
+  labs(fill = "Original Area Code") 
+```
+
+The plots above successfully illustrates the original area codes for the seven selected states. Using a k-nearest neighbor classifier (with `k = 1`), I imputed original area codes for counties that were likely to be too sparsely populated, and did not have an assigned code. Furthermore, these results align with the historical Bell Labs hand-drawn map below, validating the accuracy of the imputed data.
+
+![](images/clipboard-3602591175.png)
+
+## ***Component 2:** Determine whether higher population areas more likely to be assigned area codes that were faster to dial (required fewer dial pulls) on rotary phones*
+
+Your analysis should include at least one formal hypothesis test with a p-value, as well as at least one graphic illustrating your findings.
+
+```{r}
+#| echo: FALSE
+# Read in data
+area_code_summary <- read_csv("data/area_code_summary.csv") |> 
+  glimpse()
+```
+
+I'd like to consider whether there is a relationship between population (the independent variable) and dial speed (the response). As such, the null hypothesis is that there is no relation between population size and dial speed. On the other hand, the alternative hypothesis is higher populated areas were more likely to have faster dial speeds (or less dial pulls).
+
+##### Formal hypothesis test:
+
+##### $H_{0}$: Population size and dial speed are independent
+
+##### $H_{1}$: Larger populations were assigned faster area codes (less dial pulls)
+
+##### Fitted Result
+
+```{r}
+#| echo: FALSE
+
+# define parsnip
+parsnip_lm <- linear_reg() |> 
+  set_engine("lm") |> 
+  set_mode("regression")
+
+workflow_lm <- workflow() |>
+  add_model(parsnip_lm) |>
+  add_formula(dial_pulls ~ total_population)
+
+# Fit the model to the data
+workflow_lm_fit <- workflow_lm |> 
+  fit(area_code_summary)
+
+# Generate predictions for residual caluations later
+area_code_predictions <- workflow_lm_fit |> 
+  predict(area_code_summary)
+
+# View fitted result
+workflow_lm_fit |> 
+tidy()
+```
+
+##### Supporting Graphic
+
+```{r}
+#| echo: FALSE
+# Visual
+area_code_summary |> 
+  ggplot(aes(x = total_population, 
+             y = dial_pulls)) +
+  geom_point() +  
+  geom_smooth(method = "lm",
+              color = "red")  +
+  labs(title = "Dial Pulls vs. Total Population by Area Code",
+       x = "Total Population",
+       y = "Dial Pulls")
+```
+
+The p-value of 0.000454 indicates a statistically significant relationship between population size and dial pulls. However, the coefficient of -0.00000120 suggests that the effect size is extremely small, each unit increase in total population is associated with a marginal decrease in the number of dial pulls. The negative slope in the regression line illustrated in the visualization supports this finding. To further explore the strength of this relationship, I will implement a correlation analysis.
+
+##### *Correlation Test*
+
+```{r}
+#| echo: FALSE
+correlation_test <- cor.test(area_code_summary$total_population, #population
+                             area_code_summary$dial_pulls, #dial pulls
+                             method = "pearson")
+
+correlation_test 
+```
+
+I'd say total population seems to have a somewhat negatively correlation with dial speeds. In this case, we’d reject the null hypothesis that there is no relationship between total population and dial speeds. While the effect is marginal, the coefficient estimate and correlation test suggest that higher populated areas did in fact have fewer dial pulls.
+
+## ***Component 3:** Regions given area codes that were unfairly slow to dial given their population, and some regions given area codes that were unfairly fast to dial.*
+
+```{r}
+#| echo: FALSE
+
+# Merge predictions back to area_code_summary
+area_code_summary <- area_code_summary |> 
+  bind_cols(area_code_predictions) 
+```
+
+##### Residual Analysis
+
+```{r}
+# Calulate residuals
+area_code_summary <- area_code_summary |> 
+  mutate(residual = (dial_pulls - .pred)) 
+
+area_code_summary |> 
+  select(original_area_code,
+         total_population,
+         dial_pulls,
+         .pred,
+         residual)
+```
+
+##### Highest Residuals: Unfairly Slow Area Code Assignment
+
+```{r}
+#| echo: FALSE
+
+# Filter for highest residuals
+area_code_summary |>
+  slice_max(order_by = residual,
+            n = 10) |> 
+  select(original_area_code,
+         total_population,
+         dial_pulls,
+         .pred,
+         residual)
+```
+
+##### Lowest Residuals: Unfairly Fast Area Code Assignment
+
+```{r}
+#| echo: FALSE
+
+# Lowest residuals
+area_code_summary |>
+  slice_min(order_by = residual,
+            n = 10) |> 
+  select(original_area_code,
+         total_population,
+         dial_pulls,
+         .pred,
+         residual)
+```
+
+##### Provide at least one graphic supporting your claims.
+
+```{r}
+#| echo: FALSE
+#| message: FALSE
+
+# Create categories for plot
+area_code_summary <- area_code_summary |>
+  mutate(highlight = case_when(
+    residual >= 2.0 ~ "Unfairly Slow", 
+    residual <= -2.0 ~ "Unfairly Fast",
+    TRUE ~ "Neutral" #neutral case to other area codes
+  ))
+
+# Plot of categorized area codes
+area_code_summary |> 
+  ggplot(aes(x = total_population, 
+           y = dial_pulls,
+           color = highlight)) +
+  geom_point() +  
+  geom_smooth(method = "lm",
+              color = "red") +
+  labs(title = "Dial Pulls vs. Total Population by Categorized Area Code",
+       x = "Total Population",
+       y = "Dial Pulls",
+       color = "Highlight")
+```
+
+## **C*omponent* 4:** *Evidence of anti-black discrimination (in terms of dialing speed) by AT&T against counties with larger African American populations*
+
+You may answer this question graphically, with a formal hypothesis test, or both.
+
+I will test independence between the percent black population—determined by dividing the black population by the total population—and the number of dial pulls using a permutation test. In this case, the test statistic is correlation.
+
+##### Observed Test Statistic
+
+```{r}
+Tobs <- area_code_summary |>
+  summarize(Tobs = cor(percent_black, dial_pulls)) |>
+  pull(Tobs)
+
+Tobs
+```
+
+```{r}
+# Custom function to shuffle the black population percentage 
+shuffle_percent_black <- function(seed, area_code_summary){
+  set.seed(seed)
+  
+  area_code_summary |>
+    mutate(percent_black = sample(percent_black,
+                                  n(),
+                                  replace = FALSE))
+}
+```
+
+```{r}
+#| echo: FALSE
+#| message: FALSE
+
+permutation_percent_black <- tibble(simulation_num = 1:1000) |>
+  rowwise() |>
+  mutate(shuffled_df = list(shuffle_percent_black(simulation_num, 
+                                                  area_code_summary))) |>
+  mutate(Tstat = shuffled_df |>
+           summarize(Tobs = cor(percent_black, dial_pulls)) |>
+           pull(Tobs))
+```
+
+##### P-Value
+
+```{r}
+#| echo: FALSE
+#| message: FALSE
+
+mean(abs(Tobs) < abs(permutation_percent_black$Tstat))
+```
+
+##### Visual Comparison
+
+```{r}
+#| echo: FALSE
+#| message: FALSE
+
+Tobs_dat <- tibble(type = "Observed", 
+                   Tstat = Tobs)
+
+permutation_percent_black |>
+  mutate(type = "simulated") |>
+  ggplot(aes(x = Tstat,
+             fill = type)) +
+  geom_histogram(bins = 50) +
+  geom_point(data = Tobs_dat,
+             aes(y = 0),
+             shape = 21,
+             size = 3)
+```
+
+In this case, at the traditional 0.05 significance threshold, the p-value of 0.071 means we’d fail to reject the null hypothesis, and we wouldn't conclude that there’s a significant relationship between the black population percentage and the number of dial pulls. If a less conservative approach is taken, such as 0.10 as the significance level, then we would reject the null hypothesis and conclude there is potential evidence of significance. In such a case, given the observed correlation coefficient (0.2218864), we’d conclude that there is a weak positive correlation between the black population percentage and the number of dial pulls—indicating that as the black population increases, there is an increase in dial pulls as well.
+
+However, I’d like to make a quick note before moving on. There is a difference between statistical significance and practical significance. Correlation does not imply causation. Particularly because my p-value is so close to the threshold, I think other methods would be appropriate to explore the practical significance of the relationship.
+
+## ***Component 5:** Predict the current number of area codes assigned to each original area code region*
+
+```{r}
+#| echo: FALSE
+#| warning: FALSE
+#| cache: TRUE
+
+# Read in data
+counties_area_codes_imputed <- read_csv("data/counties_area_codes_imputed_with_population_final.csv") |> 
+  mutate(across(ends_with("_code"), as.factor))
+
+area_code_table_counts <- read_csv("data/area_code_table_counts_final.csv") |> 
+  mutate(original_area_code = as.factor(original_area_code))
+
+counties_area_codes_imputed <- counties_area_codes_imputed |> 
+  mutate(across(c(4:6), str_to_lower)) |> #clean cat names
+  left_join(area_code_table_counts, 
+            by = c("original_area_code"))
+```
+
+I propose the five following candidate models and will evaluate their predictive performance in determining the number of new area codes created from the older assigned regions.
+
+```{r}
+#| echo: FALSE
+#| warning: FALSE
+
+# Prepare simple features to merge, remove states to prevent conflict
+counties_sf <- counties_sf |> 
+  mutate(STATE = parse_number(STATE),
+         COUNTY = parse_number(COUNTY)) |> 
+  mutate(NAME = str_to_lower(NAME)) |> #lower state and county
+  mutate(centroid = st_centroid(geometry) |>
+           st_coordinates(),
+         centroid_lat = centroid[,2],
+         centroid_long = centroid[,1]) |> 
+  filter(!(counties_sf$STATE %in% c("02", #Alaska 
+                                    "15" #Hawaii
+                                    )))
+
+# Clean and Process data for modeling
+counties_area_codes_sf <- counties_sf |> 
+  left_join(counties_area_codes_imputed,
+            by = c("NAME" = "current_county", 
+                   "STATE" = "current_state_fip",
+                   "COUNTY" = "current_county_fip")) |> 
+  group_by(new_area_code,
+           original_area_code,
+           original,
+           city,
+           current_state,
+           NAME, 
+           STATE,
+           COUNTY,
+           population_1950,
+           population_under5_1950,
+           population_over65_1950,
+           black_pop,
+           residence_telephones_1945,
+           births,
+           dial_pulls,
+           n_codes_created) |>
+  summarize(avg_lat = mean(centroid_lat, na.rm = TRUE),
+            avg_long = mean(centroid_long, na.rm = TRUE),
+            .groups = "drop") |> 
+  st_drop_geometry() |>  #remove the special geometry attribute
+  mutate(across(ends_with("_code"), as.factor)) |> 
+  mutate(original = as.factor(original)) |> 
+  mutate(across(ends_with("_fip"), as.factor))
+```
+
+```{r}
+#| echo: FALSE
+
+set.seed(5)
+
+# Partition data 
+area_codes_split <- counties_area_codes_sf |> 
+  initial_split(prop = .80)
+
+area_codes_train <- area_codes_split |>
+  training()
+
+area_codes_test <- area_codes_split |>
+  testing()
+```
+
+### Model 1
+
+-   A least squares linear regression model predicting the number of new area codes derived from each original area code, based on all available data captured related to the original regions from 1950, including the population under 5, over 65, black population, and total population; births; the number of telephones available in the counties in 1945; dial pulls calculated based on the assigned original area code; and the latitude and longitude coordinates for the region.
+
+```{r}
+n_new_area_codes_parsnip_1 <- linear_reg() |> 
+  set_mode("regression") |>
+  set_engine("lm")
+
+area_code_recipe_1 <- recipe(n_codes_created ~ 
+                               population_1950 +
+                               population_under5_1950 +
+                               population_over65_1950 +
+                               black_pop +
+                               residence_telephones_1945 +
+                               births + 
+                               dial_pulls + 
+                               avg_lat + 
+                               avg_long, #no area code data to prevent leakage
+                      data = area_codes_train) |>
+  step_impute_mean(all_numeric_predictors()) |> #handle missing vals for num preds
+  step_unknown(all_nominal_predictors()) |>    #handle NAs for cat preds
+  step_novel(all_nominal_predictors()) |> #handle unseen levels
+  step_dummy(all_nominal_predictors()) |> #create dummy for cat vars
+  step_zv(all_predictors()) |> #remove zero variance preds
+  step_normalize(all_predictors()) #normalize
+
+
+new_area_code_workflow_1 <- workflow() |>
+  add_model(n_new_area_codes_parsnip_1) |>
+  add_recipe(area_code_recipe_1)
+```
+
+### Model 2
+
+-   The same model as above, but fitted using enough principal components to capture 95% of the numeric covariate variance, with a lasso penalty of 0.001.
+
+```{r}
+n_new_area_codes_parsnip_2 <- linear_reg(penalty = 0.001) |> #lasso penalty
+  set_mode("regression") |>
+  set_engine("glmnet")
+
+# Same recipe but with pca
+area_code_recipe_2 <- recipe(n_codes_created ~ 
+                               population_1950 +
+                               population_under5_1950 +
+                               population_over65_1950 +
+                               black_pop +
+                               residence_telephones_1945 +
+                               births + 
+                               dial_pulls + 
+                               avg_lat + 
+                               avg_long, 
+                      data = area_codes_train) |>
+  step_impute_mean(all_numeric_predictors()) |> 
+  step_unknown(all_nominal_predictors()) |>    
+  step_novel(all_nominal_predictors()) |>      
+  step_dummy(all_nominal_predictors()) |>      
+  step_zv(all_predictors()) |>                 
+  step_normalize(all_predictors()) |>          
+  step_pca(all_predictors(), 
+           threshold = 0.95) #PCA for 95% vari
+
+new_area_code_workflow_2 <- workflow() |>
+  add_model(n_new_area_codes_parsnip_2) |>
+  add_recipe(area_code_recipe_2)
+```
+
+### Model 3
+
+-   K-nearest neighbors with `K = 1` on all the variables from model 1.
+
+```{r}
+n_new_area_codes_parsnip_3 <- nearest_neighbor() |> 
+  set_mode("regression") |>
+  set_engine("kknn", 
+             neighbors = 1) #k = 1
+
+new_area_code_workflow_3 <- workflow() |>
+  add_model(n_new_area_codes_parsnip_3) |>
+  add_recipe(area_code_recipe_1)
+```
+
+### Model 4
+
+-   K-nearest neighbors with `K = 3` and enough principal components to capture 95% of the numeric covariate variance, and all the variables.
+
+```{r}
+n_new_area_codes_parsnip_4 <- nearest_neighbor() |> 
+  set_mode("regression") |>
+  set_engine("kknn", 
+             neighbors = 3) #k = 3
+
+new_area_code_workflow_4 <- workflow() |>
+  add_model(n_new_area_codes_parsnip_4) |>
+  add_recipe(area_code_recipe_2)
+```
+
+### Model 5
+
+-   Random forest on each variable.
+
+```{r}
+n_new_area_codes_parsnip_5 <- rand_forest() |> 
+  set_mode("regression") |>
+  set_engine("ranger")
+
+new_area_code_workflow_5 <- workflow() |>
+  add_model(n_new_area_codes_parsnip_5) |>
+  add_recipe(area_code_recipe_1)
+```
+
+##### Metric Set:
+
+In devising a strategy for evaluating model performance, given the regression nature of the problem, I settled on root mean squared error (RMSE), mean absolute error (MAE), and R-squared:
+
+```{r}
+area_code_metrics <- metric_set(rmse,
+                                rsq_trad, 
+                                mae)
+```
+
+```{r}
+#| echo: FALSE
+
+# Define tibble of workflow names
+workflow_names <- c("ls_all",
+                    "lasso_all_w_pca",
+                    "knn_1_all",
+                    "knn_3_all_w_pca",
+                    "rand_forest")
+
+# Tibble of workflows
+workflow_objects <- list(new_area_code_workflow_1,
+                         new_area_code_workflow_2,
+                         new_area_code_workflow_3,
+                         new_area_code_workflow_4,
+                         new_area_code_workflow_5)
+
+# create combined tibble
+workflows_tbl <- tibble(work_names = workflow_names,
+                        work_objects = workflow_objects)
+```
+
+```{r}
+#| echo: FALSE
+#| warning: FALSE
+#| cache: TRUE
+
+set.seed(6)
+
+vfold_set <- area_codes_train |>
+  vfold_cv(v = 10, #10 folds
+           repeats = 10) #10 repeats
+
+# Fit the workflows and assess defined error metrics
+workflows_vfold <- workflows_tbl |>
+  rowwise() |>
+  mutate(fits = list(fit_resamples(work_objects,
+                                   vfold_set,
+                                   metrics = area_code_metrics))) |>
+  mutate(metrics = list(collect_metrics(fits)))
+```
+
+##### Metric Performance with Cross Validation
+
+10-fold cross validation on the training set with 10 repeats.
+
+```{r}
+#| echo: FALSE
+
+vfold_performance <- workflows_vfold |>
+  select(c(work_names,
+           metrics)) |>
+  unnest(metrics) |>
+  select(work_names,
+         .metric,
+         .estimate = mean) |>
+  mutate(method = "vfold")
+
+vfold_performance
+```
+
+##### Metric Visual Comparison
+
+```{r}
+#| echo: FALSE
+
+vfold_performance |>
+  ggplot(aes(y = work_names,
+             x = .estimate,
+             fill = work_names)) +
+  geom_col() +
+  facet_wrap(~.metric, scales = "free_x") +
+  labs(x = "Mean Estimate",
+       y = "Model",
+       fill = "Metric")
+
+vfold_performance |>
+  ggplot(aes(x = .estimate,
+             y = work_names,
+             color = work_names)) +
+  geom_point(size = 3) +
+  facet_wrap(~ .metric,
+             nrow = 3,
+             scales = "free_x") +
+  labs(x = "Mean Estimate",
+       y = "Model",
+       color = "Metric")
+```
+
+##### Scatterplot of True versus Predicted Values on the Test Partition
+
+```{r}
+#| echo: FALSE
+#| cache: TRUE
+
+set.seed(7)
+
+# Generate fits and predictions for each model
+workflows_tbl <- workflows_tbl |> 
+  rowwise() |>
+  mutate(fits = list(work_objects |>
+                       fit(area_codes_train))) |>
+  mutate(predictions = list(fits |> 
+                              predict(area_codes_test)))
+
+# Prepare prediction table for plotting
+predictions_tbl  <- workflows_tbl |>
+  select(work_names, 
+         predictions) |>
+  unnest(cols = c(predictions)) #unnest preds
+
+# Bind true values from the test set
+predictions_tbl <- predictions_tbl |>
+  cbind(n_codes_created = area_codes_test |>
+          pull(n_codes_created))
+
+predictions_tbl |>
+    ggplot(aes(x = n_codes_created, 
+             y = .pred)) +
+  geom_point(alpha = 0.5) +
+  geom_abline(slope = 1, 
+              linetype = "dotted", 
+              color = "red") +
+      facet_wrap(~ work_names) +
+  coord_obs_pred() 
+```
+
+The performance of the k-nearest neighbor algorithms stands out due to their low MAE and RMSE, indicating that the model predictions are both relatively accurate and consistent. Additionally, the R-squared value for the nearest neighbor models is the highest. Notably, however, the random forest algorithm is not far behind. The bias in the predictions appears relatively low, with only a marginal increase in R-squared for the nearest neighbors compared to the random forest model. It appears that `K = 3`, with PCA retaining 95% of the variance, performs slightly better, as evidenced by the *highest achieved R-squared* of ***0.994***, along with the *lowest MAE and RMSE* of ***0.0478*** and ***0.329*** respectively. Unfortunately, there isn't much visual difference to analyze for the scatterplot of predicted versus true values with respect to the nearest neighbor models. The linear regression models, on the other hand, do not handle the nonlinearity as well, as demonstrated by their associated scores.
+
+Based on the cross-validation on the training set and scatterplot above, I predict that my model 4, the k-nearest neighbors with `K = 3` and PCA, will perform the best—though I believe the performance will be close. I will assess the actual error metrics observed on the test set with model 4.
+
+##### Evaluation of Predictive Performance on the Test Set
+
+```{r}
+#| echo: FALSE
+
+workflow_4_fit <- new_area_code_workflow_4 |> 
+  fit(area_codes_train)
+
+n_area_codes_created_preds <- workflow_4_fit |> 
+  predict(area_codes_test)
+```
+
+###### *RMSE*
+
+```{r}
+#| echo: FALSE
+
+area_codes_test |>
+  bind_cols(n_area_codes_created_preds) |>
+  rmse(truth = n_codes_created,
+      estimate = .pred)
+```
+
+###### *MAE*
+
+```{r}
+#| echo: FALSE
+
+area_codes_test |>
+  bind_cols(n_area_codes_created_preds) |>
+  mae(truth = n_codes_created,
+      estimate = .pred)
+```
+
+###### *R-Squared*
+
+```{r}
+#| echo: FALSE
+
+area_codes_test |>
+  bind_cols(n_area_codes_created_preds) |>
+  rsq_trad(truth = n_codes_created,
+      estimate = .pred)
+```
+
+Interestingly, it looks like the observed error metrics on the test set were marginally better! The model *achieved an even smaller RMSE and MAE* of ***0.167*** and ***0.0238*** respectively. Additionally, the *R-squared grew* to ***0.999***. This suggests that less prediction bias was observed on the test set. Given the marginal increase, the improved performance on the test set could be attributed to fewer predictions, and thus, a lower potential for error. In general, both assessments indicate that the nearest neighbor models are the best at predicting the current number of area codes assigned to each original area code region based on older census data.
+
+Based on workflow 4, which includes all variables capturing the separate 1950 census data but performs PCA to retain 95% of the numeric covariate variance, the model yields the best results. This potentially suggests that overall, each variable contributes in some way to the prediction, but reducing added noise helps marginally. Other feature selection methods, such as permutation plots, may reveal precisely which predictors are the most impactful to predictions at the global level.
