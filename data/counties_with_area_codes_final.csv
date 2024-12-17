@@ -1,0 +1,3700 @@
+new_area_code,original_area_code,original,city,state_or_province,county,state_code,county_code
+201,201,TRUE,Bayonne,New Jersey,Hudson,34,017
+201,201,TRUE,Bergenfield,New Jersey,Bergen,34,003
+201,201,TRUE,Cliffside Park,New Jersey,Bergen,34,003
+201,201,TRUE,Englewood,New Jersey,Bergen,34,003
+201,201,TRUE,Fair Lawn,New Jersey,Bergen,34,003
+201,201,TRUE,Fort Lee,New Jersey,Bergen,34,003
+201,201,TRUE,Hackensack,New Jersey,Bergen,34,003
+201,201,TRUE,Hoboken,New Jersey,Hudson,34,017
+201,201,TRUE,Jersey City,New Jersey,Hudson,34,017
+201,201,TRUE,Kearny,New Jersey,Hudson,34,017
+201,201,TRUE,North Bergen,New Jersey,Hudson,34,017
+201,201,TRUE,Paramus,New Jersey,Bergen,34,003
+201,201,TRUE,Ridgewood,New Jersey,Bergen,34,003
+201,201,TRUE,Teaneck,New Jersey,Bergen,34,003
+201,201,TRUE,Union City,New Jersey,Hudson,34,017
+201,201,TRUE,West New York,New Jersey,Hudson,34,017
+202,202,TRUE,Washington,District of Columbia,District of Columbia,11,001
+203,203,TRUE,Bridgeport,Connecticut,Fairfield,09,001
+203,203,TRUE,Danbury,Connecticut,Fairfield,09,001
+203,203,TRUE,East Haven,Connecticut,New Haven,09,009
+203,203,TRUE,Meriden,Connecticut,New Haven,09,009
+203,203,TRUE,Milford,Connecticut,New Haven,09,009
+203,203,TRUE,Naugatuck,Connecticut,New Haven,09,009
+203,203,TRUE,New Haven,Connecticut,New Haven,09,009
+203,203,TRUE,North Haven,Connecticut,New Haven,09,009
+203,203,TRUE,Norwalk,Connecticut,Fairfield,09,001
+203,203,TRUE,Shelton,Connecticut,Fairfield,09,001
+203,203,TRUE,Stamford,Connecticut,Fairfield,09,001
+203,203,TRUE,Stratford,Connecticut,Fairfield,09,001
+203,203,TRUE,Trumbull,Connecticut,Fairfield,09,001
+203,203,TRUE,Waterbury,Connecticut,New Haven,09,009
+203,203,TRUE,West Haven,Connecticut,New Haven,09,009
+203,203,TRUE,Westport,Connecticut,Fairfield,09,001
+205,205,TRUE,Alabaster,Alabama,Shelby,01,117
+205,205,TRUE,Bessemer,Alabama,Jefferson,01,073
+205,205,TRUE,Birmingham,Alabama,Jefferson,01,073
+205,205,TRUE,Center Point,Alabama,Jefferson,01,073
+205,205,TRUE,Homewood,Alabama,Jefferson,01,073
+205,205,TRUE,Hoover,Alabama,Jefferson,01,073
+205,205,TRUE,Mountain Brook,Alabama,Jefferson,01,073
+205,205,TRUE,Tuscaloosa,Alabama,Tuscaloosa,01,125
+205,205,TRUE,Vestavia Hills,Alabama,Jefferson,01,073
+206,206,TRUE,Bainbridge Island,Washington,Kitsap,53,035
+206,206,TRUE,Burien,Washington,King,53,033
+206,206,TRUE,Des Moines,Washington,King,53,033
+206,206,TRUE,Mercer Island,Washington,King,53,033
+206,206,TRUE,Seattle,Washington,King,53,033
+206,206,TRUE,Shoreline,Washington,King,53,033
+206,206,TRUE,White Center,Washington,King,53,033
+207,207,TRUE,Auburn,Maine,Androscoggin,23,001
+207,207,TRUE,Augusta,Maine,Kennebec,23,011
+207,207,TRUE,Bangor,Maine,Penobscot,23,019
+207,207,TRUE,Biddeford,Maine,York,23,031
+207,207,TRUE,Brunswick,Maine,Cumberland,23,005
+207,207,TRUE,Lewiston,Maine,Androscoggin,23,001
+207,207,TRUE,South Portland,Maine,Cumberland,23,005
+208,208,TRUE,Boise,Idaho,Ada,16,001
+208,208,TRUE,Caldwell,Idaho,Canyon,16,027
+208,208,TRUE,Coeur d'Alene,Idaho,Kootenai,16,055
+208,208,TRUE,Idaho Falls,Idaho,Bonneville,16,019
+208,208,TRUE,Lewiston,Idaho,Nez Perce,16,069
+208,208,TRUE,Meridian,Idaho,Ada,16,001
+208,208,TRUE,Moscow,Idaho,Latah,16,057
+208,208,TRUE,Nampa,Idaho,Canyon,16,027
+208,208,TRUE,Pocatello,Idaho,Bannock,16,005
+208,208,TRUE,Twin Falls,Idaho,Twin Falls,16,083
+209,916,FALSE,Atwater,California,Merced,06,047
+209,916,FALSE,Ceres,California,Stanislaus,06,099
+209,916,FALSE,Lodi,California,San Joaquin,06,077
+209,916,FALSE,Los Banos,California,Merced,06,047
+209,916,FALSE,Manteca,California,San Joaquin,06,077
+209,916,FALSE,Merced,California,Merced,06,047
+209,916,FALSE,West Modesto,California,Stanislaus,06,099
+209,916,FALSE,Stockton,California,San Joaquin,06,077
+209,916,FALSE,Tracy,California,San Joaquin,06,077
+209,916,FALSE,Turlock,California,Stanislaus,06,099
+210,512,FALSE,San Antonio,Texas,Bexar,48,029
+212,212,TRUE,New York City,New York,New York,36,061
+213,213,TRUE,Los Angeles,California,Los Angeles,06,037
+214,214,TRUE,Allen,Texas,Collin,48,085
+214,214,TRUE,Arlington,Texas,Tarrant,48,439
+214,214,TRUE,Carrollton,Texas,Dallas,48,113
+214,214,TRUE,Cedar Hill,Texas,Dallas,48,113
+214,214,TRUE,Coppell,Texas,Dallas,48,113
+214,214,TRUE,Dallas,Texas,Dallas,48,113
+214,214,TRUE,DeSoto,Texas,Dallas,48,113
+214,214,TRUE,Duncanville,Texas,Dallas,48,113
+214,214,TRUE,Farmers Branch,Texas,Dallas,48,113
+214,214,TRUE,Flower Mound,Texas,Denton,48,121
+214,214,TRUE,Frisco,Texas,Collin,48,085
+214,214,TRUE,Garland,Texas,Dallas,48,113
+214,214,TRUE,Grand Prairie,Texas,Dallas,48,113
+214,214,TRUE,Irving,Texas,Dallas,48,113
+214,214,TRUE,Lancaster,Texas,Dallas,48,113
+214,214,TRUE,Lewisville,Texas,Denton,48,121
+214,214,TRUE,McKinney,Texas,Collin,48,085
+214,214,TRUE,Mesquite,Texas,Dallas,48,113
+214,214,TRUE,Plano,Texas,Collin,48,085
+214,214,TRUE,Richardson,Texas,Dallas,48,113
+214,214,TRUE,Rowlett,Texas,Dallas,48,113
+214,214,TRUE,The Colony,Texas,Denton,48,121
+214,214,TRUE,University Park,Texas,Dallas,48,113
+214,214,TRUE,Waxahachie,Texas,Ellis,48,139
+215,215,TRUE,Levittown,Pennsylvania,Bucks,42,017
+215,215,TRUE,Philadelphia,Pennsylvania,Philadelphia,42,101
+216,216,TRUE,Brook Park,Ohio,Cuyahoga,39,035
+216,216,TRUE,East Cleveland,Ohio,Cuyahoga,39,035
+216,216,TRUE,Cleveland Heights,Ohio,Cuyahoga,39,035
+216,216,TRUE,South Euclid,Ohio,Cuyahoga,39,035
+216,216,TRUE,Garfield Heights,Ohio,Cuyahoga,39,035
+216,216,TRUE,Lakewood,Ohio,Cuyahoga,39,035
+216,216,TRUE,Maple Heights,Ohio,Cuyahoga,39,035
+216,216,TRUE,Parma,Ohio,Cuyahoga,39,035
+216,216,TRUE,Shaker Heights,Ohio,Cuyahoga,39,035
+217,217,TRUE,Champaign,Illinois,Champaign,17,019
+217,217,TRUE,Charleston,Illinois,Coles,17,029
+217,217,TRUE,Danville,Illinois,Vermilion,17,183
+217,217,TRUE,Decatur,Illinois,Macon,17,115
+217,217,TRUE,Quincy,Illinois,Adams,17,001
+217,217,TRUE,Springfield,Illinois,Sangamon,17,167
+217,217,TRUE,Urbana,Illinois,Champaign,17,019
+218,218,TRUE,Duluth,Minnesota,St. Louis,27,137
+218,218,TRUE,Moorhead,Minnesota,Clay,27,027
+219,317,FALSE,East Chicago,Indiana,Lake,18,089
+219,317,FALSE,Gary,Indiana,Lake,18,089
+219,317,FALSE,Hammond,Indiana,Lake,18,089
+219,317,FALSE,Highland,Indiana,Lake,18,089
+219,317,FALSE,Hobart,Indiana,Lake,18,089
+219,317,FALSE,LaPorte,Indiana,LaPorte,18,091
+219,317,FALSE,Merrillville,Indiana,Lake,18,089
+219,317,FALSE,Michigan City,Indiana,LaPorte,18,091
+219,317,FALSE,Munster,Indiana,Lake,18,089
+219,317,FALSE,Portage,Indiana,Porter,18,127
+219,317,FALSE,Schererville,Indiana,Lake,18,089
+219,317,FALSE,Valparaiso,Indiana,Porter,18,127
+220,614,FALSE,Athens,Ohio,Athens,39,009
+220,614,FALSE,Chillicothe,Ohio,Ross,39,141
+220,614,FALSE,Delaware,Ohio,Delaware,39,041
+220,614,FALSE,Lancaster,Ohio,Fairfield,39,045
+220,614,FALSE,Marion,Ohio,Marion,39,101
+220,614,FALSE,Newark,Ohio,Licking,39,089
+220,614,FALSE,Portsmouth,Ohio,Scioto,39,145
+220,614,FALSE,Zanesville,Ohio,Muskingum,39,119
+224,312,FALSE,Arlington Heights,Illinois,Cook,17,031
+224,312,FALSE,Buffalo Grove,Illinois,Cook,17,031
+224,312,FALSE,Carpentersville,Illinois,Kane,17,089
+224,312,FALSE,Des Plaines,Illinois,Cook,17,031
+224,312,FALSE,South Elgin,Illinois,Kane,17,089
+224,312,FALSE,Elk Grove Village,Illinois,Cook,17,031
+224,312,FALSE,Evanston,Illinois,Cook,17,031
+224,312,FALSE,Glenview,Illinois,Cook,17,031
+224,312,FALSE,Gurnee,Illinois,Lake,17,097
+224,312,FALSE,Highland Park,Illinois,Lake,17,097
+224,312,FALSE,Hoffman Estates,Illinois,Cook,17,031
+224,312,FALSE,Lake Forest,Illinois,Lake,17,097
+224,312,FALSE,Libertyville,Illinois,Lake,17,097
+224,312,FALSE,Morton Grove,Illinois,Cook,17,031
+224,312,FALSE,Mount Prospect,Illinois,Cook,17,031
+224,312,FALSE,Mundelein,Illinois,Lake,17,097
+224,312,FALSE,Niles,Illinois,Cook,17,031
+224,312,FALSE,North Chicago,Illinois,Lake,17,097
+224,312,FALSE,Northbrook,Illinois,Cook,17,031
+224,312,FALSE,Palatine,Illinois,Cook,17,031
+224,312,FALSE,Park Ridge,Illinois,Cook,17,031
+224,312,FALSE,Rolling Meadows,Illinois,Cook,17,031
+224,312,FALSE,Round Lake Beach,Illinois,Lake,17,097
+224,312,FALSE,Schaumburg,Illinois,Cook,17,031
+224,312,FALSE,Skokie,Illinois,Cook,17,031
+224,312,FALSE,Vernon Hills,Illinois,Lake,17,097
+224,312,FALSE,Waukegan,Illinois,Lake,17,097
+224,312,FALSE,Wheeling,Illinois,Cook,17,031
+224,312,FALSE,Wilmette,Illinois,Cook,17,031
+224,312,FALSE,Zion,Illinois,Lake,17,097
+225,504,FALSE,Baton Rouge,Louisiana,East Baton Rouge,22,033
+228,601,FALSE,Biloxi,Mississippi,Harrison,28,047
+228,601,FALSE,West Gulfport,Mississippi,Harrison,28,047
+228,601,FALSE,Pascagoula,Mississippi,Jackson,28,059
+229,404,FALSE,Albany,Georgia,Dougherty,13,095
+229,404,FALSE,Valdosta,Georgia,Lowndes,13,185
+231,616,FALSE,Muskegon,Michigan,Muskegon,26,121
+231,616,FALSE,Norton Shores,Michigan,Muskegon,26,121
+234,216,FALSE,Akron,Ohio,Summit,39,153
+234,216,FALSE,Alliance,Ohio,Stark,39,151
+234,216,FALSE,Austintown,Ohio,Mahoning,39,099
+234,216,FALSE,Barberton,Ohio,Summit,39,153
+234,216,FALSE,Boardman,Ohio,Mahoning,39,099
+234,216,FALSE,Brunswick,Ohio,Medina,39,103
+234,216,FALSE,North Canton,Ohio,Stark,39,151
+234,216,FALSE,Cuyahoga Falls,Ohio,Summit,39,153
+234,216,FALSE,Green,Ohio,Summit,39,153
+234,216,FALSE,Hudson,Ohio,Summit,39,153
+234,216,FALSE,Kent,Ohio,Portage,39,133
+234,216,FALSE,Massillon,Ohio,Stark,39,151
+234,216,FALSE,Medina,Ohio,Medina,39,103
+234,216,FALSE,Niles,Ohio,Trumbull,39,155
+234,216,FALSE,Stow,Ohio,Summit,39,153
+234,216,FALSE,Warren,Ohio,Trumbull,39,155
+234,216,FALSE,Wooster,Ohio,Wayne,39,169
+234,216,FALSE,Youngstown,Ohio,Mahoning,39,099
+239,305,FALSE,Bonita Springs,Florida,Lee,12,071
+239,305,FALSE,Cape Coral,Florida,Lee,12,071
+239,305,FALSE,North Fort Myers,Florida,Lee,12,071
+239,305,FALSE,Golden Gate,Florida,Collier,12,021
+239,305,FALSE,Lehigh Acres,Florida,Lee,12,071
+239,305,FALSE,Naples,Florida,Collier,12,021
+240,301,FALSE,Aspen Hill,Maryland,Montgomery,24,031
+240,301,FALSE,North Bethesda,Maryland,Montgomery,24,031
+240,301,FALSE,Bowie,Maryland,Prince George's,24,033
+240,301,FALSE,Chillum,Maryland,Prince George's,24,033
+240,301,FALSE,Clinton,Maryland,Prince George's,24,033
+240,301,FALSE,College Park,Maryland,Prince George's,24,033
+240,301,FALSE,Cumberland,Maryland,Allegany,24,001
+240,301,FALSE,Fairland,Maryland,Montgomery,24,031
+240,301,FALSE,Fort Washington,Maryland,Prince George's,24,033
+240,301,FALSE,Frederick,Maryland,Frederick,24,021
+240,301,FALSE,Gaithersburg,Maryland,Montgomery,24,031
+240,301,FALSE,Germantown,Maryland,Montgomery,24,031
+240,301,FALSE,Greenbelt,Maryland,Prince George's,24,033
+240,301,FALSE,Hagerstown,Maryland,Washington,24,043
+240,301,FALSE,Landover,Maryland,Prince George's,24,033
+240,301,FALSE,Montgomery Village,Maryland,Montgomery,24,031
+240,301,FALSE,South Laurel,Maryland,Prince George's,24,033
+240,301,FALSE,North Potomac,Maryland,Montgomery,24,031
+240,301,FALSE,Olney,Maryland,Montgomery,24,031
+240,301,FALSE,Potomac,Maryland,Montgomery,24,031
+240,301,FALSE,Rockville,Maryland,Montgomery,24,031
+240,301,FALSE,Silver Spring,Maryland,Montgomery,24,031
+240,301,FALSE,Saint Charles,Maryland,Charles,24,017
+240,301,FALSE,Suitland,Maryland,Prince George's,24,033
+240,301,FALSE,Waldorf,Maryland,Charles,24,017
+240,301,FALSE,White Oak,Maryland,Montgomery,24,031
+248,313,FALSE,West Bloomfield Township,Michigan,Oakland,26,125
+248,313,FALSE,Farmington Hills,Michigan,Oakland,26,125
+248,313,FALSE,Ferndale,Michigan,Oakland,26,125
+248,313,FALSE,Madison Heights,Michigan,Oakland,26,125
+248,313,FALSE,Novi,Michigan,Oakland,26,125
+248,313,FALSE,Oak Park,Michigan,Oakland,26,125
+248,313,FALSE,Pontiac,Michigan,Oakland,26,125
+248,313,FALSE,Rochester Hills,Michigan,Oakland,26,125
+248,313,FALSE,Royal Oak,Michigan,Oakland,26,125
+248,313,FALSE,Southfield,Michigan,Oakland,26,125
+248,313,FALSE,Troy,Michigan,Oakland,26,125
+248,313,FALSE,Waterford,Michigan,Oakland,26,125
+251,205,FALSE,Mobile,Alabama,Mobile,01,097
+251,205,FALSE,Prichard,Alabama,Mobile,01,097
+252,704,FALSE,Greenville,North Carolina,Pitt,37,147
+252,704,FALSE,Havelock,North Carolina,Craven,37,049
+252,704,FALSE,Kinston,North Carolina,Lenoir,37,107
+252,704,FALSE,New Bern,North Carolina,Craven,37,049
+252,704,FALSE,Rocky Mount,North Carolina,Edgecombe,37,065
+252,704,FALSE,Wilson,North Carolina,Wilson,37,195
+253,206,FALSE,Auburn,Washington,King,53,033
+253,206,FALSE,East Hill-Meridian,Washington,King,53,033
+253,206,FALSE,Federal Way,Washington,King,53,033
+253,206,FALSE,Lakewood,Washington,Pierce,53,053
+253,206,FALSE,Parkland,Washington,Pierce,53,053
+253,206,FALSE,Puyallup,Washington,Pierce,53,053
+253,206,FALSE,South Hill,Washington,Pierce,53,053
+253,206,FALSE,Spanaway,Washington,Pierce,53,053
+253,206,FALSE,Tacoma,Washington,Pierce,53,053
+253,206,FALSE,University Place,Washington,Pierce,53,053
+254,214,FALSE,Copperas Cove,Texas,Coryell,48,099
+254,214,FALSE,Fort Hood,Texas,Bell,48,027
+254,214,FALSE,Killeen,Texas,Bell,48,027
+254,214,FALSE,Temple,Texas,Bell,48,027
+254,214,FALSE,Waco,Texas,McLennan,48,309
+256,205,FALSE,Anniston,Alabama,Calhoun,01,015
+256,205,FALSE,Decatur,Alabama,Morgan,01,103
+256,205,FALSE,Florence,Alabama,Lauderdale,01,077
+256,205,FALSE,Gadsden,Alabama,Etowah,01,055
+256,205,FALSE,Huntsville,Alabama,Madison,01,089
+256,205,FALSE,Madison,Alabama,Madison,01,089
+260,317,FALSE,Fort Wayne,Indiana,Allen,18,003
+262,414,FALSE,Brookfield,Wisconsin,Waukesha,55,133
+262,414,FALSE,Caledonia,Wisconsin,Racine,55,101
+262,414,FALSE,Kenosha,Wisconsin,Kenosha,55,059
+262,414,FALSE,Menomonee Falls,Wisconsin,Waukesha,55,133
+262,414,FALSE,Mequon,Wisconsin,Ozaukee,55,089
+262,414,FALSE,Muskego,Wisconsin,Waukesha,55,133
+262,414,FALSE,New Berlin,Wisconsin,Waukesha,55,133
+262,414,FALSE,Racine,Wisconsin,Racine,55,101
+262,414,FALSE,Waukesha,Wisconsin,Waukesha,55,133
+262,414,FALSE,West Bend,Wisconsin,Washington,55,131
+267,215,FALSE,Levittown,Pennsylvania,Bucks,42,017
+267,215,FALSE,Philadelphia,Pennsylvania,Philadelphia,42,101
+269,616,FALSE,Battle Creek,Michigan,Calhoun,26,025
+269,616,FALSE,Kalamazoo,Michigan,Kalamazoo,26,077
+269,616,FALSE,Portage,Michigan,Kalamazoo,26,077
+270,502,FALSE,Bowling Green,Kentucky,Warren,21,227
+270,502,FALSE,Elizabethtown,Kentucky,Hardin,21,093
+270,502,FALSE,Henderson,Kentucky,Henderson,21,101
+270,502,FALSE,Hopkinsville,Kentucky,Christian,21,047
+270,502,FALSE,Owensboro,Kentucky,Daviess,21,059
+270,502,FALSE,Paducah,Kentucky,McCracken,21,145
+270,502,FALSE,Radcliff,Kentucky,Hardin,21,093
+272,717,FALSE,Back Mountain,Pennsylvania,Luzerne,42,079
+272,717,FALSE,Hazleton,Pennsylvania,Luzerne,42,079
+272,717,FALSE,Scranton,Pennsylvania,Lackawanna,42,069
+272,717,FALSE,Wilkes-Barre,Pennsylvania,Luzerne,42,079
+272,717,FALSE,Williamsport,Pennsylvania,Lycoming,42,081
+276,703,FALSE,Richmond,Virginia,Richmond,51,760
+281,713,FALSE,Alvin,Texas,Brazoria,48,039
+281,713,FALSE,Atascocita,Texas,Harris,48,201
+281,713,FALSE,Baytown,Texas,Harris,48,201
+281,713,FALSE,Channelview,Texas,Harris,48,201
+281,713,FALSE,Cloverleaf,Texas,Harris,48,201
+281,713,FALSE,Deer Park,Texas,Harris,48,201
+281,713,FALSE,Friendswood,Texas,Galveston,48,167
+281,713,FALSE,South Houston,Texas,Harris,48,201
+281,713,FALSE,La Porte,Texas,Harris,48,201
+281,713,FALSE,League City,Texas,Galveston,48,167
+281,713,FALSE,Mission Bend,Texas,Fort Bend,48,157
+281,713,FALSE,Missouri City,Texas,Fort Bend,48,157
+281,713,FALSE,Pasadena,Texas,Harris,48,201
+281,713,FALSE,Pearland,Texas,Brazoria,48,039
+281,713,FALSE,Rosenberg,Texas,Fort Bend,48,157
+281,713,FALSE,Spring,Texas,Harris,48,201
+281,713,FALSE,Sugar Land,Texas,Fort Bend,48,157
+281,713,FALSE,The Woodlands,Texas,Montgomery,48,339
+301,301,TRUE,Aspen Hill,Maryland,Montgomery,24,031
+301,301,TRUE,North Bethesda,Maryland,Montgomery,24,031
+301,301,TRUE,Bowie,Maryland,Prince George's,24,033
+301,301,TRUE,Chillum,Maryland,Prince George's,24,033
+301,301,TRUE,Clinton,Maryland,Prince George's,24,033
+301,301,TRUE,College Park,Maryland,Prince George's,24,033
+301,301,TRUE,Cumberland,Maryland,Allegany,24,001
+301,301,TRUE,Fairland,Maryland,Montgomery,24,031
+301,301,TRUE,Fort Washington,Maryland,Prince George's,24,033
+301,301,TRUE,Frederick,Maryland,Frederick,24,021
+301,301,TRUE,Gaithersburg,Maryland,Montgomery,24,031
+301,301,TRUE,Germantown,Maryland,Montgomery,24,031
+301,301,TRUE,Greenbelt,Maryland,Prince George's,24,033
+301,301,TRUE,Hagerstown,Maryland,Washington,24,043
+301,301,TRUE,Landover,Maryland,Prince George's,24,033
+301,301,TRUE,Montgomery Village,Maryland,Montgomery,24,031
+301,301,TRUE,South Laurel,Maryland,Prince George's,24,033
+301,301,TRUE,North Potomac,Maryland,Montgomery,24,031
+301,301,TRUE,Olney,Maryland,Montgomery,24,031
+301,301,TRUE,Potomac,Maryland,Montgomery,24,031
+301,301,TRUE,Rockville,Maryland,Montgomery,24,031
+301,301,TRUE,Silver Spring,Maryland,Montgomery,24,031
+301,301,TRUE,Saint Charles,Maryland,Charles,24,017
+301,301,TRUE,Suitland,Maryland,Prince George's,24,033
+301,301,TRUE,Waldorf,Maryland,Charles,24,017
+301,301,TRUE,White Oak,Maryland,Montgomery,24,031
+302,302,TRUE,Dover,Delaware,Kent,10,001
+302,302,TRUE,Newark,Delaware,New Castle,10,003
+302,302,TRUE,Wilmington,Delaware,New Castle,10,003
+303,303,TRUE,Arvada,Colorado,Jefferson,08,059
+303,303,TRUE,Aurora,Colorado,Arapahoe,08,005
+303,303,TRUE,Boulder,Colorado,Boulder,08,013
+303,303,TRUE,Brighton,Colorado,Adams,08,001
+303,303,TRUE,Broomfield,Colorado,Boulder,08,013
+303,303,TRUE,Castle Rock,Colorado,Douglas,08,035
+303,303,TRUE,Castlewood,Colorado,Arapahoe,08,005
+303,303,TRUE,Columbine,Colorado,Jefferson,08,059
+303,303,TRUE,Commerce City,Colorado,Adams,08,001
+303,303,TRUE,Denver,Colorado,Denver,08,031
+303,303,TRUE,Englewood,Colorado,Arapahoe,08,005
+303,303,TRUE,Highlands Ranch,Colorado,Douglas,08,035
+303,303,TRUE,Ken Caryl,Colorado,Jefferson,08,059
+303,303,TRUE,Lafayette,Colorado,Boulder,08,013
+303,303,TRUE,Lakewood,Colorado,Jefferson,08,059
+303,303,TRUE,Littleton,Colorado,Arapahoe,08,005
+303,303,TRUE,Longmont,Colorado,Boulder,08,013
+303,303,TRUE,Loveland,Colorado,Larimer,08,069
+303,303,TRUE,Northglenn,Colorado,Adams,08,001
+303,303,TRUE,Parker,Colorado,Douglas,08,035
+303,303,TRUE,Southglenn,Colorado,Arapahoe,08,005
+303,303,TRUE,Thornton,Colorado,Adams,08,001
+303,303,TRUE,Westminster,Colorado,Adams,08,001
+303,303,TRUE,Wheat Ridge,Colorado,Jefferson,08,059
+304,304,TRUE,South Charleston,West Virginia,Kanawha,54,039
+304,304,TRUE,Huntington,West Virginia,Cabell,54,011
+304,304,TRUE,Morgantown,West Virginia,Monongalia,54,061
+304,304,TRUE,Parkersburg,West Virginia,Wood,54,107
+304,304,TRUE,Weirton,West Virginia,Hancock,54,029
+304,304,TRUE,Wheeling,West Virginia,Ohio,54,069
+305,305,TRUE,Aventura,Florida,Miami-Dade,12,086
+305,305,TRUE,Carol City,Florida,Miami-Dade,12,086
+305,305,TRUE,Coral Gables,Florida,Miami-Dade,12,086
+305,305,TRUE,Coral Terrace,Florida,Miami-Dade,12,086
+305,305,TRUE,Country Club,Florida,Miami-Dade,12,086
+305,305,TRUE,Cutler Ridge,Florida,Miami-Dade,12,086
+305,305,TRUE,Doral,Florida,Miami-Dade,12,086
+305,305,TRUE,Golden Glades,Florida,Miami-Dade,12,086
+305,305,TRUE,Hialeah,Florida,Miami-Dade,12,086
+305,305,TRUE,Homestead,Florida,Miami-Dade,12,086
+305,305,TRUE,Kendale Lakes,Florida,Miami-Dade,12,086
+305,305,TRUE,Kendall West,Florida,Miami-Dade,12,086
+305,305,TRUE,Key West,Florida,Monroe,12,087
+305,305,TRUE,Leisure City,Florida,Miami-Dade,12,086
+305,305,TRUE,West Miami,Florida,Miami-Dade,12,086
+305,305,TRUE,North Miami Beach,Florida,Miami-Dade,12,086
+305,305,TRUE,Miami Lakes,Florida,Miami-Dade,12,086
+305,305,TRUE,Miramar,Florida,Broward,12,011
+305,305,TRUE,Norland,Florida,Miami-Dade,12,086
+305,305,TRUE,North Miami,Florida,Miami-Dade,12,086
+305,305,TRUE,Richmond West,Florida,Miami-Dade,12,086
+305,305,TRUE,Richmond Heights,Florida,Miami-Dade,12,086
+305,305,TRUE,South Miami Heights,Florida,Miami-Dade,12,086
+305,305,TRUE,Tamiami,Florida,Miami-Dade,12,086
+305,305,TRUE,West Little River,Florida,Miami-Dade,12,086
+305,305,TRUE,Westchester,Florida,Miami-Dade,12,086
+307,307,TRUE,Casper,Wyoming,Natrona,56,025
+307,307,TRUE,Cheyenne,Wyoming,Laramie,56,021
+307,307,TRUE,Gillette,Wyoming,Campbell,56,005
+307,307,TRUE,Laramie,Wyoming,Albany,56,001
+308,402,FALSE,Grand Island,Nebraska,Hall,31,079
+308,402,FALSE,Kearney,Nebraska,Buffalo,31,019
+308,402,FALSE,North Platte,Nebraska,Lincoln,31,111
+309,217,FALSE,Bloomington,Illinois,McLean,17,113
+309,217,FALSE,East Moline,Illinois,Rock Island,17,161
+309,217,FALSE,East Peoria,Illinois,Tazewell,17,179
+309,217,FALSE,Galesburg,Illinois,Knox,17,095
+309,217,FALSE,Moline,Illinois,Rock Island,17,161
+309,217,FALSE,Normal,Illinois,McLean,17,113
+309,217,FALSE,Pekin,Illinois,Tazewell,17,179
+309,217,FALSE,Peoria,Illinois,Peoria,17,143
+309,217,FALSE,Rock Island,Illinois,Rock Island,17,161
+310,213,FALSE,Beverly Hills,California,Los Angeles,06,037
+310,213,FALSE,West Carson,California,Los Angeles,06,037
+310,213,FALSE,Culver City,California,Los Angeles,06,037
+310,213,FALSE,Gardena,California,Los Angeles,06,037
+310,213,FALSE,Hawthorne,California,Los Angeles,06,037
+310,213,FALSE,Inglewood,California,Los Angeles,06,037
+310,213,FALSE,Lawndale,California,Los Angeles,06,037
+310,213,FALSE,Lennox,California,Los Angeles,06,037
+310,213,FALSE,Lomita,California,Los Angeles,06,037
+310,213,FALSE,Lynwood,California,Los Angeles,06,037
+310,213,FALSE,Manhattan Beach,California,Los Angeles,06,037
+310,213,FALSE,Rancho Palos Verdes,California,Los Angeles,06,037
+310,213,FALSE,Redondo Beach,California,Los Angeles,06,037
+310,213,FALSE,Santa Monica,California,Los Angeles,06,037
+310,213,FALSE,Torrance,California,Los Angeles,06,037
+312,312,TRUE,West Chicago,Illinois,DuPage,17,043
+313,313,TRUE,Allen Park,Michigan,Wayne,26,163
+313,313,TRUE,Dearborn,Michigan,Wayne,26,163
+313,313,TRUE,Dearborn Heights,Michigan,Wayne,26,163
+313,313,TRUE,Detroit,Michigan,Wayne,26,163
+313,313,TRUE,Hamtramck,Michigan,Wayne,26,163
+313,313,TRUE,Inkster,Michigan,Wayne,26,163
+313,313,TRUE,Lincoln Park,Michigan,Wayne,26,163
+313,313,TRUE,Redford,Michigan,Wayne,26,163
+313,313,TRUE,Taylor,Michigan,Wayne,26,163
+314,314,TRUE,Kirkwood,Missouri,St. Louis,29,189
+314,314,TRUE,Maryland Heights,Missouri,St. Louis,29,189
+314,314,TRUE,Mehlville,Missouri,St. Louis,29,189
+314,314,TRUE,Oakville,Missouri,St. Louis,29,189
+314,314,TRUE,Spanish Lake,Missouri,St. Louis,29,189
+314,314,TRUE,St. Louis,Missouri,St. Louis,29,510
+314,314,TRUE,University City,Missouri,St. Louis,29,189
+314,314,TRUE,Webster Groves,Missouri,St. Louis,29,189
+314,314,TRUE,Affton,Missouri,St. Louis,29,189
+314,314,TRUE,Ferguson,Missouri,St. Louis,29,189
+314,314,TRUE,Florissant,Missouri,St. Louis,29,189
+314,314,TRUE,Hazelwood,Missouri,St. Louis,29,189
+315,315,TRUE,Auburn,New York,Cayuga,36,011
+315,315,TRUE,Rome,New York,Oneida,36,065
+315,315,TRUE,Syracuse,New York,Onondaga,36,067
+315,315,TRUE,Utica,New York,Oneida,36,065
+315,315,TRUE,Watertown,New York,Jefferson,36,045
+316,316,TRUE,Wichita,Kansas,Sedgwick,20,173
+317,317,TRUE,Carmel,Indiana,Hamilton,18,057
+317,317,TRUE,Fishers,Indiana,Hamilton,18,057
+317,317,TRUE,Greenwood,Indiana,Johnson,18,081
+317,317,TRUE,Indianapolis,Indiana,Marion,18,097
+317,317,TRUE,Lawrence,Indiana,Marion,18,097
+317,317,TRUE,Noblesville,Indiana,Hamilton,18,057
+318,504,FALSE,Alexandria,Louisiana,Rapides,22,079
+318,504,FALSE,Bossier City,Louisiana,Bossier,22,015
+318,504,FALSE,West Monroe,Louisiana,Ouachita,22,073
+318,504,FALSE,Ruston,Louisiana,Lincoln,22,061
+318,504,FALSE,Shreveport,Louisiana,Caddo,22,017
+319,319,TRUE,Burlington,Iowa,Des Moines,19,057
+319,319,TRUE,Cedar Falls,Iowa,Black Hawk,19,013
+319,319,TRUE,Cedar Rapids,Iowa,Linn,19,113
+319,319,TRUE,Iowa City,Iowa,Johnson,19,103
+319,319,TRUE,Marion,Iowa,Linn,19,113
+319,319,TRUE,Waterloo,Iowa,Black Hawk,19,013
+320,218,FALSE,Saint Cloud,Minnesota,Stearns,27,145
+321,305,FALSE,Altamonte Springs,Florida,Seminole,12,117
+321,305,FALSE,South Apopka,Florida,Orange,12,095
+321,305,FALSE,Casselberry,Florida,Seminole,12,117
+321,305,FALSE,Kissimmee,Florida,Osceola,12,097
+321,305,FALSE,West Melbourne,Florida,Brevard,12,009
+321,305,FALSE,Merritt Island,Florida,Brevard,12,009
+321,305,FALSE,Oak Ridge,Florida,Orange,12,095
+321,305,FALSE,Ocoee,Florida,Orange,12,095
+321,305,FALSE,Orlando,Florida,Orange,12,095
+321,305,FALSE,Oviedo,Florida,Seminole,12,117
+321,305,FALSE,Palm Bay,Florida,Brevard,12,009
+321,305,FALSE,Pine Hills,Florida,Orange,12,095
+321,305,FALSE,Rockledge,Florida,Brevard,12,009
+321,305,FALSE,Sanford,Florida,Seminole,12,117
+321,305,FALSE,Saint Cloud,Florida,Osceola,12,097
+321,305,FALSE,Titusville,Florida,Brevard,12,009
+321,305,FALSE,University Park,Florida,Miami-Dade,12,086
+321,305,FALSE,Wekiwa Springs,Florida,Seminole,12,117
+321,305,FALSE,Winter Park,Florida,Orange,12,095
+321,305,FALSE,Winter Springs,Florida,Seminole,12,117
+323,213,FALSE,Bell,California,Los Angeles,06,037
+323,213,FALSE,Bell Gardens,California,Los Angeles,06,037
+323,213,FALSE,Cudahy,California,Los Angeles,06,037
+323,213,FALSE,East Los Angeles,California,Los Angeles,06,037
+323,213,FALSE,Florence-Graham,California,Los Angeles,06,037
+323,213,FALSE,Huntington Park,California,Los Angeles,06,037
+323,213,FALSE,Maywood,California,Los Angeles,06,037
+323,213,FALSE,Montebello,California,Los Angeles,06,037
+323,213,FALSE,South Gate,California,Los Angeles,06,037
+323,213,FALSE,West Hollywood,California,Los Angeles,06,037
+323,213,FALSE,Westmont,California,Los Angeles,06,037
+325,915,FALSE,Abilene,Texas,Taylor,48,441
+325,915,FALSE,San Angelo,Texas,Tom Green,48,451
+330,216,FALSE,Akron,Ohio,Summit,39,153
+330,216,FALSE,Alliance,Ohio,Stark,39,151
+330,216,FALSE,Austintown,Ohio,Mahoning,39,099
+330,216,FALSE,Barberton,Ohio,Summit,39,153
+330,216,FALSE,Boardman,Ohio,Mahoning,39,099
+330,216,FALSE,Brunswick,Ohio,Medina,39,103
+330,216,FALSE,North Canton,Ohio,Stark,39,151
+330,216,FALSE,Cuyahoga Falls,Ohio,Summit,39,153
+330,216,FALSE,Green,Ohio,Summit,39,153
+330,216,FALSE,Hudson,Ohio,Summit,39,153
+330,216,FALSE,Kent,Ohio,Portage,39,133
+330,216,FALSE,Massillon,Ohio,Stark,39,151
+330,216,FALSE,Medina,Ohio,Medina,39,103
+330,216,FALSE,Niles,Ohio,Trumbull,39,155
+330,216,FALSE,Stow,Ohio,Summit,39,153
+330,216,FALSE,Warren,Ohio,Trumbull,39,155
+330,216,FALSE,Wooster,Ohio,Wayne,39,169
+330,216,FALSE,Youngstown,Ohio,Mahoning,39,099
+331,312,FALSE,Addison,Illinois,DuPage,17,043
+331,312,FALSE,North Aurora,Illinois,Kane,17,089
+331,312,FALSE,Bartlett,Illinois,Cook,17,031
+331,312,FALSE,Batavia,Illinois,Kane,17,089
+331,312,FALSE,Bensenville,Illinois,DuPage,17,043
+331,312,FALSE,Bloomingdale,Illinois,DuPage,17,043
+331,312,FALSE,Carol Stream,Illinois,DuPage,17,043
+331,312,FALSE,Darien,Illinois,DuPage,17,043
+331,312,FALSE,Downers Grove,Illinois,DuPage,17,043
+331,312,FALSE,Elmhurst,Illinois,DuPage,17,043
+331,312,FALSE,Glen Ellyn,Illinois,DuPage,17,043
+331,312,FALSE,Glendale Heights,Illinois,DuPage,17,043
+331,312,FALSE,Hanover Park,Illinois,Cook,17,031
+331,312,FALSE,Lisle,Illinois,DuPage,17,043
+331,312,FALSE,Lombard,Illinois,DuPage,17,043
+331,312,FALSE,Naperville,Illinois,DuPage,17,043
+331,312,FALSE,Roselle,Illinois,DuPage,17,043
+331,312,FALSE,Saint Charles,Illinois,Kane,17,089
+331,312,FALSE,Streamwood,Illinois,Cook,17,031
+331,312,FALSE,Villa Park,Illinois,DuPage,17,043
+331,312,FALSE,West Chicago,Illinois,DuPage,17,043
+331,312,FALSE,Westmont,Illinois,DuPage,17,043
+331,312,FALSE,Wheaton,Illinois,DuPage,17,043
+331,312,FALSE,Woodridge,Illinois,DuPage,17,043
+334,205,FALSE,Auburn,Alabama,Lee,01,081
+334,205,FALSE,Dothan,Alabama,Houston,01,069
+334,205,FALSE,Enterprise,Alabama,Coffee,01,031
+334,205,FALSE,Montgomery,Alabama,Montgomery,01,101
+334,205,FALSE,Opelika,Alabama,Lee,01,081
+334,205,FALSE,Phenix City,Alabama,Russell,01,113
+334,205,FALSE,Prattville,Alabama,Autauga,01,001
+334,205,FALSE,Selma,Alabama,Dallas,01,047
+336,704,FALSE,Asheboro,North Carolina,Randolph,37,151
+336,704,FALSE,Burlington,North Carolina,Alamance,37,001
+336,704,FALSE,Greensboro,North Carolina,Guilford,37,081
+336,704,FALSE,High Point,North Carolina,Guilford,37,081
+336,704,FALSE,Winston-Salem,North Carolina,Forsyth,37,067
+337,504,FALSE,Lafayette,Louisiana,Lafayette,22,055
+337,504,FALSE,Lake Charles,Louisiana,Calcasieu,22,019
+337,504,FALSE,New Iberia,Louisiana,Iberia,22,045
+337,504,FALSE,Opelousas,Louisiana,St. Landry,22,097
+337,504,FALSE,Sulphur,Louisiana,Calcasieu,22,019
+339,617,FALSE,Arlington,Massachusetts,Middlesex,25,017
+339,617,FALSE,Braintree,Massachusetts,Norfolk,25,021
+339,617,FALSE,Burlington,Massachusetts,Middlesex,25,017
+339,617,FALSE,Dedham,Massachusetts,Norfolk,25,021
+339,617,FALSE,Lexington,Massachusetts,Middlesex,25,017
+339,617,FALSE,Lynn,Massachusetts,Essex,25,009
+339,617,FALSE,Malden,Massachusetts,Middlesex,25,017
+339,617,FALSE,Marblehead,Massachusetts,Essex,25,009
+339,617,FALSE,Medford,Massachusetts,Middlesex,25,017
+339,617,FALSE,Melrose,Massachusetts,Middlesex,25,017
+339,617,FALSE,Needham,Massachusetts,Norfolk,25,021
+339,617,FALSE,Norwood,Massachusetts,Norfolk,25,021
+339,617,FALSE,Randolph,Massachusetts,Norfolk,25,021
+339,617,FALSE,Reading,Massachusetts,Middlesex,25,017
+339,617,FALSE,Revere,Massachusetts,Suffolk,25,025
+339,617,FALSE,Saugus,Massachusetts,Essex,25,009
+339,617,FALSE,Stoneham,Massachusetts,Middlesex,25,017
+339,617,FALSE,Wakefield,Massachusetts,Middlesex,25,017
+339,617,FALSE,Waltham,Massachusetts,Middlesex,25,017
+339,617,FALSE,Wellesley,Massachusetts,Norfolk,25,021
+339,617,FALSE,Weymouth,Massachusetts,Norfolk,25,021
+339,617,FALSE,Winchester,Massachusetts,Middlesex,25,017
+339,617,FALSE,Woburn,Massachusetts,Middlesex,25,017
+346,713,FALSE,Alvin,Texas,Brazoria,48,039
+346,713,FALSE,Atascocita,Texas,Harris,48,201
+346,713,FALSE,Baytown,Texas,Harris,48,201
+346,713,FALSE,Channelview,Texas,Harris,48,201
+346,713,FALSE,Cloverleaf,Texas,Harris,48,201
+346,713,FALSE,Deer Park,Texas,Harris,48,201
+346,713,FALSE,Friendswood,Texas,Galveston,48,167
+346,713,FALSE,South Houston,Texas,Harris,48,201
+346,713,FALSE,La Porte,Texas,Harris,48,201
+346,713,FALSE,League City,Texas,Galveston,48,167
+346,713,FALSE,Mission Bend,Texas,Fort Bend,48,157
+346,713,FALSE,Missouri City,Texas,Fort Bend,48,157
+346,713,FALSE,Pasadena,Texas,Harris,48,201
+346,713,FALSE,Pearland,Texas,Brazoria,48,039
+346,713,FALSE,Rosenberg,Texas,Fort Bend,48,157
+346,713,FALSE,Spring,Texas,Harris,48,201
+346,713,FALSE,Sugar Land,Texas,Fort Bend,48,157
+346,713,FALSE,The Woodlands,Texas,Montgomery,48,339
+347,212,FALSE,The Bronx,New York,Bronx,36,005
+347,212,FALSE,Brooklyn,New York,Kings,36,047
+347,212,FALSE,New York City,New York,New York,36,061
+347,212,FALSE,Borough of Queens,New York,Queens,36,081
+347,212,FALSE,Staten Island,New York,Richmond,36,085
+351,617,FALSE,Beverly,Massachusetts,Essex,25,009
+351,617,FALSE,Chelmsford,Massachusetts,Middlesex,25,017
+351,617,FALSE,Danvers,Massachusetts,Essex,25,009
+351,617,FALSE,Fitchburg,Massachusetts,Worcester,25,027
+351,617,FALSE,Gardner,Massachusetts,Worcester,25,027
+351,617,FALSE,Gloucester,Massachusetts,Essex,25,009
+351,617,FALSE,Haverhill,Massachusetts,Essex,25,009
+351,617,FALSE,Lawrence,Massachusetts,Essex,25,009
+351,617,FALSE,Leominster,Massachusetts,Worcester,25,027
+351,617,FALSE,Lowell,Massachusetts,Middlesex,25,017
+351,617,FALSE,Methuen,Massachusetts,Essex,25,009
+351,617,FALSE,South Peabody,Massachusetts,Essex,25,009
+351,617,FALSE,Salem,Massachusetts,Essex,25,009
+351,617,FALSE,Wilmington,Massachusetts,Middlesex,25,017
+352,305,FALSE,Gainesville,Florida,Alachua,12,001
+352,305,FALSE,Oakland Park,Florida,Broward,12,011
+352,305,FALSE,Ocala,Florida,Marion,12,083
+352,305,FALSE,Spring Hill,Florida,Hernando,12,053
+360,206,FALSE,Bellingham,Washington,Whatcom,53,073
+360,206,FALSE,Bremerton,Washington,Kitsap,53,035
+360,206,FALSE,Lacey,Washington,Thurston,53,067
+360,206,FALSE,Longview,Washington,Cowlitz,53,015
+360,206,FALSE,Marysville,Washington,Snohomish,53,061
+360,206,FALSE,Mount Vernon,Washington,Skagit,53,057
+360,206,FALSE,Olympia,Washington,Thurston,53,067
+360,206,FALSE,Vancouver,Washington,Clark,53,011
+361,512,FALSE,Corpus Christi,Texas,Nueces,48,355
+361,512,FALSE,Kingsville,Texas,Kleberg,48,273
+361,512,FALSE,Victoria,Texas,Victoria,48,469
+364,502,FALSE,Bowling Green,Kentucky,Warren,21,227
+364,502,FALSE,Elizabethtown,Kentucky,Hardin,21,093
+364,502,FALSE,Henderson,Kentucky,Henderson,21,101
+364,502,FALSE,Hopkinsville,Kentucky,Christian,21,047
+364,502,FALSE,Owensboro,Kentucky,Daviess,21,059
+364,502,FALSE,Paducah,Kentucky,McCracken,21,145
+364,502,FALSE,Radcliff,Kentucky,Hardin,21,093
+385,801,FALSE,American Fork,Utah,Utah,49,049
+385,801,FALSE,West Bountiful,Utah,Davis,49,011
+385,801,FALSE,Clearfield,Utah,Davis,49,011
+385,801,FALSE,Cottonwood Heights,Utah,Salt Lake,49,035
+385,801,FALSE,Draper,Utah,Salt Lake,49,035
+385,801,FALSE,East Millcreek,Utah,Salt Lake,49,035
+385,801,FALSE,Kaysville,Utah,Davis,49,011
+385,801,FALSE,Kearns,Utah,Salt Lake,49,035
+385,801,FALSE,Layton,Utah,Davis,49,011
+385,801,FALSE,Magna,Utah,Salt Lake,49,035
+385,801,FALSE,Midvale,Utah,Salt Lake,49,035
+385,801,FALSE,Millcreek,Utah,Salt Lake,49,035
+385,801,FALSE,Murray,Utah,Salt Lake,49,035
+385,801,FALSE,South Ogden,Utah,Weber,49,057
+385,801,FALSE,Orem,Utah,Utah,49,049
+385,801,FALSE,Pleasant Grove,Utah,Utah,49,049
+385,801,FALSE,Provo,Utah,Utah,49,049
+385,801,FALSE,Riverton,Utah,Salt Lake,49,035
+385,801,FALSE,Roy,Utah,Weber,49,057
+385,801,FALSE,Salt Lake City,Utah,Salt Lake,49,035
+385,801,FALSE,Sandy City,Utah,Salt Lake,49,035
+385,801,FALSE,South Jordan,Utah,Salt Lake,49,035
+385,801,FALSE,South Salt Lake,Utah,Salt Lake,49,035
+385,801,FALSE,Spanish Fork,Utah,Utah,49,049
+385,801,FALSE,Springville,Utah,Utah,49,049
+385,801,FALSE,Taylorsville,Utah,Salt Lake,49,035
+385,801,FALSE,West Jordan,Utah,Salt Lake,49,035
+385,801,FALSE,West Valley City,Utah,Salt Lake,49,035
+386,305,FALSE,Daytona Beach,Florida,Volusia,12,127
+386,305,FALSE,DeLand,Florida,Volusia,12,127
+386,305,FALSE,Deltona,Florida,Volusia,12,127
+386,305,FALSE,New Smyrna Beach,Florida,Volusia,12,127
+386,305,FALSE,Ormond Beach,Florida,Volusia,12,127
+386,305,FALSE,Palm Coast,Florida,Flagler,12,035
+386,305,FALSE,Port Orange,Florida,Volusia,12,127
+401,401,TRUE,Bristol,Rhode Island,Bristol,44,001
+401,401,TRUE,Cranston,Rhode Island,Providence,44,007
+401,401,TRUE,East Providence,Rhode Island,Providence,44,007
+401,401,TRUE,Newport East,Rhode Island,Newport,44,005
+401,401,TRUE,North Providence,Rhode Island,Providence,44,007
+401,401,TRUE,Pawtucket,Rhode Island,Providence,44,007
+401,401,TRUE,Providence,Rhode Island,Providence,44,007
+401,401,TRUE,West Warwick,Rhode Island,Kent,44,003
+401,401,TRUE,Woonsocket,Rhode Island,Providence,44,007
+402,402,TRUE,Bellevue,Nebraska,Sarpy,31,153
+402,402,TRUE,Columbus,Nebraska,Platte,31,141
+402,402,TRUE,Fremont,Nebraska,Dodge,31,053
+402,402,TRUE,Hastings,Nebraska,Adams,31,001
+402,402,TRUE,Lincoln,Nebraska,Lancaster,31,109
+402,402,TRUE,Norfolk,Nebraska,Madison,31,119
+402,402,TRUE,Omaha,Nebraska,Douglas,31,055
+404,404,TRUE,Atlanta,Georgia,Fulton,13,121
+404,404,TRUE,Candler-McAfee,Georgia,DeKalb,13,089
+404,404,TRUE,College Park,Georgia,Fulton,13,121
+404,404,TRUE,East Point,Georgia,Fulton,13,121
+404,404,TRUE,Forest Park,Georgia,Clayton,13,063
+404,404,TRUE,Sandy Springs,Georgia,Fulton,13,121
+404,404,TRUE,Tucker,Georgia,DeKalb,13,089
+405,405,TRUE,Bethany,Oklahoma,Oklahoma,40,109
+405,405,TRUE,Del City,Oklahoma,Oklahoma,40,109
+405,405,TRUE,Edmond,Oklahoma,Oklahoma,40,109
+405,405,TRUE,Midwest City,Oklahoma,Oklahoma,40,109
+405,405,TRUE,Moore,Oklahoma,Cleveland,40,027
+405,405,TRUE,Norman,Oklahoma,Cleveland,40,027
+405,405,TRUE,Oklahoma City,Oklahoma,Oklahoma,40,109
+405,405,TRUE,Shawnee,Oklahoma,Pottawatomie,40,125
+405,405,TRUE,Stillwater,Oklahoma,Payne,40,119
+405,405,TRUE,Yukon,Oklahoma,Canadian,40,017
+406,406,TRUE,Billings,Montana,Yellowstone,30,111
+406,406,TRUE,Bozeman,Montana,Gallatin,30,031
+406,406,TRUE,Butte,Montana,Silver Bow,30,093
+406,406,TRUE,Great Falls,Montana,Cascade,30,013
+406,406,TRUE,Helena,Montana,Lewis and Clark,30,049
+406,406,TRUE,Missoula,Montana,Missoula,30,063
+407,305,FALSE,Altamonte Springs,Florida,Seminole,12,117
+407,305,FALSE,South Apopka,Florida,Orange,12,095
+407,305,FALSE,Casselberry,Florida,Seminole,12,117
+407,305,FALSE,Kissimmee,Florida,Osceola,12,097
+407,305,FALSE,Oak Ridge,Florida,Orange,12,095
+407,305,FALSE,Ocoee,Florida,Orange,12,095
+407,305,FALSE,Orlando,Florida,Orange,12,095
+407,305,FALSE,Oviedo,Florida,Seminole,12,117
+407,305,FALSE,Pine Hills,Florida,Orange,12,095
+407,305,FALSE,Sanford,Florida,Seminole,12,117
+407,305,FALSE,Saint Cloud,Florida,Osceola,12,097
+407,305,FALSE,University Park,Florida,Miami-Dade,12,086
+407,305,FALSE,Wekiwa Springs,Florida,Seminole,12,117
+407,305,FALSE,Winter Park,Florida,Orange,12,095
+407,305,FALSE,Winter Springs,Florida,Seminole,12,117
+408,415,FALSE,Campbell,California,Santa Clara,06,085
+408,415,FALSE,Gilroy,California,Santa Clara,06,085
+408,415,FALSE,Los Gatos,California,Santa Clara,06,085
+408,415,FALSE,Milpitas,California,Santa Clara,06,085
+408,415,FALSE,Morgan Hill,California,Santa Clara,06,085
+408,415,FALSE,San Jose,California,Santa Clara,06,085
+408,415,FALSE,Santa Clara,California,Santa Clara,06,085
+408,415,FALSE,Saratoga,California,Santa Clara,06,085
+408,415,FALSE,Sunnyvale,California,Santa Clara,06,085
+409,713,FALSE,Beaumont,Texas,Jefferson,48,245
+409,713,FALSE,Galveston,Texas,Galveston,48,167
+409,713,FALSE,Port Arthur,Texas,Jefferson,48,245
+409,713,FALSE,Texas City,Texas,Galveston,48,167
+410,301,FALSE,Annapolis,Maryland,Anne Arundel,24,003
+410,301,FALSE,Arbutus,Maryland,Baltimore,24,005
+410,301,FALSE,Arnold,Maryland,Anne Arundel,24,003
+410,301,FALSE,Baltimore,Maryland,Baltimore,24,510
+410,301,FALSE,Bel Air North,Maryland,Harford,24,025
+410,301,FALSE,Bel Air South,Maryland,Harford,24,025
+410,301,FALSE,Carney,Maryland,Baltimore,24,005
+410,301,FALSE,Catonsville,Maryland,Baltimore,24,005
+410,301,FALSE,Columbia,Maryland,Howard,24,027
+410,301,FALSE,Crofton,Maryland,Anne Arundel,24,003
+410,301,FALSE,Dundalk,Maryland,Baltimore,24,005
+410,301,FALSE,Edgewood,Maryland,Harford,24,025
+410,301,FALSE,Eldersburg,Maryland,Carroll,24,013
+410,301,FALSE,West Elkridge,Maryland,Howard,24,027
+410,301,FALSE,Ellicott City,Maryland,Howard,24,027
+410,301,FALSE,Essex,Maryland,Baltimore,24,005
+410,301,FALSE,Glen Burnie,Maryland,Anne Arundel,24,003
+410,301,FALSE,Lochearn,Maryland,Baltimore,24,005
+410,301,FALSE,Middle River,Maryland,Baltimore,24,005
+410,301,FALSE,Milford Mill,Maryland,Baltimore,24,005
+410,301,FALSE,Odenton,Maryland,Anne Arundel,24,003
+410,301,FALSE,Parkville,Maryland,Baltimore,24,005
+410,301,FALSE,Perry Hall,Maryland,Baltimore,24,005
+410,301,FALSE,Pikesville,Maryland,Baltimore,24,005
+410,301,FALSE,Randallstown,Maryland,Baltimore,24,005
+410,301,FALSE,Reisterstown,Maryland,Baltimore,24,005
+410,301,FALSE,Salisbury,Maryland,Wicomico,24,045
+410,301,FALSE,Severn,Maryland,Anne Arundel,24,003
+410,301,FALSE,Severna Park,Maryland,Anne Arundel,24,003
+410,301,FALSE,South Gate,Maryland,Anne Arundel,24,003
+410,301,FALSE,Towson,Maryland,Baltimore,24,005
+412,412,TRUE,Bethel Park,Pennsylvania,Allegheny,42,003
+412,412,TRUE,McKeesport,Pennsylvania,Allegheny,42,003
+412,412,TRUE,Mount Lebanon,Pennsylvania,Allegheny,42,003
+412,412,TRUE,Monroeville,Pennsylvania,Allegheny,42,003
+412,412,TRUE,Penn Hills,Pennsylvania,Allegheny,42,003
+412,412,TRUE,Pittsburgh,Pennsylvania,Allegheny,42,003
+412,412,TRUE,Plum,Pennsylvania,Allegheny,42,003
+412,412,TRUE,Upper Saint Clair,Pennsylvania,Allegheny,42,003
+412,412,TRUE,West Mifflin,Pennsylvania,Allegheny,42,003
+413,413,TRUE,Agawam,Massachusetts,Hampden,25,013
+413,413,TRUE,North Chicopee,Massachusetts,Hampden,25,013
+413,413,TRUE,Holyoke,Massachusetts,Hampden,25,013
+413,413,TRUE,Northampton,Massachusetts,Hampshire,25,015
+413,413,TRUE,Pittsfield,Massachusetts,Berkshire,25,003
+413,413,TRUE,West Springfield,Massachusetts,Hampden,25,013
+413,413,TRUE,Westfield,Massachusetts,Hampden,25,013
+414,414,TRUE,Franklin,Wisconsin,Milwaukee,55,079
+414,414,TRUE,Greenfield,Wisconsin,Milwaukee,55,079
+414,414,TRUE,South Milwaukee,Wisconsin,Milwaukee,55,079
+414,414,TRUE,Oak Creek,Wisconsin,Milwaukee,55,079
+414,414,TRUE,Wauwatosa,Wisconsin,Milwaukee,55,079
+414,414,TRUE,West Allis,Wisconsin,Milwaukee,55,079
+415,415,TRUE,Novato,California,Marin,06,041
+415,415,TRUE,San Anselmo,California,Marin,06,041
+415,415,TRUE,South San Francisco,California,San Mateo,06,081
+415,415,TRUE,San Rafael,California,Marin,06,041
+417,816,FALSE,Joplin,Missouri,Jasper,29,097
+417,816,FALSE,Springfield,Missouri,Greene,29,077
+419,419,TRUE,Ashland,Ohio,Ashland,39,005
+419,419,TRUE,Bowling Green,Ohio,Wood,39,173
+419,419,TRUE,Findlay,Ohio,Hancock,39,063
+419,419,TRUE,Lima,Ohio,Allen,39,003
+419,419,TRUE,Mansfield,Ohio,Richland,39,139
+419,419,TRUE,Sandusky,Ohio,Erie,39,043
+419,419,TRUE,Toledo,Ohio,Lucas,39,095
+423,901,FALSE,Bristol,Tennessee,Sullivan,47,163
+423,901,FALSE,East Chattanooga,Tennessee,Hamilton,47,065
+423,901,FALSE,South Cleveland,Tennessee,Bradley,47,011
+423,901,FALSE,East Ridge,Tennessee,Hamilton,47,065
+423,901,FALSE,Johnson City,Tennessee,Washington,47,179
+423,901,FALSE,Kingsport,Tennessee,Sullivan,47,163
+423,901,FALSE,Morristown,Tennessee,Hamblen,47,063
+424,213,FALSE,Beverly Hills,California,Los Angeles,06,037
+424,213,FALSE,West Carson,California,Los Angeles,06,037
+424,213,FALSE,Culver City,California,Los Angeles,06,037
+424,213,FALSE,Gardena,California,Los Angeles,06,037
+424,213,FALSE,Hawthorne,California,Los Angeles,06,037
+424,213,FALSE,Inglewood,California,Los Angeles,06,037
+424,213,FALSE,Lawndale,California,Los Angeles,06,037
+424,213,FALSE,Lennox,California,Los Angeles,06,037
+424,213,FALSE,Lomita,California,Los Angeles,06,037
+424,213,FALSE,Lynwood,California,Los Angeles,06,037
+424,213,FALSE,Manhattan Beach,California,Los Angeles,06,037
+424,213,FALSE,Rancho Palos Verdes,California,Los Angeles,06,037
+424,213,FALSE,Redondo Beach,California,Los Angeles,06,037
+424,213,FALSE,Santa Monica,California,Los Angeles,06,037
+424,213,FALSE,Torrance,California,Los Angeles,06,037
+425,206,FALSE,Bellevue,Washington,King,53,033
+425,206,FALSE,Bothell,Washington,King,53,033
+425,206,FALSE,Fairwood,Washington,Spokane,53,063
+425,206,FALSE,Cottage Lake,Washington,King,53,033
+425,206,FALSE,Edmonds,Washington,Snohomish,53,061
+425,206,FALSE,Everett,Washington,Snohomish,53,061
+425,206,FALSE,Inglewood-Finn Hill,Washington,King,53,033
+425,206,FALSE,Kirkland,Washington,King,53,033
+425,206,FALSE,Lynnwood,Washington,Snohomish,53,061
+425,206,FALSE,Mountlake Terrace,Washington,Snohomish,53,061
+425,206,FALSE,North Creek,Washington,Snohomish,53,061
+425,206,FALSE,Redmond,Washington,King,53,033
+425,206,FALSE,Renton,Washington,King,53,033
+425,206,FALSE,City of Sammamish,Washington,King,53,033
+432,915,FALSE,Big Spring,Texas,Howard,48,227
+432,915,FALSE,Midland,Texas,Midland,48,329
+432,915,FALSE,West Odessa,Texas,Ector,48,135
+434,703,FALSE,Charlottesville,Virginia,Charlottesville,51,540
+434,703,FALSE,Danville,Virginia,Danville,51,590
+434,703,FALSE,West Lynchburg,Virginia,Lynchburg,51,680
+435,801,FALSE,Cedar City,Utah,Iron,49,021
+435,801,FALSE,North Logan,Utah,Cache,49,005
+435,801,FALSE,Saint George,Utah,Washington,49,053
+435,801,FALSE,Tooele,Utah,Tooele,49,045
+440,216,FALSE,Ashtabula,Ohio,Ashtabula,39,007
+440,216,FALSE,Eastlake,Ohio,Lake,39,085
+440,216,FALSE,Elyria,Ohio,Lorain,39,093
+440,216,FALSE,Lorain,Ohio,Lorain,39,093
+440,216,FALSE,Mentor,Ohio,Lake,39,085
+440,216,FALSE,North Olmsted,Ohio,Cuyahoga,39,035
+440,216,FALSE,North Ridgeville,Ohio,Lorain,39,093
+440,216,FALSE,North Royalton,Ohio,Cuyahoga,39,035
+440,216,FALSE,Parma,Ohio,Cuyahoga,39,035
+440,216,FALSE,Parma Heights,Ohio,Cuyahoga,39,035
+440,216,FALSE,Rocky River,Ohio,Cuyahoga,39,035
+440,216,FALSE,Solon,Ohio,Cuyahoga,39,035
+440,216,FALSE,Strongsville,Ohio,Cuyahoga,39,035
+440,216,FALSE,Westlake,Ohio,Cuyahoga,39,035
+440,216,FALSE,Willoughby,Ohio,Lake,39,085
+442,213,FALSE,La Quinta,California,Riverside,06,065
+442,213,FALSE,Oceanside,California,San Diego,06,073
+442,213,FALSE,Palm Desert,California,Riverside,06,065
+442,213,FALSE,Palm Springs,California,Riverside,06,065
+442,213,FALSE,Ridgecrest,California,Kern,06,029
+442,213,FALSE,San Marcos,California,San Diego,06,073
+442,213,FALSE,Victorville,California,San Bernardino,06,071
+442,213,FALSE,Vista,California,San Diego,06,073
+442,213,FALSE,Apple Valley,California,San Bernardino,06,071
+442,213,FALSE,Barstow,California,San Bernardino,06,071
+442,213,FALSE,Brawley,California,Imperial,06,025
+442,213,FALSE,Calexico,California,Imperial,06,025
+442,213,FALSE,Carlsbad,California,San Diego,06,073
+442,213,FALSE,Cathedral City,California,Riverside,06,065
+442,213,FALSE,Coachella,California,Riverside,06,065
+442,213,FALSE,El Centro,California,Imperial,06,025
+442,213,FALSE,Encinitas,California,San Diego,06,073
+442,213,FALSE,Escondido,California,San Diego,06,073
+442,213,FALSE,Fallbrook,California,San Diego,06,073
+442,213,FALSE,Hesperia,California,San Bernardino,06,071
+442,213,FALSE,Indio,California,Riverside,06,065
+443,301,FALSE,Annapolis,Maryland,Anne Arundel,24,003
+443,301,FALSE,Arbutus,Maryland,Baltimore,24,005
+443,301,FALSE,Arnold,Maryland,Anne Arundel,24,003
+443,301,FALSE,Baltimore,Maryland,Baltimore,24,510
+443,301,FALSE,Bel Air North,Maryland,Harford,24,025
+443,301,FALSE,Bel Air South,Maryland,Harford,24,025
+443,301,FALSE,Carney,Maryland,Baltimore,24,005
+443,301,FALSE,Catonsville,Maryland,Baltimore,24,005
+443,301,FALSE,Columbia,Maryland,Howard,24,027
+443,301,FALSE,Crofton,Maryland,Anne Arundel,24,003
+443,301,FALSE,Dundalk,Maryland,Baltimore,24,005
+443,301,FALSE,Edgewood,Maryland,Harford,24,025
+443,301,FALSE,Eldersburg,Maryland,Carroll,24,013
+443,301,FALSE,West Elkridge,Maryland,Howard,24,027
+443,301,FALSE,Ellicott City,Maryland,Howard,24,027
+443,301,FALSE,Essex,Maryland,Baltimore,24,005
+443,301,FALSE,Glen Burnie,Maryland,Anne Arundel,24,003
+443,301,FALSE,Lochearn,Maryland,Baltimore,24,005
+443,301,FALSE,Middle River,Maryland,Baltimore,24,005
+443,301,FALSE,Milford Mill,Maryland,Baltimore,24,005
+443,301,FALSE,Odenton,Maryland,Anne Arundel,24,003
+443,301,FALSE,Parkville,Maryland,Baltimore,24,005
+443,301,FALSE,Perry Hall,Maryland,Baltimore,24,005
+443,301,FALSE,Pikesville,Maryland,Baltimore,24,005
+443,301,FALSE,Randallstown,Maryland,Baltimore,24,005
+443,301,FALSE,Reisterstown,Maryland,Baltimore,24,005
+443,301,FALSE,Salisbury,Maryland,Wicomico,24,045
+443,301,FALSE,Severn,Maryland,Anne Arundel,24,003
+443,301,FALSE,Severna Park,Maryland,Anne Arundel,24,003
+443,301,FALSE,South Gate,Maryland,Anne Arundel,24,003
+443,301,FALSE,Towson,Maryland,Baltimore,24,005
+458,503,FALSE,Albany,Oregon,Linn,41,043
+458,503,FALSE,North Bend,Oregon,Coos,41,011
+458,503,FALSE,Corvallis,Oregon,Benton,41,003
+458,503,FALSE,Gresham,Oregon,Multnomah,41,051
+458,503,FALSE,Grants Pass,Oregon,Josephine,41,033
+458,503,FALSE,Medford,Oregon,Jackson,41,029
+458,503,FALSE,Roseburg North,Oregon,Douglas,41,019
+458,503,FALSE,Springfield,Oregon,Lane,41,039
+469,214,FALSE,Allen,Texas,Collin,48,085
+469,214,FALSE,Carrollton,Texas,Dallas,48,113
+469,214,FALSE,Cedar Hill,Texas,Dallas,48,113
+469,214,FALSE,Coppell,Texas,Dallas,48,113
+469,214,FALSE,Dallas,Texas,Dallas,48,113
+469,214,FALSE,DeSoto,Texas,Dallas,48,113
+469,214,FALSE,Duncanville,Texas,Dallas,48,113
+469,214,FALSE,Farmers Branch,Texas,Dallas,48,113
+469,214,FALSE,Flower Mound,Texas,Denton,48,121
+469,214,FALSE,Frisco,Texas,Collin,48,085
+469,214,FALSE,Garland,Texas,Dallas,48,113
+469,214,FALSE,Grand Prairie,Texas,Dallas,48,113
+469,214,FALSE,Irving,Texas,Dallas,48,113
+469,214,FALSE,Lancaster,Texas,Dallas,48,113
+469,214,FALSE,Lewisville,Texas,Denton,48,121
+469,214,FALSE,McKinney,Texas,Collin,48,085
+469,214,FALSE,Mesquite,Texas,Dallas,48,113
+469,214,FALSE,Plano,Texas,Collin,48,085
+469,214,FALSE,Richardson,Texas,Dallas,48,113
+469,214,FALSE,Rowlett,Texas,Dallas,48,113
+469,214,FALSE,The Colony,Texas,Denton,48,121
+469,214,FALSE,University Park,Texas,Dallas,48,113
+469,214,FALSE,Waxahachie,Texas,Ellis,48,139
+478,404,FALSE,Macon,Georgia,Bibb,13,021
+478,404,FALSE,Warner Robins,Georgia,Houston,13,153
+479,501,FALSE,Fayetteville,Arkansas,Washington,05,143
+479,501,FALSE,Fort Smith,Arkansas,Sebastian,05,131
+479,501,FALSE,Rogers,Arkansas,Benton,05,007
+479,501,FALSE,Russellville,Arkansas,Pope,05,115
+479,501,FALSE,Springdale,Arkansas,Washington,05,143
+480,602,FALSE,Apache Junction,Arizona,Pinal,04,021
+480,602,FALSE,Chandler,Arizona,Maricopa,04,013
+480,602,FALSE,Fountain Hills,Arizona,Maricopa,04,013
+480,602,FALSE,Gilbert,Arizona,Maricopa,04,013
+480,602,FALSE,Mesa,Arizona,Maricopa,04,013
+480,602,FALSE,Scottsdale,Arizona,Maricopa,04,013
+480,602,FALSE,Tempe,Arizona,Maricopa,04,013
+484,215,FALSE,Allentown,Pennsylvania,Lehigh,42,077
+484,215,FALSE,Bethlehem,Pennsylvania,Northampton,42,095
+484,215,FALSE,West Chester,Pennsylvania,Chester,42,029
+484,215,FALSE,Drexel Hill,Pennsylvania,Delaware,42,045
+484,215,FALSE,Easton,Pennsylvania,Northampton,42,095
+484,215,FALSE,Norristown,Pennsylvania,Montgomery,42,091
+484,215,FALSE,Pottstown,Pennsylvania,Montgomery,42,091
+484,215,FALSE,Radnor,Pennsylvania,Delaware,42,045
+484,215,FALSE,Reading,Pennsylvania,Berks,42,011
+484,215,FALSE,Springfield,Pennsylvania,Delaware,42,045
+501,501,TRUE,Benton,Arkansas,Saline,05,125
+501,501,TRUE,Conway,Arkansas,Faulkner,05,045
+501,501,TRUE,Hot Springs,Arkansas,Garland,05,051
+501,501,TRUE,Jacksonville,Arkansas,Pulaski,05,119
+501,501,TRUE,North Little Rock,Arkansas,Pulaski,05,119
+501,501,TRUE,Sherwood,Arkansas,Pulaski,05,119
+502,502,TRUE,Frankfort,Kentucky,Franklin,21,073
+502,502,TRUE,Louisville,Kentucky,Jefferson,21,111
+503,503,TRUE,Aloha,Oregon,Washington,41,067
+503,503,TRUE,Beaverton,Oregon,Washington,41,067
+503,503,TRUE,Gresham,Oregon,Multnomah,41,051
+503,503,TRUE,Hillsboro,Oregon,Washington,41,067
+503,503,TRUE,Keizer,Oregon,Marion,41,047
+503,503,TRUE,Lake Oswego,Oregon,Clackamas,41,005
+503,503,TRUE,McMinnville,Oregon,Yamhill,41,071
+503,503,TRUE,Milwaukie,Oregon,Clackamas,41,005
+503,503,TRUE,Oregon City,Oregon,Clackamas,41,005
+503,503,TRUE,Portland,Oregon,Multnomah,41,051
+503,503,TRUE,Salem,Oregon,Marion,41,047
+503,503,TRUE,Tigard,Oregon,Washington,41,067
+503,503,TRUE,Tualatin,Oregon,Washington,41,067
+503,503,TRUE,West Linn,Oregon,Clackamas,41,005
+503,503,TRUE,Woodburn,Oregon,Marion,41,047
+504,504,TRUE,Chalmette,Louisiana,St. Bernard,22,087
+504,504,TRUE,Harvey,Louisiana,Jefferson,22,051
+504,504,TRUE,Kenner,Louisiana,Jefferson,22,051
+504,504,TRUE,Marrero,Louisiana,Jefferson,22,051
+504,504,TRUE,Metairie,Louisiana,Jefferson,22,051
+504,504,TRUE,New Orleans,Louisiana,Orleans,22,071
+504,504,TRUE,Terrytown,Louisiana,Jefferson,22,051
+505,505,TRUE,Albuquerque,New Mexico,Bernalillo,35,001
+505,505,TRUE,Farmington,New Mexico,San Juan,35,045
+505,505,TRUE,Gallup,New Mexico,McKinley,35,031
+505,505,TRUE,Rio Rancho,New Mexico,Sandoval,35,043
+505,505,TRUE,Santa Fe,New Mexico,Santa Fe,35,049
+505,505,TRUE,South Valley,New Mexico,Bernalillo,35,001
+507,612,FALSE,Austin,Minnesota,Mower,27,099
+507,612,FALSE,Faribault,Minnesota,Rice,27,131
+507,612,FALSE,North Mankato,Minnesota,Nicollet,27,103
+507,612,FALSE,Owatonna,Minnesota,Steele,27,147
+507,612,FALSE,Rochester,Minnesota,Olmsted,27,109
+507,612,FALSE,Winona,Minnesota,Winona,27,169
+508,617,FALSE,Attleboro,Massachusetts,Bristol,25,005
+508,617,FALSE,Barnstable,Massachusetts,Barnstable,25,001
+508,617,FALSE,Brockton,Massachusetts,Plymouth,25,023
+508,617,FALSE,Fall River,Massachusetts,Bristol,25,005
+508,617,FALSE,Framingham,Massachusetts,Middlesex,25,017
+508,617,FALSE,Franklin,Massachusetts,Norfolk,25,021
+508,617,FALSE,Marlborough,Massachusetts,Middlesex,25,017
+508,617,FALSE,Milford,Massachusetts,Worcester,25,027
+508,617,FALSE,New Bedford,Massachusetts,Bristol,25,005
+508,617,FALSE,Taunton,Massachusetts,Bristol,25,005
+508,617,FALSE,Worcester,Massachusetts,Worcester,25,027
+509,206,FALSE,Kennewick,Washington,Benton,53,005
+509,206,FALSE,Opportunity,Washington,Spokane,53,063
+509,206,FALSE,Pasco,Washington,Franklin,53,021
+509,206,FALSE,Pullman,Washington,Whitman,53,075
+509,206,FALSE,West Richland,Washington,Benton,53,005
+509,206,FALSE,Spokane,Washington,Spokane,53,063
+509,206,FALSE,Walla Walla,Washington,Walla Walla,53,071
+509,206,FALSE,Wenatchee,Washington,Chelan,53,007
+509,206,FALSE,Yakima,Washington,Yakima,53,077
+510,415,FALSE,Alameda,California,Alameda,06,001
+510,415,FALSE,Berkeley,California,Alameda,06,001
+510,415,FALSE,Castro Valley,California,Alameda,06,001
+510,415,FALSE,Fremont,California,Alameda,06,001
+510,415,FALSE,Hayward,California,Alameda,06,001
+510,415,FALSE,Newark,California,Alameda,06,001
+510,415,FALSE,Oakland,California,Alameda,06,001
+510,415,FALSE,Richmond,California,Contra Costa,06,013
+510,415,FALSE,San Leandro,California,Alameda,06,001
+510,415,FALSE,San Lorenzo,California,Alameda,06,001
+510,415,FALSE,San Pablo,California,Contra Costa,06,013
+510,415,FALSE,Union City,California,Alameda,06,001
+512,512,TRUE,Austin,Texas,Travis,48,453
+512,512,TRUE,Cedar Park,Texas,Williamson,48,491
+512,512,TRUE,Georgetown,Texas,Williamson,48,491
+512,512,TRUE,Round Rock,Texas,Williamson,48,491
+512,512,TRUE,San Marcos,Texas,Hays,48,209
+513,513,TRUE,Cincinnati,Ohio,Hamilton,39,061
+513,513,TRUE,Fairfield,Ohio,Butler,39,017
+513,513,TRUE,Hamilton,Ohio,Butler,39,017
+513,513,TRUE,Mason,Ohio,Warren,39,165
+513,513,TRUE,Middletown,Ohio,Butler,39,017
+513,513,TRUE,Norwood,Ohio,Hamilton,39,061
+513,513,TRUE,Oxford,Ohio,Butler,39,017
+515,515,TRUE,Ankeny,Iowa,Polk,19,153
+515,515,TRUE,West Des Moines,Iowa,Polk,19,153
+515,515,TRUE,Fort Dodge,Iowa,Webster,19,187
+515,515,TRUE,Urbandale,Iowa,Polk,19,153
+516,914,FALSE,Baldwin,New York,Nassau,36,059
+516,914,FALSE,East Meadow,New York,Nassau,36,059
+516,914,FALSE,Elmont,New York,Nassau,36,059
+516,914,FALSE,Franklin Square,New York,Nassau,36,059
+516,914,FALSE,Freeport,New York,Nassau,36,059
+516,914,FALSE,Garden City,New York,Nassau,36,059
+516,914,FALSE,Glen Cove,New York,Nassau,36,059
+516,914,FALSE,West Hempstead,New York,Nassau,36,059
+516,914,FALSE,Hicksville,New York,Nassau,36,059
+516,914,FALSE,Levittown,New York,Nassau,36,059
+516,914,FALSE,Long Beach,New York,Nassau,36,059
+516,914,FALSE,North Massapequa,New York,Nassau,36,059
+516,914,FALSE,North Merrick,New York,Nassau,36,059
+516,914,FALSE,North Bellmore,New York,Nassau,36,059
+516,914,FALSE,Oceanside,New York,Nassau,36,059
+516,914,FALSE,Plainview,New York,Nassau,36,059
+516,914,FALSE,Rockville Centre,New York,Nassau,36,059
+516,914,FALSE,Uniondale,New York,Nassau,36,059
+516,914,FALSE,Valley Stream,New York,Nassau,36,059
+517,517,TRUE,Adrian,Michigan,Lenawee,26,091
+517,517,TRUE,East Lansing,Michigan,Ingham,26,065
+517,517,TRUE,Jackson,Michigan,Jackson,26,075
+517,517,TRUE,Lansing,Michigan,Ingham,26,065
+517,517,TRUE,Okemos,Michigan,Ingham,26,065
+518,518,TRUE,West Albany,New York,Albany,36,001
+518,518,TRUE,Rotterdam,New York,Schenectady,36,093
+518,518,TRUE,Saratoga Springs,New York,Saratoga,36,091
+518,518,TRUE,Schenectady,New York,Schenectady,36,093
+518,518,TRUE,Troy,New York,Rensselaer,36,083
+520,602,FALSE,Casa Grande,Arizona,Pinal,04,021
+520,602,FALSE,Catalina Foothills,Arizona,Pima,04,019
+520,602,FALSE,Drexel Heights,Arizona,Pima,04,019
+520,602,FALSE,Nogales,Arizona,Santa Cruz,04,023
+520,602,FALSE,Oro Valley,Arizona,Pima,04,019
+520,602,FALSE,Sierra Vista,Arizona,Cochise,04,003
+520,602,FALSE,Tucson,Arizona,Pima,04,019
+530,916,FALSE,Chico,California,Butte,06,007
+530,916,FALSE,Davis,California,Yolo,06,113
+530,916,FALSE,Paradise,California,Butte,06,007
+530,916,FALSE,Redding,California,Shasta,06,089
+530,916,FALSE,South Lake Tahoe,California,El Dorado,06,017
+530,916,FALSE,Woodland,California,Yolo,06,113
+530,916,FALSE,Yuba City,California,Sutter,06,101
+531,402,FALSE,Bellevue,Nebraska,Sarpy,31,153
+531,402,FALSE,Columbus,Nebraska,Platte,31,141
+531,402,FALSE,Fremont,Nebraska,Dodge,31,053
+531,402,FALSE,Hastings,Nebraska,Adams,31,001
+531,402,FALSE,Lincoln,Nebraska,Lancaster,31,109
+531,402,FALSE,Norfolk,Nebraska,Madison,31,119
+531,402,FALSE,Omaha,Nebraska,Douglas,31,055
+539,405,FALSE,Bartlesville,Oklahoma,Washington,40,147
+539,405,FALSE,Broken Arrow,Oklahoma,Tulsa,40,143
+539,405,FALSE,Muskogee,Oklahoma,Muskogee,40,101
+539,405,FALSE,Tulsa,Oklahoma,Tulsa,40,143
+540,703,FALSE,Blacksburg,Virginia,Montgomery,51,121
+540,703,FALSE,Cave Spring,Virginia,Roanoke,51,161
+540,703,FALSE,Harrisonburg,Virginia,Harrisonburg,51,660
+540,703,FALSE,Roanoke,Virginia,Roanoke,51,770
+540,703,FALSE,Salem,Virginia,Salem,51,775
+540,703,FALSE,Staunton,Virginia,Staunton,51,790
+540,703,FALSE,Winchester,Virginia,Winchester,51,840
+541,503,FALSE,Albany,Oregon,Linn,41,043
+541,503,FALSE,North Bend,Oregon,Coos,41,011
+541,503,FALSE,Corvallis,Oregon,Benton,41,003
+541,503,FALSE,Gresham,Oregon,Multnomah,41,051
+541,503,FALSE,Grants Pass,Oregon,Josephine,41,033
+541,503,FALSE,Medford,Oregon,Jackson,41,029
+541,503,FALSE,Roseburg North,Oregon,Douglas,41,019
+541,503,FALSE,Springfield,Oregon,Lane,41,039
+551,201,FALSE,Bayonne,New Jersey,Hudson,34,017
+551,201,FALSE,Bergenfield,New Jersey,Bergen,34,003
+551,201,FALSE,Cliffside Park,New Jersey,Bergen,34,003
+551,201,FALSE,Englewood,New Jersey,Bergen,34,003
+551,201,FALSE,Fair Lawn,New Jersey,Bergen,34,003
+551,201,FALSE,Fort Lee,New Jersey,Bergen,34,003
+551,201,FALSE,Hackensack,New Jersey,Bergen,34,003
+551,201,FALSE,Hoboken,New Jersey,Hudson,34,017
+551,201,FALSE,Jersey City,New Jersey,Hudson,34,017
+551,201,FALSE,Kearny,New Jersey,Hudson,34,017
+551,201,FALSE,North Bergen,New Jersey,Hudson,34,017
+551,201,FALSE,Paramus,New Jersey,Bergen,34,003
+551,201,FALSE,Ridgewood,New Jersey,Bergen,34,003
+551,201,FALSE,Teaneck,New Jersey,Bergen,34,003
+551,201,FALSE,Union City,New Jersey,Hudson,34,017
+551,201,FALSE,West New York,New Jersey,Hudson,34,017
+559,916,FALSE,Clovis,California,Fresno,06,019
+559,916,FALSE,Fresno,California,Fresno,06,019
+559,916,FALSE,Hanford,California,Kings,06,031
+559,916,FALSE,Madera,California,Madera,06,039
+559,916,FALSE,Porterville,California,Tulare,06,107
+559,916,FALSE,Reedley,California,Fresno,06,019
+559,916,FALSE,Tulare,California,Tulare,06,107
+559,916,FALSE,Visalia,California,Tulare,06,107
+561,305,FALSE,Boca Del Mar,Florida,Palm Beach,12,099
+561,305,FALSE,Boca Raton,Florida,Palm Beach,12,099
+561,305,FALSE,Boynton Beach,Florida,Palm Beach,12,099
+561,305,FALSE,Delray Beach,Florida,Palm Beach,12,099
+561,305,FALSE,Jupiter,Florida,Palm Beach,12,099
+561,305,FALSE,Lake Worth,Florida,Palm Beach,12,099
+561,305,FALSE,Palm Beach Gardens,Florida,Palm Beach,12,099
+561,305,FALSE,Riviera Beach,Florida,Palm Beach,12,099
+561,305,FALSE,Royal Palm Beach,Florida,Palm Beach,12,099
+561,305,FALSE,University Park,Florida,Miami-Dade,12,086
+561,305,FALSE,Wellington,Florida,Palm Beach,12,099
+561,305,FALSE,West Palm Beach,Florida,Palm Beach,12,099
+562,213,FALSE,Bellflower,California,Los Angeles,06,037
+562,213,FALSE,Cerritos,California,Los Angeles,06,037
+562,213,FALSE,Downey,California,Los Angeles,06,037
+562,213,FALSE,La Habra,California,Orange,06,059
+562,213,FALSE,La Mirada,California,Los Angeles,06,037
+562,213,FALSE,Lakewood,California,Los Angeles,06,037
+562,213,FALSE,Long Beach,California,Los Angeles,06,037
+562,213,FALSE,Norwalk,California,Los Angeles,06,037
+562,213,FALSE,Paramount,California,Los Angeles,06,037
+562,213,FALSE,Pico Rivera,California,Los Angeles,06,037
+562,213,FALSE,Seal Beach,California,Orange,06,059
+562,213,FALSE,South Whittier,California,Los Angeles,06,037
+562,213,FALSE,West Whittier-Los Nietos,California,Los Angeles,06,037
+562,213,FALSE,Whittier,California,Los Angeles,06,037
+563,319,FALSE,Bettendorf,Iowa,Scott,19,163
+563,319,FALSE,Clinton,Iowa,Clinton,19,045
+563,319,FALSE,Dubuque,Iowa,Dubuque,19,061
+563,319,FALSE,Muscatine,Iowa,Muscatine,19,139
+567,419,FALSE,Ashland,Ohio,Ashland,39,005
+567,419,FALSE,Bowling Green,Ohio,Wood,39,173
+567,419,FALSE,Findlay,Ohio,Hancock,39,063
+567,419,FALSE,Lima,Ohio,Allen,39,003
+567,419,FALSE,Mansfield,Ohio,Richland,39,139
+567,419,FALSE,Sandusky,Ohio,Erie,39,043
+567,419,FALSE,Toledo,Ohio,Lucas,39,095
+570,717,FALSE,Back Mountain,Pennsylvania,Luzerne,42,079
+570,717,FALSE,Hazleton,Pennsylvania,Luzerne,42,079
+570,717,FALSE,Scranton,Pennsylvania,Lackawanna,42,069
+570,717,FALSE,Wilkes-Barre,Pennsylvania,Luzerne,42,079
+570,717,FALSE,Williamsport,Pennsylvania,Lycoming,42,081
+571,703,FALSE,Alexandria,Virginia,Alexandria,51,510
+571,703,FALSE,Annandale,Virginia,Fairfax,51,059
+571,703,FALSE,Arlington,Virginia,Arlington,51,013
+571,703,FALSE,Burke,Virginia,Fairfax,51,059
+571,703,FALSE,Centreville,Virginia,Fairfax,51,059
+571,703,FALSE,Chantilly,Virginia,Fairfax,51,059
+571,703,FALSE,Dale City,Virginia,Prince William,51,153
+571,703,FALSE,Fairfax,Virginia,Fairfax,51,600
+571,703,FALSE,Franconia,Virginia,Fairfax,51,059
+571,703,FALSE,Groveton,Virginia,Fairfax,51,059
+571,703,FALSE,Herndon,Virginia,Fairfax,51,059
+571,703,FALSE,Lake Ridge,Virginia,Prince William,51,153
+571,703,FALSE,Leesburg,Virginia,Loudoun,51,107
+571,703,FALSE,Manassas,Virginia,Manassas,51,683
+571,703,FALSE,McLean,Virginia,Fairfax,51,059
+571,703,FALSE,Mount Vernon,Virginia,Fairfax,51,059
+571,703,FALSE,Oakton,Virginia,Fairfax,51,059
+571,703,FALSE,Reston,Virginia,Fairfax,51,059
+571,703,FALSE,West Springfield,Virginia,Fairfax,51,059
+573,314,FALSE,Cape Girardeau,Missouri,Cape Girardeau,29,031
+573,314,FALSE,Columbia,Missouri,Boone,29,019
+573,314,FALSE,Jefferson City,Missouri,Cole,29,051
+574,317,FALSE,Elkhart,Indiana,Elkhart,18,039
+574,317,FALSE,Goshen,Indiana,Elkhart,18,039
+574,317,FALSE,Granger,Indiana,St. Joseph,18,141
+574,317,FALSE,Mishawaka,Indiana,St. Joseph,18,141
+574,317,FALSE,South Bend,Indiana,St. Joseph,18,141
+575,505,FALSE,Alamogordo,New Mexico,Otero,35,035
+575,505,FALSE,Carlsbad,New Mexico,Eddy,35,015
+575,505,FALSE,Clovis,New Mexico,Curry,35,009
+575,505,FALSE,Hobbs,New Mexico,Lea,35,025
+575,505,FALSE,Las Cruces,New Mexico,Dona Ana,35,013
+575,505,FALSE,Roswell,New Mexico,Chaves,35,005
+580,405,FALSE,Altus,Oklahoma,Jackson,40,065
+580,405,FALSE,Ardmore,Oklahoma,Carter,40,019
+580,405,FALSE,Duncan,Oklahoma,Stephens,40,137
+580,405,FALSE,Enid,Oklahoma,Garfield,40,047
+580,405,FALSE,Lawton,Oklahoma,Comanche,40,031
+580,405,FALSE,Ponca City,Oklahoma,Kay,40,071
+585,716,FALSE,Brighton,New York,Monroe,36,055
+585,716,FALSE,Irondequoit,New York,Monroe,36,055
+585,716,FALSE,Rochester,New York,Monroe,36,055
+586,313,FALSE,Eastpointe,Michigan,Macomb,26,099
+586,313,FALSE,Roseville,Michigan,Macomb,26,099
+586,313,FALSE,Saint Clair Shores,Michigan,Macomb,26,099
+586,313,FALSE,Sterling Heights,Michigan,Macomb,26,099
+586,313,FALSE,Warren,Michigan,Macomb,26,099
+601,601,TRUE,Clinton,Mississippi,Hinds,28,049
+601,601,TRUE,West Hattiesburg,Mississippi,Lamar,28,073
+601,601,TRUE,Jackson,Mississippi,Hinds,28,049
+601,601,TRUE,Meridian,Mississippi,Lauderdale,28,075
+601,601,TRUE,Pearl,Mississippi,Rankin,28,121
+601,601,TRUE,Ridgeland,Mississippi,Madison,28,089
+601,601,TRUE,Vicksburg,Mississippi,Warren,28,149
+602,602,TRUE,Phoenix,Arizona,Maricopa,04,013
+603,603,TRUE,East Concord,New Hampshire,Merrimack,33,013
+603,603,TRUE,Derry,New Hampshire,Rockingham,33,015
+603,603,TRUE,Dover,New Hampshire,Strafford,33,017
+603,603,TRUE,Keene,New Hampshire,Cheshire,33,005
+603,603,TRUE,Manchester,New Hampshire,Hillsborough,33,011
+603,603,TRUE,Nashua,New Hampshire,Hillsborough,33,011
+603,603,TRUE,Portsmouth,New Hampshire,Rockingham,33,015
+603,603,TRUE,Rochester,New Hampshire,Strafford,33,017
+605,605,TRUE,Aberdeen,South Dakota,Brown,46,013
+605,605,TRUE,Pierre,South Dakota,Hughes,46,065
+605,605,TRUE,Rapid City,South Dakota,Pennington,46,103
+605,605,TRUE,Sioux Falls,South Dakota,Minnehaha,46,099
+605,605,TRUE,Watertown,South Dakota,Codington,46,029
+606,502,FALSE,Ashland,Kentucky,Boyd,21,019
+607,315,FALSE,Binghamton,New York,Broome,36,007
+607,315,FALSE,Elmira,New York,Chemung,36,015
+607,315,FALSE,Ithaca,New York,Tompkins,36,109
+608,715,FALSE,Beloit,Wisconsin,Rock,55,105
+608,715,FALSE,Fitchburg,Wisconsin,Dane,55,025
+608,715,FALSE,Janesville,Wisconsin,Rock,55,105
+608,715,FALSE,North La Crosse,Wisconsin,La Crosse,55,063
+608,715,FALSE,Madison,Wisconsin,Dane,55,025
+608,715,FALSE,Sun Prairie,Wisconsin,Dane,55,025
+609,201,FALSE,Atlantic City,New Jersey,Atlantic,34,001
+609,201,FALSE,Ewing,New Jersey,Mercer,34,021
+609,201,FALSE,Trenton,New Jersey,Mercer,34,021
+609,201,FALSE,Willingboro,New Jersey,Burlington,34,005
+610,215,FALSE,Allentown,Pennsylvania,Lehigh,42,077
+610,215,FALSE,Bethlehem,Pennsylvania,Northampton,42,095
+610,215,FALSE,West Chester,Pennsylvania,Chester,42,029
+610,215,FALSE,Drexel Hill,Pennsylvania,Delaware,42,045
+610,215,FALSE,Easton,Pennsylvania,Northampton,42,095
+610,215,FALSE,Norristown,Pennsylvania,Montgomery,42,091
+610,215,FALSE,Pottstown,Pennsylvania,Montgomery,42,091
+610,215,FALSE,Radnor,Pennsylvania,Delaware,42,045
+610,215,FALSE,Reading,Pennsylvania,Berks,42,011
+610,215,FALSE,Springfield,Pennsylvania,Delaware,42,045
+612,612,TRUE,Crystal,Minnesota,Hennepin,27,053
+612,612,TRUE,Golden Valley,Minnesota,Hennepin,27,053
+612,612,TRUE,Minneapolis,Minnesota,Hennepin,27,053
+612,612,TRUE,Richfield,Minnesota,Hennepin,27,053
+612,612,TRUE,Saint Louis Park,Minnesota,Hennepin,27,053
+614,614,TRUE,Columbus,Ohio,Franklin,39,049
+614,614,TRUE,Dublin,Ohio,Franklin,39,049
+614,614,TRUE,Gahanna,Ohio,Franklin,39,049
+614,614,TRUE,Grove City,Ohio,Franklin,39,049
+614,614,TRUE,Hilliard,Ohio,Franklin,39,049
+614,614,TRUE,Reynoldsburg,Ohio,Franklin,39,049
+614,614,TRUE,Upper Arlington,Ohio,Franklin,39,049
+614,614,TRUE,Westerville,Ohio,Franklin,39,049
+615,901,FALSE,Brentwood,Tennessee,Williamson,47,187
+615,901,FALSE,Franklin,Tennessee,Williamson,47,187
+615,901,FALSE,Gallatin,Tennessee,Sumner,47,165
+615,901,FALSE,Hendersonville,Tennessee,Sumner,47,165
+615,901,FALSE,Lebanon,Tennessee,Wilson,47,189
+615,901,FALSE,Murfreesboro,Tennessee,Rutherford,47,149
+615,901,FALSE,Nashville,Tennessee,Davidson,47,037
+615,901,FALSE,Smyrna,Tennessee,Rutherford,47,149
+616,616,TRUE,Forest Hills,Michigan,Kent,26,081
+616,616,TRUE,Grand Rapids,Michigan,Kent,26,081
+616,616,TRUE,Holland,Michigan,Ottawa,26,139
+616,616,TRUE,Kentwood,Michigan,Kent,26,081
+616,616,TRUE,Walker,Michigan,Kent,26,081
+616,616,TRUE,Wyoming,Michigan,Kent,26,081
+617,617,TRUE,Belmont,Massachusetts,Middlesex,25,017
+617,617,TRUE,South Boston,Massachusetts,Suffolk,25,025
+617,617,TRUE,Brookline,Massachusetts,Norfolk,25,021
+617,617,TRUE,Cambridge,Massachusetts,Middlesex,25,017
+617,617,TRUE,Chelsea,Massachusetts,Suffolk,25,025
+617,617,TRUE,Everett,Massachusetts,Middlesex,25,017
+617,617,TRUE,Milton,Massachusetts,Norfolk,25,021
+617,617,TRUE,Newton,Massachusetts,Middlesex,25,017
+617,617,TRUE,Quincy,Massachusetts,Norfolk,25,021
+617,617,TRUE,Somerville,Massachusetts,Middlesex,25,017
+617,617,TRUE,Watertown,Massachusetts,Middlesex,25,017
+618,618,TRUE,East Alton,Illinois,Madison,17,119
+618,618,TRUE,Belleville,Illinois,St. Clair,17,163
+618,618,TRUE,Carbondale,Illinois,Jackson,17,077
+618,618,TRUE,Collinsville,Illinois,Madison,17,119
+618,618,TRUE,East Saint Louis,Illinois,St. Clair,17,163
+618,618,TRUE,Edwardsville,Illinois,Madison,17,119
+618,618,TRUE,Granite City,Illinois,Madison,17,119
+618,618,TRUE,O'Fallon,Illinois,St. Clair,17,163
+619,213,FALSE,Chula Vista,California,San Diego,06,073
+619,213,FALSE,Coronado,California,San Diego,06,073
+619,213,FALSE,El Cajon,California,San Diego,06,073
+619,213,FALSE,Imperial Beach,California,San Diego,06,073
+619,213,FALSE,La Mesa,California,San Diego,06,073
+619,213,FALSE,La Presa,California,San Diego,06,073
+619,213,FALSE,Lemon Grove,California,San Diego,06,073
+619,213,FALSE,National City,California,San Diego,06,073
+619,213,FALSE,Rancho San Diego,California,San Diego,06,073
+619,213,FALSE,San Diego,California,San Diego,06,073
+619,213,FALSE,Santee,California,San Diego,06,073
+619,213,FALSE,Spring Valley,California,San Diego,06,073
+620,316,FALSE,Dodge City,Kansas,Ford,20,057
+620,316,FALSE,Garden City,Kansas,Finney,20,055
+620,316,FALSE,Hutchinson,Kansas,Reno,20,155
+623,602,FALSE,Avondale,Arizona,Maricopa,04,013
+623,602,FALSE,Glendale,Arizona,Maricopa,04,013
+623,602,FALSE,Peoria,Arizona,Maricopa,04,013
+623,602,FALSE,Sun City West,Arizona,Maricopa,04,013
+623,602,FALSE,Surprise,Arizona,Maricopa,04,013
+626,213,FALSE,Alhambra,California,Los Angeles,06,037
+626,213,FALSE,Altadena,California,Los Angeles,06,037
+626,213,FALSE,Arcadia,California,Los Angeles,06,037
+626,213,FALSE,Azusa,California,Los Angeles,06,037
+626,213,FALSE,Baldwin Park,California,Los Angeles,06,037
+626,213,FALSE,West Covina,California,Los Angeles,06,037
+626,213,FALSE,Duarte,California,Los Angeles,06,037
+626,213,FALSE,South El Monte,California,Los Angeles,06,037
+626,213,FALSE,Glendora,California,Los Angeles,06,037
+626,213,FALSE,Hacienda Heights,California,Los Angeles,06,037
+626,213,FALSE,La Puente,California,Los Angeles,06,037
+626,213,FALSE,Monrovia,California,Los Angeles,06,037
+626,213,FALSE,Monterey Park,California,Los Angeles,06,037
+626,213,FALSE,South Pasadena,California,Los Angeles,06,037
+626,213,FALSE,Rosemead,California,Los Angeles,06,037
+626,213,FALSE,Rowland Heights,California,Los Angeles,06,037
+626,213,FALSE,South San Gabriel,California,Los Angeles,06,037
+626,213,FALSE,South San Jose Hills,California,Los Angeles,06,037
+626,213,FALSE,Temple City,California,Los Angeles,06,037
+626,213,FALSE,Valinda,California,Los Angeles,06,037
+626,213,FALSE,Walnut,California,Los Angeles,06,037
+626,213,FALSE,West Puente Valley,California,Los Angeles,06,037
+628,415,FALSE,Novato,California,Marin,06,041
+628,415,FALSE,San Anselmo,California,Marin,06,041
+628,415,FALSE,South San Francisco,California,San Mateo,06,081
+628,415,FALSE,San Rafael,California,Marin,06,041
+629,901,FALSE,Brentwood,Tennessee,Williamson,47,187
+629,901,FALSE,Franklin,Tennessee,Williamson,47,187
+629,901,FALSE,Gallatin,Tennessee,Sumner,47,165
+629,901,FALSE,Hendersonville,Tennessee,Sumner,47,165
+629,901,FALSE,Lebanon,Tennessee,Wilson,47,189
+629,901,FALSE,Murfreesboro,Tennessee,Rutherford,47,149
+629,901,FALSE,Nashville,Tennessee,Davidson,47,037
+629,901,FALSE,Smyrna,Tennessee,Rutherford,47,149
+630,312,FALSE,Addison,Illinois,DuPage,17,043
+630,312,FALSE,North Aurora,Illinois,Kane,17,089
+630,312,FALSE,Bartlett,Illinois,Cook,17,031
+630,312,FALSE,Batavia,Illinois,Kane,17,089
+630,312,FALSE,Bensenville,Illinois,DuPage,17,043
+630,312,FALSE,Bloomingdale,Illinois,DuPage,17,043
+630,312,FALSE,Carol Stream,Illinois,DuPage,17,043
+630,312,FALSE,Darien,Illinois,DuPage,17,043
+630,312,FALSE,Downers Grove,Illinois,DuPage,17,043
+630,312,FALSE,Elmhurst,Illinois,DuPage,17,043
+630,312,FALSE,Glen Ellyn,Illinois,DuPage,17,043
+630,312,FALSE,Glendale Heights,Illinois,DuPage,17,043
+630,312,FALSE,Hanover Park,Illinois,Cook,17,031
+630,312,FALSE,Lisle,Illinois,DuPage,17,043
+630,312,FALSE,Lombard,Illinois,DuPage,17,043
+630,312,FALSE,Naperville,Illinois,DuPage,17,043
+630,312,FALSE,Roselle,Illinois,DuPage,17,043
+630,312,FALSE,Saint Charles,Illinois,Kane,17,089
+630,312,FALSE,Streamwood,Illinois,Cook,17,031
+630,312,FALSE,Villa Park,Illinois,DuPage,17,043
+630,312,FALSE,West Chicago,Illinois,DuPage,17,043
+630,312,FALSE,Westmont,Illinois,DuPage,17,043
+630,312,FALSE,Wheaton,Illinois,DuPage,17,043
+630,312,FALSE,Woodridge,Illinois,DuPage,17,043
+631,914,FALSE,North Bay Shore,New York,Suffolk,36,103
+631,914,FALSE,Brentwood,New York,Suffolk,36,103
+631,914,FALSE,Centereach,New York,Suffolk,36,103
+631,914,FALSE,Central Islip,New York,Suffolk,36,103
+631,914,FALSE,Commack,New York,Suffolk,36,103
+631,914,FALSE,Copiague,New York,Suffolk,36,103
+631,914,FALSE,Coram,New York,Suffolk,36,103
+631,914,FALSE,Deer Park,New York,Suffolk,36,103
+631,914,FALSE,Dix Hills,New York,Suffolk,36,103
+631,914,FALSE,East Northport,New York,Suffolk,36,103
+631,914,FALSE,East Patchogue,New York,Suffolk,36,103
+631,914,FALSE,Hauppauge,New York,Suffolk,36,103
+631,914,FALSE,Holbrook,New York,Suffolk,36,103
+631,914,FALSE,Huntington Station,New York,Suffolk,36,103
+631,914,FALSE,West Islip,New York,Suffolk,36,103
+631,914,FALSE,North Lindenhurst,New York,Suffolk,36,103
+631,914,FALSE,Medford,New York,Suffolk,36,103
+631,914,FALSE,Ronkonkoma,New York,Suffolk,36,103
+631,914,FALSE,Selden,New York,Suffolk,36,103
+631,914,FALSE,Shirley,New York,Suffolk,36,103
+631,914,FALSE,Smithtown,New York,Suffolk,36,103
+631,914,FALSE,West Babylon,New York,Suffolk,36,103
+636,314,FALSE,Ballwin,Missouri,St. Louis,29,189
+636,314,FALSE,Chesterfield,Missouri,St. Louis,29,189
+636,314,FALSE,Saint Charles,Missouri,St. Charles,29,183
+636,314,FALSE,Saint Peters,Missouri,St. Charles,29,183
+636,314,FALSE,Wildwood,Missouri,St. Louis,29,189
+641,515,FALSE,Marshalltown,Iowa,Marshall,19,127
+641,515,FALSE,Mason City,Iowa,Cerro Gordo,19,033
+641,515,FALSE,Ottumwa,Iowa,Wapello,19,179
+646,212,FALSE,New York City,New York,New York,36,061
+650,415,FALSE,Belmont,California,San Mateo,06,081
+650,415,FALSE,Burlingame,California,San Mateo,06,081
+650,415,FALSE,Daly City,California,San Mateo,06,081
+650,415,FALSE,East Palo Alto,California,San Mateo,06,081
+650,415,FALSE,Foster City,California,San Mateo,06,081
+650,415,FALSE,Los Altos,California,Santa Clara,06,085
+650,415,FALSE,Menlo Park,California,San Mateo,06,081
+650,415,FALSE,Millbrae,California,San Mateo,06,081
+650,415,FALSE,Mountain View,California,Santa Clara,06,085
+650,415,FALSE,Pacifica,California,San Mateo,06,081
+650,415,FALSE,Palo Alto,California,Santa Clara,06,085
+650,415,FALSE,Redwood City,California,San Mateo,06,081
+650,415,FALSE,San Bruno,California,San Mateo,06,081
+650,415,FALSE,San Carlos,California,San Mateo,06,081
+650,415,FALSE,San Mateo,California,San Mateo,06,081
+650,415,FALSE,South San Francisco,California,San Mateo,06,081
+651,612,FALSE,Apple Valley,Minnesota,Dakota,27,037
+651,612,FALSE,Cottage Grove,Minnesota,Washington,27,163
+651,612,FALSE,Eagan,Minnesota,Dakota,27,037
+651,612,FALSE,Inver Grove Heights,Minnesota,Dakota,27,037
+651,612,FALSE,Lakeville,Minnesota,Dakota,27,037
+651,612,FALSE,Maplewood,Minnesota,Ramsey,27,123
+651,612,FALSE,New Brighton,Minnesota,Ramsey,27,123
+651,612,FALSE,Oakdale,Minnesota,Washington,27,163
+651,612,FALSE,Roseville,Minnesota,Ramsey,27,123
+651,612,FALSE,Shoreview,Minnesota,Ramsey,27,123
+651,612,FALSE,South Saint Paul,Minnesota,Dakota,27,037
+651,612,FALSE,Saint Paul,Minnesota,Ramsey,27,123
+651,612,FALSE,White Bear Lake,Minnesota,Ramsey,27,123
+651,612,FALSE,Woodbury,Minnesota,Washington,27,163
+657,213,FALSE,Anaheim,California,Orange,06,059
+657,213,FALSE,Brea,California,Orange,06,059
+657,213,FALSE,Buena Park,California,Orange,06,059
+657,213,FALSE,Cypress,California,Orange,06,059
+657,213,FALSE,Fountain Valley,California,Orange,06,059
+657,213,FALSE,Fullerton,California,Orange,06,059
+657,213,FALSE,Garden Grove,California,Orange,06,059
+657,213,FALSE,Huntington Beach,California,Orange,06,059
+657,213,FALSE,Orange,California,Orange,06,059
+657,213,FALSE,Placentia,California,Orange,06,059
+657,213,FALSE,Santa Ana,California,Orange,06,059
+657,213,FALSE,Stanton,California,Orange,06,059
+657,213,FALSE,North Tustin,California,Orange,06,059
+657,213,FALSE,Westminster,California,Orange,06,059
+657,213,FALSE,Yorba Linda,California,Orange,06,059
+660,816,FALSE,Sedalia,Missouri,Pettis,29,159
+661,213,FALSE,Bakersfield,California,Kern,06,029
+661,213,FALSE,Delano,California,Kern,06,029
+661,213,FALSE,Lancaster,California,Los Angeles,06,037
+661,213,FALSE,Oildale,California,Kern,06,029
+661,213,FALSE,Palmdale,California,Los Angeles,06,037
+661,213,FALSE,Santa Clarita,California,Los Angeles,06,037
+661,213,FALSE,Wasco,California,Kern,06,029
+662,601,FALSE,Clarksdale,Mississippi,Coahoma,28,027
+662,601,FALSE,Columbus,Mississippi,Lowndes,28,087
+662,601,FALSE,Greenville,Mississippi,Washington,28,151
+662,601,FALSE,Olive Branch,Mississippi,DeSoto,28,033
+662,601,FALSE,Southaven,Mississippi,DeSoto,28,033
+662,601,FALSE,Starkville,Mississippi,Oktibbeha,28,105
+662,601,FALSE,Tupelo,Mississippi,Lee,28,081
+667,301,FALSE,Annapolis,Maryland,Anne Arundel,24,003
+667,301,FALSE,Arbutus,Maryland,Baltimore,24,005
+667,301,FALSE,Arnold,Maryland,Anne Arundel,24,003
+667,301,FALSE,Baltimore,Maryland,Baltimore,24,510
+667,301,FALSE,Bel Air North,Maryland,Harford,24,025
+667,301,FALSE,Bel Air South,Maryland,Harford,24,025
+667,301,FALSE,Carney,Maryland,Baltimore,24,005
+667,301,FALSE,Catonsville,Maryland,Baltimore,24,005
+667,301,FALSE,Columbia,Maryland,Howard,24,027
+667,301,FALSE,Crofton,Maryland,Anne Arundel,24,003
+667,301,FALSE,Dundalk,Maryland,Baltimore,24,005
+667,301,FALSE,Edgewood,Maryland,Harford,24,025
+667,301,FALSE,Eldersburg,Maryland,Carroll,24,013
+667,301,FALSE,West Elkridge,Maryland,Howard,24,027
+667,301,FALSE,Ellicott City,Maryland,Howard,24,027
+667,301,FALSE,Essex,Maryland,Baltimore,24,005
+667,301,FALSE,Glen Burnie,Maryland,Anne Arundel,24,003
+667,301,FALSE,Lochearn,Maryland,Baltimore,24,005
+667,301,FALSE,Middle River,Maryland,Baltimore,24,005
+667,301,FALSE,Milford Mill,Maryland,Baltimore,24,005
+667,301,FALSE,Odenton,Maryland,Anne Arundel,24,003
+667,301,FALSE,Parkville,Maryland,Baltimore,24,005
+667,301,FALSE,Perry Hall,Maryland,Baltimore,24,005
+667,301,FALSE,Pikesville,Maryland,Baltimore,24,005
+667,301,FALSE,Randallstown,Maryland,Baltimore,24,005
+667,301,FALSE,Reisterstown,Maryland,Baltimore,24,005
+667,301,FALSE,Salisbury,Maryland,Wicomico,24,045
+667,301,FALSE,Severn,Maryland,Anne Arundel,24,003
+667,301,FALSE,Severna Park,Maryland,Anne Arundel,24,003
+667,301,FALSE,South Gate,Maryland,Anne Arundel,24,003
+667,301,FALSE,Towson,Maryland,Baltimore,24,005
+669,415,FALSE,Campbell,California,Santa Clara,06,085
+669,415,FALSE,Gilroy,California,Santa Clara,06,085
+669,415,FALSE,Los Gatos,California,Santa Clara,06,085
+669,415,FALSE,Milpitas,California,Santa Clara,06,085
+669,415,FALSE,Morgan Hill,California,Santa Clara,06,085
+669,415,FALSE,San Jose,California,Santa Clara,06,085
+669,415,FALSE,Santa Clara,California,Santa Clara,06,085
+669,415,FALSE,Saratoga,California,Santa Clara,06,085
+669,415,FALSE,Sunnyvale,California,Santa Clara,06,085
+678,404,FALSE,Alpharetta,Georgia,Fulton,13,121
+678,404,FALSE,Atlanta,Georgia,Fulton,13,121
+678,404,FALSE,Candler-McAfee,Georgia,DeKalb,13,089
+678,404,FALSE,College Park,Georgia,Fulton,13,121
+678,404,FALSE,Douglasville,Georgia,Douglas,13,097
+678,404,FALSE,Duluth,Georgia,Gwinnett,13,135
+678,404,FALSE,Dunwoody,Georgia,DeKalb,13,089
+678,404,FALSE,East Point,Georgia,Fulton,13,121
+678,404,FALSE,Forest Park,Georgia,Clayton,13,063
+678,404,FALSE,Gainesville,Georgia,Hall,13,139
+678,404,FALSE,Griffin,Georgia,Spalding,13,255
+678,404,FALSE,Kennesaw,Georgia,Cobb,13,067
+678,404,FALSE,Lawrenceville,Georgia,Gwinnett,13,135
+678,404,FALSE,Mableton,Georgia,Cobb,13,067
+678,404,FALSE,Marietta,Georgia,Cobb,13,067
+678,404,FALSE,Peachtree City,Georgia,Fayette,13,113
+678,404,FALSE,Redan,Georgia,DeKalb,13,089
+678,404,FALSE,Roswell,Georgia,Fulton,13,121
+678,404,FALSE,Sandy Springs,Georgia,Fulton,13,121
+678,404,FALSE,Smyrna,Georgia,Cobb,13,067
+678,404,FALSE,Tucker,Georgia,DeKalb,13,089
+681,304,FALSE,South Charleston,West Virginia,Kanawha,54,039
+681,304,FALSE,Huntington,West Virginia,Cabell,54,011
+681,304,FALSE,Morgantown,West Virginia,Monongalia,54,061
+681,304,FALSE,Parkersburg,West Virginia,Wood,54,107
+681,304,FALSE,Weirton,West Virginia,Hancock,54,029
+681,304,FALSE,Wheeling,West Virginia,Ohio,54,069
+682,214,FALSE,Arlington,Texas,Tarrant,48,439
+682,214,FALSE,Bedford,Texas,Tarrant,48,439
+682,214,FALSE,Benbrook,Texas,Tarrant,48,439
+682,214,FALSE,Burleson,Texas,Johnson,48,251
+682,214,FALSE,Cleburne,Texas,Johnson,48,251
+682,214,FALSE,Euless,Texas,Tarrant,48,439
+682,214,FALSE,Fort Worth,Texas,Tarrant,48,439
+682,214,FALSE,Grapevine,Texas,Tarrant,48,439
+682,214,FALSE,Haltom City,Texas,Tarrant,48,439
+682,214,FALSE,Hurst,Texas,Tarrant,48,439
+682,214,FALSE,Keller,Texas,Tarrant,48,439
+682,214,FALSE,Mansfield,Texas,Tarrant,48,439
+682,214,FALSE,North Richland Hills,Texas,Tarrant,48,439
+682,214,FALSE,Southlake,Texas,Tarrant,48,439
+682,214,FALSE,Watauga,Texas,Tarrant,48,439
+701,701,TRUE,Bismarck,North Dakota,Burleigh,38,015
+701,701,TRUE,West Fargo,North Dakota,Cass,38,017
+701,701,TRUE,Grand Forks,North Dakota,Grand Forks,38,035
+701,701,TRUE,Minot,North Dakota,Ward,38,101
+702,702,TRUE,Henderson,Nevada,Clark,32,003
+702,702,TRUE,North Las Vegas,Nevada,Clark,32,003
+702,702,TRUE,Paradise,Nevada,Clark,32,003
+702,702,TRUE,Spring Valley,Nevada,Clark,32,003
+702,702,TRUE,Sunrise Manor,Nevada,Clark,32,003
+702,702,TRUE,Winchester,Nevada,Clark,32,003
+703,703,TRUE,Alexandria,Virginia,Alexandria,51,510
+703,703,TRUE,Annandale,Virginia,Fairfax,51,059
+703,703,TRUE,Arlington,Virginia,Arlington,51,013
+703,703,TRUE,Burke,Virginia,Fairfax,51,059
+703,703,TRUE,Centreville,Virginia,Fairfax,51,059
+703,703,TRUE,Chantilly,Virginia,Fairfax,51,059
+703,703,TRUE,Dale City,Virginia,Prince William,51,153
+703,703,TRUE,Fairfax,Virginia,Fairfax,51,600
+703,703,TRUE,Franconia,Virginia,Fairfax,51,059
+703,703,TRUE,Groveton,Virginia,Fairfax,51,059
+703,703,TRUE,Herndon,Virginia,Fairfax,51,059
+703,703,TRUE,Lake Ridge,Virginia,Prince William,51,153
+703,703,TRUE,Leesburg,Virginia,Loudoun,51,107
+703,703,TRUE,Manassas,Virginia,Manassas,51,683
+703,703,TRUE,McLean,Virginia,Fairfax,51,059
+703,703,TRUE,Mount Vernon,Virginia,Fairfax,51,059
+703,703,TRUE,Oakton,Virginia,Fairfax,51,059
+703,703,TRUE,Reston,Virginia,Fairfax,51,059
+703,703,TRUE,West Springfield,Virginia,Fairfax,51,059
+704,704,TRUE,Charlotte,North Carolina,Mecklenburg,37,119
+704,704,TRUE,Concord,North Carolina,Cabarrus,37,025
+704,704,TRUE,South Gastonia,North Carolina,Gaston,37,071
+704,704,TRUE,Huntersville,North Carolina,Mecklenburg,37,119
+704,704,TRUE,Kannapolis,North Carolina,Cabarrus,37,025
+704,704,TRUE,Matthews,North Carolina,Mecklenburg,37,119
+704,704,TRUE,Monroe,North Carolina,Union,37,179
+704,704,TRUE,Salisbury,North Carolina,Rowan,37,159
+704,704,TRUE,Statesville,North Carolina,Iredell,37,097
+706,404,FALSE,Athens,Georgia,Clarke,13,059
+706,404,FALSE,Augusta,Georgia,Richmond,13,245
+706,404,FALSE,Columbus,Georgia,Muscogee,13,215
+706,404,FALSE,Dalton,Georgia,Whitfield,13,313
+706,404,FALSE,La Grange,Georgia,Troup,13,285
+706,404,FALSE,Martinez,Georgia,Columbia,13,073
+706,404,FALSE,Rome,Georgia,Floyd,13,115
+707,415,FALSE,Benicia,California,Solano,06,095
+707,415,FALSE,Eureka,California,Humboldt,06,023
+707,415,FALSE,Fairfield,California,Solano,06,095
+707,415,FALSE,Napa,California,Napa,06,055
+707,415,FALSE,Petaluma,California,Sonoma,06,097
+707,415,FALSE,Rohnert Park,California,Sonoma,06,097
+707,415,FALSE,Santa Rosa,California,Sonoma,06,097
+707,415,FALSE,Suisun,California,Solano,06,095
+707,415,FALSE,Vacaville,California,Solano,06,095
+707,415,FALSE,Vallejo,California,Solano,06,095
+707,415,FALSE,Windsor,California,Sonoma,06,097
+708,312,FALSE,Bellwood,Illinois,Cook,17,031
+708,312,FALSE,Berwyn,Illinois,Cook,17,031
+708,312,FALSE,Blue Island,Illinois,Cook,17,031
+708,312,FALSE,Burbank,Illinois,Cook,17,031
+708,312,FALSE,Calumet City,Illinois,Cook,17,031
+708,312,FALSE,Chicago Heights,Illinois,Cook,17,031
+708,312,FALSE,Cicero,Illinois,Cook,17,031
+708,312,FALSE,Dolton,Illinois,Cook,17,031
+708,312,FALSE,Elmwood Park,Illinois,Cook,17,031
+708,312,FALSE,Evergreen Park,Illinois,Cook,17,031
+708,312,FALSE,Harvey,Illinois,Cook,17,031
+708,312,FALSE,Lansing,Illinois,Cook,17,031
+708,312,FALSE,Maywood,Illinois,Cook,17,031
+708,312,FALSE,Melrose Park,Illinois,Cook,17,031
+708,312,FALSE,Oak Forest,Illinois,Cook,17,031
+708,312,FALSE,Oak Lawn,Illinois,Cook,17,031
+708,312,FALSE,Oak Park,Illinois,Cook,17,031
+708,312,FALSE,Orland Park,Illinois,Cook,17,031
+708,312,FALSE,Park Forest,Illinois,Cook,17,031
+708,312,FALSE,South Holland,Illinois,Cook,17,031
+708,312,FALSE,Tinley Park,Illinois,Cook,17,031
+712,712,TRUE,Council Bluffs,Iowa,Pottawattamie,19,155
+712,712,TRUE,Sioux City,Iowa,Woodbury,19,193
+713,713,TRUE,Alvin,Texas,Brazoria,48,039
+713,713,TRUE,Atascocita,Texas,Harris,48,201
+713,713,TRUE,Baytown,Texas,Harris,48,201
+713,713,TRUE,Channelview,Texas,Harris,48,201
+713,713,TRUE,Cloverleaf,Texas,Harris,48,201
+713,713,TRUE,Deer Park,Texas,Harris,48,201
+713,713,TRUE,Friendswood,Texas,Galveston,48,167
+713,713,TRUE,South Houston,Texas,Harris,48,201
+713,713,TRUE,La Porte,Texas,Harris,48,201
+713,713,TRUE,League City,Texas,Galveston,48,167
+713,713,TRUE,Mission Bend,Texas,Fort Bend,48,157
+713,713,TRUE,Missouri City,Texas,Fort Bend,48,157
+713,713,TRUE,Pasadena,Texas,Harris,48,201
+713,713,TRUE,Pearland,Texas,Brazoria,48,039
+713,713,TRUE,Rosenberg,Texas,Fort Bend,48,157
+713,713,TRUE,Spring,Texas,Harris,48,201
+713,713,TRUE,Sugar Land,Texas,Fort Bend,48,157
+713,713,TRUE,The Woodlands,Texas,Montgomery,48,339
+714,213,FALSE,Anaheim,California,Orange,06,059
+714,213,FALSE,Brea,California,Orange,06,059
+714,213,FALSE,Buena Park,California,Orange,06,059
+714,213,FALSE,Cypress,California,Orange,06,059
+714,213,FALSE,Fountain Valley,California,Orange,06,059
+714,213,FALSE,Fullerton,California,Orange,06,059
+714,213,FALSE,Garden Grove,California,Orange,06,059
+714,213,FALSE,Huntington Beach,California,Orange,06,059
+714,213,FALSE,Orange,California,Orange,06,059
+714,213,FALSE,Placentia,California,Orange,06,059
+714,213,FALSE,Santa Ana,California,Orange,06,059
+714,213,FALSE,Stanton,California,Orange,06,059
+714,213,FALSE,North Tustin,California,Orange,06,059
+714,213,FALSE,Westminster,California,Orange,06,059
+714,213,FALSE,Yorba Linda,California,Orange,06,059
+715,715,TRUE,Eau Claire,Wisconsin,Eau Claire,55,035
+715,715,TRUE,Stevens Point,Wisconsin,Portage,55,097
+715,715,TRUE,Superior,Wisconsin,Douglas,55,031
+715,715,TRUE,Wausau,Wisconsin,Marathon,55,073
+716,716,TRUE,Buffalo,New York,Erie,36,029
+716,716,TRUE,Cheektowaga,New York,Erie,36,029
+716,716,TRUE,Jamestown,New York,Chautauqua,36,013
+716,716,TRUE,South Lockport,New York,Niagara,36,063
+716,716,TRUE,Niagara Falls,New York,Niagara,36,063
+716,716,TRUE,North Tonawanda,New York,Niagara,36,063
+716,716,TRUE,Tonawanda,New York,Erie,36,029
+716,716,TRUE,West Seneca,New York,Erie,36,029
+717,717,TRUE,Harrisburg,Pennsylvania,Dauphin,42,043
+717,717,TRUE,Lancaster,Pennsylvania,Lancaster,42,071
+717,717,TRUE,Lebanon,Pennsylvania,Lebanon,42,075
+717,717,TRUE,York,Pennsylvania,York,42,133
+718,212,FALSE,The Bronx,New York,Bronx,36,005
+718,212,FALSE,Brooklyn,New York,Kings,36,047
+718,212,FALSE,New York City,New York,New York,36,061
+718,212,FALSE,Borough of Queens,New York,Queens,36,081
+718,212,FALSE,Staten Island,New York,Richmond,36,085
+719,303,FALSE,Colorado Springs,Colorado,El Paso,08,041
+719,303,FALSE,Pueblo West,Colorado,Pueblo,08,101
+719,303,FALSE,Security-Widefield,Colorado,El Paso,08,041
+720,303,FALSE,Arvada,Colorado,Jefferson,08,059
+720,303,FALSE,Aurora,Colorado,Arapahoe,08,005
+720,303,FALSE,Boulder,Colorado,Boulder,08,013
+720,303,FALSE,Brighton,Colorado,Adams,08,001
+720,303,FALSE,Broomfield,Colorado,Boulder,08,013
+720,303,FALSE,Castle Rock,Colorado,Douglas,08,035
+720,303,FALSE,Castlewood,Colorado,Arapahoe,08,005
+720,303,FALSE,Columbine,Colorado,Jefferson,08,059
+720,303,FALSE,Commerce City,Colorado,Adams,08,001
+720,303,FALSE,Denver,Colorado,Denver,08,031
+720,303,FALSE,Englewood,Colorado,Arapahoe,08,005
+720,303,FALSE,Highlands Ranch,Colorado,Douglas,08,035
+720,303,FALSE,Ken Caryl,Colorado,Jefferson,08,059
+720,303,FALSE,Lafayette,Colorado,Boulder,08,013
+720,303,FALSE,Lakewood,Colorado,Jefferson,08,059
+720,303,FALSE,Littleton,Colorado,Arapahoe,08,005
+720,303,FALSE,Longmont,Colorado,Boulder,08,013
+720,303,FALSE,Loveland,Colorado,Larimer,08,069
+720,303,FALSE,Northglenn,Colorado,Adams,08,001
+720,303,FALSE,Parker,Colorado,Douglas,08,035
+720,303,FALSE,Southglenn,Colorado,Arapahoe,08,005
+720,303,FALSE,Thornton,Colorado,Adams,08,001
+720,303,FALSE,Westminster,Colorado,Adams,08,001
+720,303,FALSE,Wheat Ridge,Colorado,Jefferson,08,059
+724,412,FALSE,Monroeville,Pennsylvania,Allegheny,42,003
+724,412,FALSE,New Castle,Pennsylvania,Lawrence,42,073
+724,412,FALSE,Plum,Pennsylvania,Allegheny,42,003
+724,412,FALSE,Upper Saint Clair,Pennsylvania,Allegheny,42,003
+725,702,FALSE,Henderson,Nevada,Clark,32,003
+725,702,FALSE,North Las Vegas,Nevada,Clark,32,003
+725,702,FALSE,Paradise,Nevada,Clark,32,003
+725,702,FALSE,Spring Valley,Nevada,Clark,32,003
+725,702,FALSE,Sunrise Manor,Nevada,Clark,32,003
+725,702,FALSE,Winchester,Nevada,Clark,32,003
+727,305,FALSE,Bayonet Point,Florida,Pasco,12,101
+727,305,FALSE,Clearwater,Florida,Pinellas,12,103
+727,305,FALSE,Dunedin,Florida,Pinellas,12,103
+727,305,FALSE,Holiday,Florida,Pasco,12,101
+727,305,FALSE,Largo,Florida,Pinellas,12,103
+727,305,FALSE,Lealman,Florida,Pinellas,12,103
+727,305,FALSE,Palm Harbor,Florida,Pinellas,12,103
+727,305,FALSE,Pinellas Park,Florida,Pinellas,12,103
+727,305,FALSE,Saint Petersburg,Florida,Pinellas,12,103
+727,305,FALSE,Tarpon Springs,Florida,Pinellas,12,103
+731,901,FALSE,Jackson,Tennessee,Madison,47,113
+732,201,FALSE,Carteret,New Jersey,Middlesex,34,023
+732,201,FALSE,East Brunswick,New Jersey,Middlesex,34,023
+732,201,FALSE,Edison,New Jersey,Middlesex,34,023
+732,201,FALSE,Lakewood,New Jersey,Ocean,34,029
+732,201,FALSE,West Long Branch,New Jersey,Monmouth,34,025
+732,201,FALSE,New Brunswick,New Jersey,Middlesex,34,023
+732,201,FALSE,North Plainfield,New Jersey,Somerset,34,035
+732,201,FALSE,South Old Bridge,New Jersey,Middlesex,34,023
+732,201,FALSE,Perth Amboy,New Jersey,Middlesex,34,023
+732,201,FALSE,Rahway,New Jersey,Union,34,039
+732,201,FALSE,Sayreville,New Jersey,Middlesex,34,023
+732,201,FALSE,Somerset,New Jersey,Somerset,34,035
+732,201,FALSE,Toms River,New Jersey,Ocean,34,029
+734,313,FALSE,Ann Arbor,Michigan,Washtenaw,26,161
+734,313,FALSE,Canton,Michigan,Wayne,26,163
+734,313,FALSE,Garden City,Michigan,Wayne,26,163
+734,313,FALSE,Livonia,Michigan,Wayne,26,163
+734,313,FALSE,South Monroe,Michigan,Monroe,26,115
+734,313,FALSE,Plymouth,Michigan,Wayne,26,163
+734,313,FALSE,Romulus,Michigan,Wayne,26,163
+734,313,FALSE,Southgate,Michigan,Wayne,26,163
+734,313,FALSE,Westland,Michigan,Wayne,26,163
+734,313,FALSE,Wyandotte,Michigan,Wayne,26,163
+734,313,FALSE,Ypsilanti,Michigan,Washtenaw,26,161
+737,512,FALSE,Austin,Texas,Travis,48,453
+737,512,FALSE,Cedar Park,Texas,Williamson,48,491
+737,512,FALSE,Georgetown,Texas,Williamson,48,491
+737,512,FALSE,Round Rock,Texas,Williamson,48,491
+737,512,FALSE,San Marcos,Texas,Hays,48,209
+740,614,FALSE,Athens,Ohio,Athens,39,009
+740,614,FALSE,Chillicothe,Ohio,Ross,39,141
+740,614,FALSE,Delaware,Ohio,Delaware,39,041
+740,614,FALSE,Lancaster,Ohio,Fairfield,39,045
+740,614,FALSE,Marion,Ohio,Marion,39,101
+740,614,FALSE,Newark,Ohio,Licking,39,089
+740,614,FALSE,Portsmouth,Ohio,Scioto,39,145
+740,614,FALSE,Zanesville,Ohio,Muskingum,39,119
+743,704,FALSE,Asheboro,North Carolina,Randolph,37,151
+743,704,FALSE,Burlington,North Carolina,Alamance,37,001
+743,704,FALSE,Greensboro,North Carolina,Guilford,37,081
+743,704,FALSE,High Point,North Carolina,Guilford,37,081
+743,704,FALSE,Winston-Salem,North Carolina,Forsyth,37,067
+747,213,FALSE,Agoura Hills,California,Los Angeles,06,037
+747,213,FALSE,Burbank,California,Los Angeles,06,037
+747,213,FALSE,Calabasas,California,Los Angeles,06,037
+747,213,FALSE,North Glendale,California,Los Angeles,06,037
+747,213,FALSE,La Cañada Flintridge,California,Los Angeles,06,037
+747,213,FALSE,San Fernando,California,Los Angeles,06,037
+754,305,FALSE,Coconut Creek,Florida,Broward,12,011
+754,305,FALSE,Cooper City,Florida,Broward,12,011
+754,305,FALSE,Coral Springs,Florida,Broward,12,011
+754,305,FALSE,Dania Beach,Florida,Broward,12,011
+754,305,FALSE,Davie,Florida,Broward,12,011
+754,305,FALSE,Deerfield Beach,Florida,Broward,12,011
+754,305,FALSE,Fort Lauderdale,Florida,Broward,12,011
+754,305,FALSE,Hallandale Beach,Florida,Broward,12,011
+754,305,FALSE,Hollywood,Florida,Broward,12,011
+754,305,FALSE,Lauderdale Lakes,Florida,Broward,12,011
+754,305,FALSE,Lauderhill,Florida,Broward,12,011
+754,305,FALSE,Margate,Florida,Broward,12,011
+754,305,FALSE,North Lauderdale,Florida,Broward,12,011
+754,305,FALSE,Pembroke Pines,Florida,Broward,12,011
+754,305,FALSE,Plantation,Florida,Broward,12,011
+754,305,FALSE,Pompano Beach,Florida,Broward,12,011
+754,305,FALSE,Sunrise,Florida,Broward,12,011
+754,305,FALSE,Tamarac,Florida,Broward,12,011
+754,305,FALSE,Weston,Florida,Broward,12,011
+757,703,FALSE,Chesapeake,Virginia,Chesapeake,51,550
+757,703,FALSE,Hampton,Virginia,Hampton,51,650
+757,703,FALSE,Newport News,Virginia,Newport News,51,700
+757,703,FALSE,Norfolk,Virginia,Norfolk,51,710
+757,703,FALSE,Portsmouth,Virginia,Portsmouth,51,740
+757,703,FALSE,Suffolk,Virginia,Suffolk,51,800
+757,703,FALSE,Virginia Beach,Virginia,Virginia Beach,51,810
+760,213,FALSE,Apple Valley,California,San Bernardino,06,071
+760,213,FALSE,Barstow,California,San Bernardino,06,071
+760,213,FALSE,Brawley,California,Imperial,06,025
+760,213,FALSE,Calexico,California,Imperial,06,025
+760,213,FALSE,Carlsbad,California,San Diego,06,073
+760,213,FALSE,Cathedral City,California,Riverside,06,065
+760,213,FALSE,Coachella,California,Riverside,06,065
+760,213,FALSE,El Centro,California,Imperial,06,025
+760,213,FALSE,Encinitas,California,San Diego,06,073
+760,213,FALSE,Escondido,California,San Diego,06,073
+760,213,FALSE,Fallbrook,California,San Diego,06,073
+760,213,FALSE,Hesperia,California,San Bernardino,06,071
+760,213,FALSE,Indio,California,Riverside,06,065
+760,213,FALSE,La Quinta,California,Riverside,06,065
+760,213,FALSE,Oceanside,California,San Diego,06,073
+760,213,FALSE,Palm Desert,California,Riverside,06,065
+760,213,FALSE,Palm Springs,California,Riverside,06,065
+760,213,FALSE,Ridgecrest,California,Kern,06,029
+760,213,FALSE,San Marcos,California,San Diego,06,073
+760,213,FALSE,Victorville,California,San Bernardino,06,071
+760,213,FALSE,Vista,California,San Diego,06,073
+762,404,FALSE,Athens,Georgia,Clarke,13,059
+762,404,FALSE,Augusta,Georgia,Richmond,13,245
+762,404,FALSE,Columbus,Georgia,Muscogee,13,215
+762,404,FALSE,Dalton,Georgia,Whitfield,13,313
+762,404,FALSE,La Grange,Georgia,Troup,13,285
+762,404,FALSE,Martinez,Georgia,Columbia,13,073
+762,404,FALSE,Rome,Georgia,Floyd,13,115
+763,612,FALSE,Blaine,Minnesota,Anoka,27,003
+763,612,FALSE,Brooklyn Center,Minnesota,Hennepin,27,053
+763,612,FALSE,Brooklyn Park,Minnesota,Hennepin,27,053
+763,612,FALSE,Champlin,Minnesota,Hennepin,27,053
+763,612,FALSE,West Coon Rapids,Minnesota,Hennepin,27,053
+763,612,FALSE,Fridley,Minnesota,Anoka,27,003
+763,612,FALSE,Maple Grove,Minnesota,Hennepin,27,053
+763,612,FALSE,New Hope,Minnesota,Hennepin,27,053
+763,612,FALSE,Plymouth,Minnesota,Hennepin,27,053
+765,317,FALSE,Anderson,Indiana,Madison,18,095
+765,317,FALSE,Kokomo,Indiana,Howard,18,067
+765,317,FALSE,West Lafayette,Indiana,Tippecanoe,18,157
+765,317,FALSE,Marion,Indiana,Grant,18,053
+765,317,FALSE,Muncie,Indiana,Delaware,18,035
+765,317,FALSE,Richmond,Indiana,Wayne,18,177
+769,601,FALSE,Clinton,Mississippi,Hinds,28,049
+769,601,FALSE,West Hattiesburg,Mississippi,Lamar,28,073
+769,601,FALSE,Jackson,Mississippi,Hinds,28,049
+769,601,FALSE,Meridian,Mississippi,Lauderdale,28,075
+769,601,FALSE,Pearl,Mississippi,Rankin,28,121
+769,601,FALSE,Ridgeland,Mississippi,Madison,28,089
+769,601,FALSE,Vicksburg,Mississippi,Warren,28,149
+770,404,FALSE,Alpharetta,Georgia,Fulton,13,121
+770,404,FALSE,Atlanta,Georgia,Fulton,13,121
+770,404,FALSE,College Park,Georgia,Fulton,13,121
+770,404,FALSE,Douglasville,Georgia,Douglas,13,097
+770,404,FALSE,Duluth,Georgia,Gwinnett,13,135
+770,404,FALSE,Dunwoody,Georgia,DeKalb,13,089
+770,404,FALSE,Forest Park,Georgia,Clayton,13,063
+770,404,FALSE,Gainesville,Georgia,Hall,13,139
+770,404,FALSE,Griffin,Georgia,Spalding,13,255
+770,404,FALSE,Kennesaw,Georgia,Cobb,13,067
+770,404,FALSE,Lawrenceville,Georgia,Gwinnett,13,135
+770,404,FALSE,Mableton,Georgia,Cobb,13,067
+770,404,FALSE,Marietta,Georgia,Cobb,13,067
+770,404,FALSE,Peachtree City,Georgia,Fayette,13,113
+770,404,FALSE,Redan,Georgia,DeKalb,13,089
+770,404,FALSE,Roswell,Georgia,Fulton,13,121
+770,404,FALSE,Sandy Springs,Georgia,Fulton,13,121
+770,404,FALSE,Smyrna,Georgia,Cobb,13,067
+770,404,FALSE,Tucker,Georgia,DeKalb,13,089
+772,305,FALSE,Fort Pierce South,Florida,St. Lucie,12,111
+772,305,FALSE,Palm City,Florida,Martin,12,085
+772,305,FALSE,Port Saint Lucie,Florida,St. Lucie,12,111
+772,305,FALSE,Vero Beach South,Florida,Indian River,12,061
+773,312,FALSE,West Chicago,Illinois,DuPage,17,043
+774,617,FALSE,Attleboro,Massachusetts,Bristol,25,005
+774,617,FALSE,Barnstable,Massachusetts,Barnstable,25,001
+774,617,FALSE,Brockton,Massachusetts,Plymouth,25,023
+774,617,FALSE,Fall River,Massachusetts,Bristol,25,005
+774,617,FALSE,Framingham,Massachusetts,Middlesex,25,017
+774,617,FALSE,Franklin,Massachusetts,Norfolk,25,021
+774,617,FALSE,Marlborough,Massachusetts,Middlesex,25,017
+774,617,FALSE,Milford,Massachusetts,Worcester,25,027
+774,617,FALSE,New Bedford,Massachusetts,Bristol,25,005
+774,617,FALSE,Taunton,Massachusetts,Bristol,25,005
+774,617,FALSE,Worcester,Massachusetts,Worcester,25,027
+775,702,FALSE,Carson City,Nevada,Carson City,32,510
+775,702,FALSE,Pahrump,Nevada,Nye,32,023
+775,702,FALSE,Reno,Nevada,Washoe,32,031
+775,702,FALSE,Sparks,Nevada,Washoe,32,031
+779,815,FALSE,Belvidere,Illinois,Boone,17,007
+779,815,FALSE,Crystal Lake,Illinois,McHenry,17,111
+779,815,FALSE,DeKalb,Illinois,DeKalb,17,037
+779,815,FALSE,Freeport,Illinois,Stephenson,17,177
+779,815,FALSE,Kankakee,Illinois,Kankakee,17,091
+779,815,FALSE,Loves Park,Illinois,Winnebago,17,201
+779,815,FALSE,Machesney Park,Illinois,Winnebago,17,201
+779,815,FALSE,Rockford,Illinois,Winnebago,17,201
+781,617,FALSE,Arlington,Massachusetts,Middlesex,25,017
+781,617,FALSE,Braintree,Massachusetts,Norfolk,25,021
+781,617,FALSE,Burlington,Massachusetts,Middlesex,25,017
+781,617,FALSE,Dedham,Massachusetts,Norfolk,25,021
+781,617,FALSE,Lexington,Massachusetts,Middlesex,25,017
+781,617,FALSE,Lynn,Massachusetts,Essex,25,009
+781,617,FALSE,Malden,Massachusetts,Middlesex,25,017
+781,617,FALSE,Marblehead,Massachusetts,Essex,25,009
+781,617,FALSE,Medford,Massachusetts,Middlesex,25,017
+781,617,FALSE,Melrose,Massachusetts,Middlesex,25,017
+781,617,FALSE,Needham,Massachusetts,Norfolk,25,021
+781,617,FALSE,Norwood,Massachusetts,Norfolk,25,021
+781,617,FALSE,Randolph,Massachusetts,Norfolk,25,021
+781,617,FALSE,Reading,Massachusetts,Middlesex,25,017
+781,617,FALSE,Revere,Massachusetts,Suffolk,25,025
+781,617,FALSE,Saugus,Massachusetts,Essex,25,009
+781,617,FALSE,Stoneham,Massachusetts,Middlesex,25,017
+781,617,FALSE,Wakefield,Massachusetts,Middlesex,25,017
+781,617,FALSE,Waltham,Massachusetts,Middlesex,25,017
+781,617,FALSE,Wellesley,Massachusetts,Norfolk,25,021
+781,617,FALSE,Weymouth,Massachusetts,Norfolk,25,021
+781,617,FALSE,Winchester,Massachusetts,Middlesex,25,017
+781,617,FALSE,Woburn,Massachusetts,Middlesex,25,017
+785,913,FALSE,Hays,Kansas,Ellis,20,051
+785,913,FALSE,Lawrence,Kansas,Douglas,20,045
+785,913,FALSE,Manhattan,Kansas,Riley,20,161
+785,913,FALSE,Salina,Kansas,Saline,20,169
+785,913,FALSE,Topeka,Kansas,Shawnee,20,177
+786,305,FALSE,Aventura,Florida,Miami-Dade,12,086
+786,305,FALSE,Carol City,Florida,Miami-Dade,12,086
+786,305,FALSE,Coral Gables,Florida,Miami-Dade,12,086
+786,305,FALSE,Coral Terrace,Florida,Miami-Dade,12,086
+786,305,FALSE,Country Club,Florida,Miami-Dade,12,086
+786,305,FALSE,Cutler Ridge,Florida,Miami-Dade,12,086
+786,305,FALSE,Doral,Florida,Miami-Dade,12,086
+786,305,FALSE,Golden Glades,Florida,Miami-Dade,12,086
+786,305,FALSE,Hialeah,Florida,Miami-Dade,12,086
+786,305,FALSE,Homestead,Florida,Miami-Dade,12,086
+786,305,FALSE,Kendale Lakes,Florida,Miami-Dade,12,086
+786,305,FALSE,Kendall West,Florida,Miami-Dade,12,086
+786,305,FALSE,Key West,Florida,Monroe,12,087
+786,305,FALSE,Leisure City,Florida,Miami-Dade,12,086
+786,305,FALSE,West Miami,Florida,Miami-Dade,12,086
+786,305,FALSE,North Miami Beach,Florida,Miami-Dade,12,086
+786,305,FALSE,Miami Lakes,Florida,Miami-Dade,12,086
+786,305,FALSE,Miramar,Florida,Broward,12,011
+786,305,FALSE,Norland,Florida,Miami-Dade,12,086
+786,305,FALSE,North Miami,Florida,Miami-Dade,12,086
+786,305,FALSE,Richmond West,Florida,Miami-Dade,12,086
+786,305,FALSE,Richmond Heights,Florida,Miami-Dade,12,086
+786,305,FALSE,South Miami Heights,Florida,Miami-Dade,12,086
+786,305,FALSE,Tamiami,Florida,Miami-Dade,12,086
+786,305,FALSE,West Little River,Florida,Miami-Dade,12,086
+786,305,FALSE,Westchester,Florida,Miami-Dade,12,086
+801,801,TRUE,American Fork,Utah,Utah,49,049
+801,801,TRUE,West Bountiful,Utah,Davis,49,011
+801,801,TRUE,Clearfield,Utah,Davis,49,011
+801,801,TRUE,Cottonwood Heights,Utah,Salt Lake,49,035
+801,801,TRUE,Draper,Utah,Salt Lake,49,035
+801,801,TRUE,East Millcreek,Utah,Salt Lake,49,035
+801,801,TRUE,Kaysville,Utah,Davis,49,011
+801,801,TRUE,Kearns,Utah,Salt Lake,49,035
+801,801,TRUE,Layton,Utah,Davis,49,011
+801,801,TRUE,Magna,Utah,Salt Lake,49,035
+801,801,TRUE,Midvale,Utah,Salt Lake,49,035
+801,801,TRUE,Millcreek,Utah,Salt Lake,49,035
+801,801,TRUE,Murray,Utah,Salt Lake,49,035
+801,801,TRUE,South Ogden,Utah,Weber,49,057
+801,801,TRUE,Orem,Utah,Utah,49,049
+801,801,TRUE,Pleasant Grove,Utah,Utah,49,049
+801,801,TRUE,Provo,Utah,Utah,49,049
+801,801,TRUE,Riverton,Utah,Salt Lake,49,035
+801,801,TRUE,Roy,Utah,Weber,49,057
+801,801,TRUE,Salt Lake City,Utah,Salt Lake,49,035
+801,801,TRUE,Sandy City,Utah,Salt Lake,49,035
+801,801,TRUE,South Jordan,Utah,Salt Lake,49,035
+801,801,TRUE,South Salt Lake,Utah,Salt Lake,49,035
+801,801,TRUE,Spanish Fork,Utah,Utah,49,049
+801,801,TRUE,Springville,Utah,Utah,49,049
+801,801,TRUE,Taylorsville,Utah,Salt Lake,49,035
+801,801,TRUE,West Jordan,Utah,Salt Lake,49,035
+801,801,TRUE,West Valley City,Utah,Salt Lake,49,035
+802,802,TRUE,South Burlington,Vermont,Chittenden,50,007
+802,802,TRUE,Montpelier,Vermont,Washington,50,023
+803,803,TRUE,Aiken,South Carolina,Aiken,45,003
+803,803,TRUE,West Columbia,South Carolina,Lexington,45,063
+803,803,TRUE,Rock Hill,South Carolina,York,45,091
+803,803,TRUE,Saint Andrews,South Carolina,Lexington,45,063
+803,803,TRUE,Sumter,South Carolina,Sumter,45,085
+804,703,FALSE,Hopewell,Virginia,Hopewell,51,670
+804,703,FALSE,Mechanicsville,Virginia,Hanover,51,085
+804,703,FALSE,Petersburg,Virginia,Petersburg,51,730
+804,703,FALSE,Richmond,Virginia,Richmond,51,760
+804,703,FALSE,Tuckahoe,Virginia,Henrico,51,087
+805,213,FALSE,Atascadero,California,San Luis Obispo,06,079
+805,213,FALSE,Camarillo,California,Ventura,06,111
+805,213,FALSE,Paso Robles,California,San Luis Obispo,06,079
+805,213,FALSE,Goleta,California,Santa Barbara,06,083
+805,213,FALSE,Lompoc,California,Santa Barbara,06,083
+805,213,FALSE,Moorpark,California,Ventura,06,111
+805,213,FALSE,Orcutt,California,Santa Barbara,06,083
+805,213,FALSE,Oxnard,California,Ventura,06,111
+805,213,FALSE,Port Hueneme,California,Ventura,06,111
+805,213,FALSE,Ventura,California,Ventura,06,111
+805,213,FALSE,San Luis Obispo,California,San Luis Obispo,06,079
+805,213,FALSE,Santa Barbara,California,Santa Barbara,06,083
+805,213,FALSE,Santa Maria,California,Santa Barbara,06,083
+805,213,FALSE,Santa Paula,California,Ventura,06,111
+805,213,FALSE,Simi Valley,California,Ventura,06,111
+805,213,FALSE,Thousand Oaks,California,Ventura,06,111
+806,915,FALSE,Amarillo,Texas,Potter,48,375
+806,915,FALSE,Lubbock,Texas,Lubbock,48,303
+806,915,FALSE,Plainview,Texas,Hale,48,189
+808,NA,NA,Hilo,Hawaii,NA,NA,NA
+808,NA,NA,Honolulu,Hawaii,NA,NA,NA
+808,NA,NA,Kahului,Hawaii,NA,NA,NA
+808,NA,NA,Kailua-Kona,Hawaii,NA,NA,NA
+808,NA,NA,Kāne‘ohe,Hawaii,NA,NA,NA
+808,NA,NA,Mililani Town,Hawaii,NA,NA,NA
+808,NA,NA,Pearl City,Hawaii,NA,NA,NA
+808,NA,NA,Waimalu,Hawaii,NA,NA,NA
+808,NA,NA,Waipahu,Hawaii,NA,NA,NA
+810,313,FALSE,Burton,Michigan,Genesee,26,049
+810,313,FALSE,Flint,Michigan,Genesee,26,049
+810,313,FALSE,Port Huron,Michigan,St. Clair,26,147
+812,812,TRUE,Bloomington,Indiana,Monroe,18,105
+812,812,TRUE,Clarksville,Indiana,Clark,18,019
+812,812,TRUE,Columbus,Indiana,Bartholomew,18,005
+812,812,TRUE,Evansville,Indiana,Vanderburgh,18,163
+812,812,TRUE,Jeffersonville,Indiana,Clark,18,019
+812,812,TRUE,New Albany,Indiana,Floyd,18,043
+813,305,FALSE,Brandon,Florida,Hillsborough,12,057
+813,305,FALSE,Citrus Park,Florida,Hillsborough,12,057
+813,305,FALSE,Greater Northdale,Florida,Hillsborough,12,057
+813,305,FALSE,Lake Magdalene,Florida,Hillsborough,12,057
+813,305,FALSE,Land O' Lakes,Florida,Pasco,12,101
+813,305,FALSE,Plant City,Florida,Hillsborough,12,057
+813,305,FALSE,Tampa,Florida,Hillsborough,12,057
+813,305,FALSE,Temple Terrace,Florida,Hillsborough,12,057
+813,305,FALSE,Town 'n' Country,Florida,Hillsborough,12,057
+814,814,TRUE,Altoona,Pennsylvania,Blair,42,013
+814,814,TRUE,Erie,Pennsylvania,Erie,42,049
+814,814,TRUE,Johnstown,Pennsylvania,Cambria,42,021
+814,814,TRUE,State College,Pennsylvania,Centre,42,027
+815,815,TRUE,Belvidere,Illinois,Boone,17,007
+815,815,TRUE,DeKalb,Illinois,DeKalb,17,037
+815,815,TRUE,Freeport,Illinois,Stephenson,17,177
+815,815,TRUE,Kankakee,Illinois,Kankakee,17,091
+815,815,TRUE,Loves Park,Illinois,Winnebago,17,201
+815,815,TRUE,Machesney Park,Illinois,Winnebago,17,201
+815,815,TRUE,Rockford,Illinois,Winnebago,17,201
+816,816,TRUE,Belton,Missouri,Cass,29,037
+816,816,TRUE,Blue Springs,Missouri,Jackson,29,095
+816,816,TRUE,Gladstone,Missouri,Clay,29,047
+816,816,TRUE,Grandview,Missouri,Jackson,29,095
+816,816,TRUE,Independence,Missouri,Jackson,29,095
+816,816,TRUE,Kansas City,Missouri,Jackson,29,095
+816,816,TRUE,Lee's Summit,Missouri,Jackson,29,095
+816,816,TRUE,Raytown,Missouri,Jackson,29,095
+816,816,TRUE,Saint Joseph,Missouri,Buchanan,29,021
+817,214,FALSE,Arlington,Texas,Tarrant,48,439
+817,214,FALSE,Bedford,Texas,Tarrant,48,439
+817,214,FALSE,Benbrook,Texas,Tarrant,48,439
+817,214,FALSE,Burleson,Texas,Johnson,48,251
+817,214,FALSE,Cleburne,Texas,Johnson,48,251
+817,214,FALSE,Euless,Texas,Tarrant,48,439
+817,214,FALSE,Fort Worth,Texas,Tarrant,48,439
+817,214,FALSE,Grapevine,Texas,Tarrant,48,439
+817,214,FALSE,Haltom City,Texas,Tarrant,48,439
+817,214,FALSE,Hurst,Texas,Tarrant,48,439
+817,214,FALSE,Keller,Texas,Tarrant,48,439
+817,214,FALSE,Mansfield,Texas,Tarrant,48,439
+817,214,FALSE,North Richland Hills,Texas,Tarrant,48,439
+817,214,FALSE,Southlake,Texas,Tarrant,48,439
+817,214,FALSE,Watauga,Texas,Tarrant,48,439
+818,213,FALSE,Agoura Hills,California,Los Angeles,06,037
+818,213,FALSE,Burbank,California,Los Angeles,06,037
+818,213,FALSE,Calabasas,California,Los Angeles,06,037
+818,213,FALSE,North Glendale,California,Los Angeles,06,037
+818,213,FALSE,La Cañada Flintridge,California,Los Angeles,06,037
+818,213,FALSE,San Fernando,California,Los Angeles,06,037
+828,704,FALSE,Asheville,North Carolina,Buncombe,37,021
+828,704,FALSE,Hickory,North Carolina,Catawba,37,035
+830,512,FALSE,Del Rio,Texas,Val Verde,48,465
+830,512,FALSE,Eagle Pass,Texas,Maverick,48,323
+830,512,FALSE,Kerrville,Texas,Kerr,48,265
+830,512,FALSE,New Braunfels,Texas,Comal,48,091
+830,512,FALSE,Seguin,Texas,Guadalupe,48,187
+831,415,FALSE,Hollister,California,San Benito,06,069
+831,415,FALSE,Marina,California,Monterey,06,053
+831,415,FALSE,Monterey,California,Monterey,06,053
+831,415,FALSE,Salinas,California,Monterey,06,053
+831,415,FALSE,Santa Cruz,California,Santa Cruz,06,087
+831,415,FALSE,Seaside,California,Monterey,06,053
+831,415,FALSE,Watsonville,California,Santa Cruz,06,087
+832,713,FALSE,Alvin,Texas,Brazoria,48,039
+832,713,FALSE,Atascocita,Texas,Harris,48,201
+832,713,FALSE,Baytown,Texas,Harris,48,201
+832,713,FALSE,Channelview,Texas,Harris,48,201
+832,713,FALSE,Cloverleaf,Texas,Harris,48,201
+832,713,FALSE,Deer Park,Texas,Harris,48,201
+832,713,FALSE,Friendswood,Texas,Galveston,48,167
+832,713,FALSE,South Houston,Texas,Harris,48,201
+832,713,FALSE,La Porte,Texas,Harris,48,201
+832,713,FALSE,League City,Texas,Galveston,48,167
+832,713,FALSE,Mission Bend,Texas,Fort Bend,48,157
+832,713,FALSE,Missouri City,Texas,Fort Bend,48,157
+832,713,FALSE,Pasadena,Texas,Harris,48,201
+832,713,FALSE,Pearland,Texas,Brazoria,48,039
+832,713,FALSE,Rosenberg,Texas,Fort Bend,48,157
+832,713,FALSE,Spring,Texas,Harris,48,201
+832,713,FALSE,Sugar Land,Texas,Fort Bend,48,157
+832,713,FALSE,The Woodlands,Texas,Montgomery,48,339
+843,803,FALSE,North Charleston,South Carolina,Charleston,45,019
+843,803,FALSE,Florence,South Carolina,Florence,45,041
+843,803,FALSE,Goose Creek,South Carolina,Berkeley,45,015
+843,803,FALSE,Hilton Head Island,South Carolina,Beaufort,45,013
+843,803,FALSE,Mount Pleasant,South Carolina,Charleston,45,019
+843,803,FALSE,North Myrtle Beach,South Carolina,Horry,45,051
+843,803,FALSE,Summerville,South Carolina,Dorchester,45,035
+845,914,FALSE,Kingston,New York,Ulster,36,111
+845,914,FALSE,Middletown,New York,Orange,36,071
+845,914,FALSE,New City,New York,Rockland,36,087
+845,914,FALSE,Newburgh,New York,Orange,36,071
+845,914,FALSE,Poughkeepsie,New York,Dutchess,36,027
+845,914,FALSE,Spring Valley,New York,Rockland,36,087
+847,312,FALSE,Arlington Heights,Illinois,Cook,17,031
+847,312,FALSE,Buffalo Grove,Illinois,Cook,17,031
+847,312,FALSE,Carpentersville,Illinois,Kane,17,089
+847,312,FALSE,Des Plaines,Illinois,Cook,17,031
+847,312,FALSE,South Elgin,Illinois,Kane,17,089
+847,312,FALSE,Elk Grove Village,Illinois,Cook,17,031
+847,312,FALSE,Evanston,Illinois,Cook,17,031
+847,312,FALSE,Glenview,Illinois,Cook,17,031
+847,312,FALSE,Gurnee,Illinois,Lake,17,097
+847,312,FALSE,Highland Park,Illinois,Lake,17,097
+847,312,FALSE,Hoffman Estates,Illinois,Cook,17,031
+847,312,FALSE,Lake Forest,Illinois,Lake,17,097
+847,312,FALSE,Libertyville,Illinois,Lake,17,097
+847,312,FALSE,Morton Grove,Illinois,Cook,17,031
+847,312,FALSE,Mount Prospect,Illinois,Cook,17,031
+847,312,FALSE,Mundelein,Illinois,Lake,17,097
+847,312,FALSE,Niles,Illinois,Cook,17,031
+847,312,FALSE,North Chicago,Illinois,Lake,17,097
+847,312,FALSE,Northbrook,Illinois,Cook,17,031
+847,312,FALSE,Palatine,Illinois,Cook,17,031
+847,312,FALSE,Park Ridge,Illinois,Cook,17,031
+847,312,FALSE,Rolling Meadows,Illinois,Cook,17,031
+847,312,FALSE,Round Lake Beach,Illinois,Lake,17,097
+847,312,FALSE,Schaumburg,Illinois,Cook,17,031
+847,312,FALSE,Skokie,Illinois,Cook,17,031
+847,312,FALSE,Vernon Hills,Illinois,Lake,17,097
+847,312,FALSE,Waukegan,Illinois,Lake,17,097
+847,312,FALSE,Wheeling,Illinois,Cook,17,031
+847,312,FALSE,Wilmette,Illinois,Cook,17,031
+847,312,FALSE,Zion,Illinois,Lake,17,097
+848,201,FALSE,Carteret,New Jersey,Middlesex,34,023
+848,201,FALSE,East Brunswick,New Jersey,Middlesex,34,023
+848,201,FALSE,Edison,New Jersey,Middlesex,34,023
+848,201,FALSE,Lakewood,New Jersey,Ocean,34,029
+848,201,FALSE,West Long Branch,New Jersey,Monmouth,34,025
+848,201,FALSE,New Brunswick,New Jersey,Middlesex,34,023
+848,201,FALSE,North Plainfield,New Jersey,Somerset,34,035
+848,201,FALSE,South Old Bridge,New Jersey,Middlesex,34,023
+848,201,FALSE,Perth Amboy,New Jersey,Middlesex,34,023
+848,201,FALSE,Rahway,New Jersey,Union,34,039
+848,201,FALSE,Sayreville,New Jersey,Middlesex,34,023
+848,201,FALSE,Somerset,New Jersey,Somerset,34,035
+848,201,FALSE,Toms River,New Jersey,Ocean,34,029
+850,305,FALSE,Bellview,Florida,Escambia,12,033
+850,305,FALSE,Brent,Florida,Escambia,12,033
+850,305,FALSE,Ferry Pass,Florida,Escambia,12,033
+850,305,FALSE,Fort Walton Beach,Florida,Okaloosa,12,091
+850,305,FALSE,Panama City,Florida,Bay,12,005
+850,305,FALSE,West Pensacola,Florida,Escambia,12,033
+850,305,FALSE,Tallahassee,Florida,Leon,12,073
+850,305,FALSE,Wright,Florida,Okaloosa,12,091
+856,201,FALSE,Bridgeton,New Jersey,Cumberland,34,011
+856,201,FALSE,Camden,New Jersey,Camden,34,007
+856,201,FALSE,Cherry Hill,New Jersey,Camden,34,007
+856,201,FALSE,Millville,New Jersey,Cumberland,34,011
+856,201,FALSE,Pennsauken,New Jersey,Camden,34,007
+856,201,FALSE,Vineland,New Jersey,Cumberland,34,011
+856,201,FALSE,Willingboro,New Jersey,Burlington,34,005
+857,617,FALSE,Belmont,Massachusetts,Middlesex,25,017
+857,617,FALSE,South Boston,Massachusetts,Suffolk,25,025
+857,617,FALSE,Brookline,Massachusetts,Norfolk,25,021
+857,617,FALSE,Cambridge,Massachusetts,Middlesex,25,017
+857,617,FALSE,Chelsea,Massachusetts,Suffolk,25,025
+857,617,FALSE,Everett,Massachusetts,Middlesex,25,017
+857,617,FALSE,Milton,Massachusetts,Norfolk,25,021
+857,617,FALSE,Newton,Massachusetts,Middlesex,25,017
+857,617,FALSE,Quincy,Massachusetts,Norfolk,25,021
+857,617,FALSE,Somerville,Massachusetts,Middlesex,25,017
+857,617,FALSE,Watertown,Massachusetts,Middlesex,25,017
+858,213,FALSE,Poway,California,San Diego,06,073
+859,502,FALSE,Covington,Kentucky,Kenton,21,117
+859,502,FALSE,Florence,Kentucky,Boone,21,015
+859,502,FALSE,Lexington,Kentucky,Fayette,21,067
+859,502,FALSE,Richmond,Kentucky,Madison,21,151
+860,203,FALSE,Bristol,Connecticut,Hartford,09,003
+860,203,FALSE,Manchester,Connecticut,Hartford,09,003
+860,203,FALSE,East Hartford,Connecticut,Hartford,09,003
+860,203,FALSE,West Hartford,Connecticut,Hartford,09,003
+860,203,FALSE,Middletown,Connecticut,Middlesex,09,007
+860,203,FALSE,New Britain,Connecticut,Hartford,09,003
+860,203,FALSE,New London,Connecticut,New London,09,011
+860,203,FALSE,Newington,Connecticut,Hartford,09,003
+860,203,FALSE,Norwich,Connecticut,New London,09,011
+860,203,FALSE,West Torrington,Connecticut,Litchfield,09,005
+860,203,FALSE,Wethersfield,Connecticut,Hartford,09,003
+862,201,FALSE,Belleville,New Jersey,Essex,34,013
+862,201,FALSE,Bloomfield,New Jersey,Essex,34,013
+862,201,FALSE,Clifton,New Jersey,Passaic,34,031
+862,201,FALSE,East Orange,New Jersey,Essex,34,013
+862,201,FALSE,Garfield,New Jersey,Bergen,34,003
+862,201,FALSE,Hillside,New Jersey,Union,34,039
+862,201,FALSE,Irvington,New Jersey,Essex,34,013
+862,201,FALSE,Kearny,New Jersey,Hudson,34,017
+862,201,FALSE,Livingston,New Jersey,Essex,34,013
+862,201,FALSE,Lodi,New Jersey,Bergen,34,003
+862,201,FALSE,Maplewood,New Jersey,Essex,34,013
+862,201,FALSE,Montclair,New Jersey,Essex,34,013
+862,201,FALSE,Morristown,New Jersey,Morris,34,027
+862,201,FALSE,Newark,New Jersey,Essex,34,013
+862,201,FALSE,Nutley,New Jersey,Essex,34,013
+862,201,FALSE,West Orange,New Jersey,Essex,34,013
+862,201,FALSE,Passaic,New Jersey,Passaic,34,031
+862,201,FALSE,Paterson,New Jersey,Passaic,34,031
+862,201,FALSE,Wayne,New Jersey,Passaic,34,031
+862,201,FALSE,West Milford,New Jersey,Passaic,34,031
+863,305,FALSE,Lakeland,Florida,Polk,12,105
+863,305,FALSE,Winter Haven,Florida,Polk,12,105
+864,803,FALSE,Anderson,South Carolina,Anderson,45,007
+864,803,FALSE,Greenville,South Carolina,Greenville,45,045
+864,803,FALSE,Greenwood,South Carolina,Greenwood,45,047
+864,803,FALSE,Spartanburg,South Carolina,Spartanburg,45,083
+864,803,FALSE,Taylors,South Carolina,Greenville,45,045
+864,803,FALSE,Wade Hampton,South Carolina,Greenville,45,045
+865,901,FALSE,Knoxville,Tennessee,Knox,47,093
+865,901,FALSE,Maryville,Tennessee,Blount,47,009
+865,901,FALSE,Oak Ridge,Tennessee,Anderson,47,001
+870,501,FALSE,El Dorado,Arkansas,Union,05,139
+870,501,FALSE,Jonesboro,Arkansas,Craighead,05,031
+870,501,FALSE,Paragould,Arkansas,Greene,05,055
+870,501,FALSE,Pine Bluff,Arkansas,Jefferson,05,069
+870,501,FALSE,Texarkana,Arkansas,Miller,05,091
+870,501,FALSE,West Memphis,Arkansas,Crittenden,05,035
+878,412,FALSE,Bethel Park,Pennsylvania,Allegheny,42,003
+878,412,FALSE,McKeesport,Pennsylvania,Allegheny,42,003
+878,412,FALSE,Mount Lebanon,Pennsylvania,Allegheny,42,003
+878,412,FALSE,Monroeville,Pennsylvania,Allegheny,42,003
+878,412,FALSE,New Castle,Pennsylvania,Lawrence,42,073
+878,412,FALSE,Penn Hills,Pennsylvania,Allegheny,42,003
+878,412,FALSE,Pittsburgh,Pennsylvania,Allegheny,42,003
+878,412,FALSE,Plum,Pennsylvania,Allegheny,42,003
+878,412,FALSE,Upper Saint Clair,Pennsylvania,Allegheny,42,003
+878,412,FALSE,West Mifflin,Pennsylvania,Allegheny,42,003
+901,901,TRUE,Bartlett,Tennessee,Shelby,47,157
+901,901,TRUE,Collierville,Tennessee,Shelby,47,157
+901,901,TRUE,Germantown,Tennessee,Shelby,47,157
+901,901,TRUE,Memphis,Tennessee,Shelby,47,157
+903,214,FALSE,Corsicana,Texas,Navarro,48,349
+903,214,FALSE,Denison,Texas,Grayson,48,181
+903,214,FALSE,Greenville,Texas,Hunt,48,231
+903,214,FALSE,Longview,Texas,Gregg,48,183
+903,214,FALSE,Marshall,Texas,Harrison,48,203
+903,214,FALSE,Paris,Texas,Lamar,48,277
+903,214,FALSE,Sherman,Texas,Grayson,48,181
+903,214,FALSE,Texarkana,Texas,Bowie,48,037
+903,214,FALSE,Tyler,Texas,Smith,48,423
+904,305,FALSE,Jacksonville,Florida,Duval,12,031
+904,305,FALSE,Jacksonville Beach,Florida,Duval,12,031
+904,305,FALSE,Lakeside,Florida,Clay,12,019
+907,NA,NA,Anchorage,Alaska,NA,NA,NA
+907,NA,NA,College,Alaska,NA,NA,NA
+907,NA,NA,Fairbanks,Alaska,NA,NA,NA
+907,NA,NA,Juneau,Alaska,NA,NA,NA
+907,NA,NA,Ketchikan,Alaska,NA,NA,NA
+907,NA,NA,Sitka,Alaska,NA,NA,NA
+908,201,FALSE,Cranford,New Jersey,Union,34,039
+908,201,FALSE,Elizabeth,New Jersey,Union,34,039
+908,201,FALSE,Hillside,New Jersey,Union,34,039
+908,201,FALSE,Linden,New Jersey,Union,34,039
+908,201,FALSE,South Plainfield,New Jersey,Middlesex,34,023
+908,201,FALSE,Roselle,New Jersey,Union,34,039
+908,201,FALSE,Scotch Plains,New Jersey,Union,34,039
+908,201,FALSE,Summit,New Jersey,Essex,34,013
+908,201,FALSE,Union City,New Jersey,Hudson,34,017
+908,201,FALSE,Westfield,New Jersey,Union,34,039
+909,213,FALSE,Chino,California,San Bernardino,06,071
+909,213,FALSE,Chino Hills,California,San Bernardino,06,071
+909,213,FALSE,Claremont,California,Los Angeles,06,037
+909,213,FALSE,Colton,California,San Bernardino,06,071
+909,213,FALSE,Diamond Bar,California,Los Angeles,06,037
+909,213,FALSE,Fontana,California,San Bernardino,06,071
+909,213,FALSE,Highland,California,San Bernardino,06,071
+909,213,FALSE,La Verne,California,Los Angeles,06,037
+909,213,FALSE,Montclair,California,San Bernardino,06,071
+909,213,FALSE,Ontario,California,San Bernardino,06,071
+909,213,FALSE,Pomona,California,Los Angeles,06,037
+909,213,FALSE,Rancho Cucamonga,California,San Bernardino,06,071
+909,213,FALSE,Redlands,California,San Bernardino,06,071
+909,213,FALSE,Rialto,California,San Bernardino,06,071
+909,213,FALSE,San Bernardino,California,San Bernardino,06,071
+909,213,FALSE,San Dimas,California,Los Angeles,06,037
+909,213,FALSE,Upland,California,San Bernardino,06,071
+909,213,FALSE,Yucaipa,California,San Bernardino,06,071
+910,704,FALSE,Fayetteville,North Carolina,Cumberland,37,051
+910,704,FALSE,Fort Bragg,North Carolina,Cumberland,37,051
+910,704,FALSE,Jacksonville,North Carolina,Onslow,37,133
+910,704,FALSE,Lumberton,North Carolina,Robeson,37,155
+910,704,FALSE,Wilmington,North Carolina,New Hanover,37,129
+912,404,FALSE,Hinesville,Georgia,Liberty,13,179
+912,404,FALSE,Savannah,Georgia,Chatham,13,051
+912,404,FALSE,Statesboro,Georgia,Bulloch,13,031
+913,913,TRUE,Kansas City,Kansas,Wyandotte,20,209
+913,913,TRUE,Leavenworth,Kansas,Leavenworth,20,103
+913,913,TRUE,Leawood,Kansas,Johnson,20,091
+913,913,TRUE,Lenexa,Kansas,Johnson,20,091
+913,913,TRUE,Olathe,Kansas,Johnson,20,091
+913,913,TRUE,Overland Park,Kansas,Johnson,20,091
+913,913,TRUE,Prairie Village,Kansas,Johnson,20,091
+913,913,TRUE,Shawnee,Kansas,Johnson,20,091
+914,914,TRUE,Harrison,New York,Westchester,36,119
+914,914,TRUE,Mount Vernon,New York,Westchester,36,119
+914,914,TRUE,New Rochelle,New York,Westchester,36,119
+914,914,TRUE,Ossining,New York,Westchester,36,119
+914,914,TRUE,Peekskill,New York,Westchester,36,119
+914,914,TRUE,Port Chester,New York,Westchester,36,119
+914,914,TRUE,White Plains,New York,Westchester,36,119
+914,914,TRUE,Yonkers,New York,Westchester,36,119
+915,915,TRUE,El Paso,Texas,El Paso,48,141
+915,915,TRUE,Socorro,Texas,El Paso,48,141
+916,916,TRUE,Arden-Arcade,California,Sacramento,06,067
+916,916,TRUE,Carmichael,California,Sacramento,06,067
+916,916,TRUE,Citrus Heights,California,Sacramento,06,067
+916,916,TRUE,Elk Grove,California,Sacramento,06,067
+916,916,TRUE,Florin,California,Sacramento,06,067
+916,916,TRUE,Folsom,California,Sacramento,06,067
+916,916,TRUE,La Riviera,California,Sacramento,06,067
+916,916,TRUE,Laguna,California,Sacramento,06,067
+916,916,TRUE,North Highlands,California,Sacramento,06,067
+916,916,TRUE,Orangevale,California,Sacramento,06,067
+916,916,TRUE,Rancho Cordova,California,Sacramento,06,067
+916,916,TRUE,Rocklin,California,Placer,06,061
+916,916,TRUE,Rosemont,California,Sacramento,06,067
+916,916,TRUE,Roseville,California,Placer,06,061
+916,916,TRUE,West Sacramento,California,Yolo,06,113
+917,212,FALSE,The Bronx,New York,Bronx,36,005
+917,212,FALSE,Brooklyn,New York,Kings,36,047
+917,212,FALSE,New York City,New York,New York,36,061
+917,212,FALSE,Borough of Queens,New York,Queens,36,081
+917,212,FALSE,Staten Island,New York,Richmond,36,085
+918,405,FALSE,Bartlesville,Oklahoma,Washington,40,147
+918,405,FALSE,Broken Arrow,Oklahoma,Tulsa,40,143
+918,405,FALSE,Muskogee,Oklahoma,Muskogee,40,101
+918,405,FALSE,Tulsa,Oklahoma,Tulsa,40,143
+919,704,FALSE,Apex,North Carolina,Wake,37,183
+919,704,FALSE,Cary,North Carolina,Wake,37,183
+919,704,FALSE,Chapel Hill,North Carolina,Orange,37,135
+919,704,FALSE,Durham,North Carolina,Durham,37,063
+919,704,FALSE,Goldsboro,North Carolina,Wayne,37,191
+919,704,FALSE,West Raleigh,North Carolina,Wake,37,183
+919,704,FALSE,Sanford,North Carolina,Lee,37,105
+920,414,FALSE,Appleton,Wisconsin,Outagamie,55,087
+920,414,FALSE,De Pere,Wisconsin,Brown,55,009
+920,414,FALSE,North Fond du Lac,Wisconsin,Fond du Lac,55,039
+920,414,FALSE,Green Bay,Wisconsin,Brown,55,009
+920,414,FALSE,Manitowoc,Wisconsin,Manitowoc,55,071
+920,414,FALSE,Neenah,Wisconsin,Winnebago,55,139
+920,414,FALSE,Oshkosh,Wisconsin,Winnebago,55,139
+920,414,FALSE,Sheboygan,Wisconsin,Sheboygan,55,117
+920,414,FALSE,Watertown,Wisconsin,Jefferson,55,055
+925,415,FALSE,Antioch,California,Contra Costa,06,013
+925,415,FALSE,Bay Point,California,Contra Costa,06,013
+925,415,FALSE,Brentwood,California,Contra Costa,06,013
+925,415,FALSE,Concord,California,Contra Costa,06,013
+925,415,FALSE,Danville,California,Contra Costa,06,013
+925,415,FALSE,Dublin,California,Alameda,06,001
+925,415,FALSE,Lafayette,California,Contra Costa,06,013
+925,415,FALSE,Livermore,California,Alameda,06,001
+925,415,FALSE,Martinez,California,Contra Costa,06,013
+925,415,FALSE,Oakley,California,Contra Costa,06,013
+925,415,FALSE,Pittsburg,California,Contra Costa,06,013
+925,415,FALSE,Pleasant Hill,California,Contra Costa,06,013
+925,415,FALSE,Pleasanton,California,Alameda,06,001
+925,415,FALSE,San Ramon,California,Contra Costa,06,013
+925,415,FALSE,Walnut Creek,California,Contra Costa,06,013
+928,602,FALSE,Bullhead City,Arizona,Mohave,04,015
+928,602,FALSE,Flagstaff,Arizona,Coconino,04,005
+928,602,FALSE,Fortuna Foothills,Arizona,Yuma,04,027
+928,602,FALSE,Kingman,Arizona,Mohave,04,015
+928,602,FALSE,Lake Havasu City,Arizona,Mohave,04,015
+928,602,FALSE,Prescott,Arizona,Yavapai,04,025
+928,602,FALSE,Prescott Valley,Arizona,Yavapai,04,025
+928,602,FALSE,Yuma,Arizona,Yuma,04,027
+929,212,FALSE,The Bronx,New York,Bronx,36,005
+929,212,FALSE,Brooklyn,New York,Kings,36,047
+929,212,FALSE,New York City,New York,New York,36,061
+929,212,FALSE,Borough of Queens,New York,Queens,36,081
+929,212,FALSE,Staten Island,New York,Richmond,36,085
+930,812,FALSE,Bloomington,Indiana,Monroe,18,105
+930,812,FALSE,Clarksville,Indiana,Clark,18,019
+930,812,FALSE,Columbus,Indiana,Bartholomew,18,005
+930,812,FALSE,Evansville,Indiana,Vanderburgh,18,163
+930,812,FALSE,Jeffersonville,Indiana,Clark,18,019
+930,812,FALSE,New Albany,Indiana,Floyd,18,043
+931,901,FALSE,Clarksville,Tennessee,Montgomery,47,125
+931,901,FALSE,Columbia,Tennessee,Maury,47,119
+931,901,FALSE,Cookeville,Tennessee,Putnam,47,141
+936,713,FALSE,Conroe,Texas,Montgomery,48,339
+936,713,FALSE,Huntsville,Texas,Walker,48,471
+936,713,FALSE,Lufkin,Texas,Angelina,48,005
+936,713,FALSE,Nacogdoches,Texas,Nacogdoches,48,347
+937,513,FALSE,Beavercreek,Ohio,Greene,39,057
+937,513,FALSE,Centerville,Ohio,Montgomery,39,113
+937,513,FALSE,Dayton,Ohio,Montgomery,39,113
+937,513,FALSE,Fairborn,Ohio,Greene,39,057
+937,513,FALSE,Huber Heights,Ohio,Montgomery,39,113
+937,513,FALSE,Kettering,Ohio,Montgomery,39,113
+937,513,FALSE,Piqua,Ohio,Miami,39,109
+937,513,FALSE,Riverside,Ohio,Montgomery,39,113
+937,513,FALSE,Sidney,Ohio,Shelby,39,149
+937,513,FALSE,Springfield,Ohio,Clark,39,023
+937,513,FALSE,Trotwood,Ohio,Montgomery,39,113
+937,513,FALSE,Troy,Ohio,Miami,39,109
+937,513,FALSE,Xenia,Ohio,Greene,39,057
+940,214,FALSE,Denton,Texas,Denton,48,121
+940,214,FALSE,Lewisville,Texas,Denton,48,121
+940,214,FALSE,Wichita Falls,Texas,Wichita,48,485
+941,305,FALSE,South Bradenton,Florida,Manatee,12,081
+941,305,FALSE,North Port,Florida,Sarasota,12,115
+941,305,FALSE,Port Charlotte,Florida,Charlotte,12,015
+941,305,FALSE,Punta Gorda,Florida,Charlotte,12,015
+941,305,FALSE,Sarasota,Florida,Sarasota,12,115
+947,313,FALSE,West Bloomfield Township,Michigan,Oakland,26,125
+947,313,FALSE,Farmington Hills,Michigan,Oakland,26,125
+947,313,FALSE,Ferndale,Michigan,Oakland,26,125
+947,313,FALSE,Madison Heights,Michigan,Oakland,26,125
+947,313,FALSE,Novi,Michigan,Oakland,26,125
+947,313,FALSE,Oak Park,Michigan,Oakland,26,125
+947,313,FALSE,Pontiac,Michigan,Oakland,26,125
+947,313,FALSE,Rochester Hills,Michigan,Oakland,26,125
+947,313,FALSE,Royal Oak,Michigan,Oakland,26,125
+947,313,FALSE,Southfield,Michigan,Oakland,26,125
+947,313,FALSE,Troy,Michigan,Oakland,26,125
+947,313,FALSE,Waterford,Michigan,Oakland,26,125
+949,213,FALSE,Aliso Viejo,California,Orange,06,059
+949,213,FALSE,Costa Mesa,California,Orange,06,059
+949,213,FALSE,Dana Point,California,Orange,06,059
+949,213,FALSE,Irvine,California,Orange,06,059
+949,213,FALSE,Laguna Beach,California,Orange,06,059
+949,213,FALSE,Laguna Hills,California,Orange,06,059
+949,213,FALSE,Laguna Niguel,California,Orange,06,059
+949,213,FALSE,Lake Forest,California,Orange,06,059
+949,213,FALSE,Mission Viejo,California,Orange,06,059
+949,213,FALSE,Newport Beach,California,Orange,06,059
+949,213,FALSE,Rancho Santa Margarita,California,Orange,06,059
+949,213,FALSE,San Clemente,California,Orange,06,059
+949,213,FALSE,San Juan Capistrano,California,Orange,06,059
+951,213,FALSE,Banning,California,Riverside,06,065
+951,213,FALSE,Corona,California,Riverside,06,065
+951,213,FALSE,Hemet,California,Riverside,06,065
+951,213,FALSE,Moreno Valley,California,Riverside,06,065
+951,213,FALSE,Murrieta,California,Riverside,06,065
+951,213,FALSE,Norco,California,Riverside,06,065
+951,213,FALSE,Perris,California,Riverside,06,065
+951,213,FALSE,Riverside,California,Riverside,06,065
+951,213,FALSE,Rubidoux,California,Riverside,06,065
+951,213,FALSE,Temecula,California,Riverside,06,065
+952,612,FALSE,Bloomington,Minnesota,Hennepin,27,053
+952,612,FALSE,Burnsville,Minnesota,Dakota,27,037
+952,612,FALSE,Chanhassen,Minnesota,Carver,27,019
+952,612,FALSE,Eden Prairie,Minnesota,Hennepin,27,053
+952,612,FALSE,Edina,Minnesota,Hennepin,27,053
+952,612,FALSE,Minnetonka,Minnesota,Hennepin,27,053
+952,612,FALSE,Savage,Minnesota,Scott,27,139
+952,612,FALSE,Shakopee,Minnesota,Scott,27,139
+954,305,FALSE,Coconut Creek,Florida,Broward,12,011
+954,305,FALSE,Cooper City,Florida,Broward,12,011
+954,305,FALSE,Coral Springs,Florida,Broward,12,011
+954,305,FALSE,Dania Beach,Florida,Broward,12,011
+954,305,FALSE,Davie,Florida,Broward,12,011
+954,305,FALSE,Deerfield Beach,Florida,Broward,12,011
+954,305,FALSE,Fort Lauderdale,Florida,Broward,12,011
+954,305,FALSE,Hallandale Beach,Florida,Broward,12,011
+954,305,FALSE,Hollywood,Florida,Broward,12,011
+954,305,FALSE,Lauderdale Lakes,Florida,Broward,12,011
+954,305,FALSE,Lauderhill,Florida,Broward,12,011
+954,305,FALSE,Margate,Florida,Broward,12,011
+954,305,FALSE,North Lauderdale,Florida,Broward,12,011
+954,305,FALSE,Pembroke Pines,Florida,Broward,12,011
+954,305,FALSE,Plantation,Florida,Broward,12,011
+954,305,FALSE,Pompano Beach,Florida,Broward,12,011
+954,305,FALSE,Sunrise,Florida,Broward,12,011
+954,305,FALSE,Tamarac,Florida,Broward,12,011
+954,305,FALSE,Weston,Florida,Broward,12,011
+956,512,FALSE,Brownsville,Texas,Cameron,48,061
+956,512,FALSE,Edinburg,Texas,Hidalgo,48,215
+956,512,FALSE,Harlingen,Texas,Cameron,48,061
+956,512,FALSE,Laredo,Texas,Webb,48,479
+956,512,FALSE,McAllen,Texas,Hidalgo,48,215
+956,512,FALSE,Mission,Texas,Hidalgo,48,215
+956,512,FALSE,Pharr,Texas,Hidalgo,48,215
+956,512,FALSE,San Benito,Texas,Cameron,48,061
+956,512,FALSE,San Juan,Texas,Hidalgo,48,215
+956,512,FALSE,Weslaco,Texas,Hidalgo,48,215
+959,203,FALSE,Bristol,Connecticut,Hartford,09,003
+959,203,FALSE,Manchester,Connecticut,Hartford,09,003
+959,203,FALSE,East Hartford,Connecticut,Hartford,09,003
+959,203,FALSE,West Hartford,Connecticut,Hartford,09,003
+959,203,FALSE,Middletown,Connecticut,Middlesex,09,007
+959,203,FALSE,New Britain,Connecticut,Hartford,09,003
+959,203,FALSE,New London,Connecticut,New London,09,011
+959,203,FALSE,Newington,Connecticut,Hartford,09,003
+959,203,FALSE,Norwich,Connecticut,New London,09,011
+959,203,FALSE,West Torrington,Connecticut,Litchfield,09,005
+959,203,FALSE,Wethersfield,Connecticut,Hartford,09,003
+970,303,FALSE,Fort Collins,Colorado,Larimer,08,069
+970,303,FALSE,Grand Junction,Colorado,Mesa,08,077
+970,303,FALSE,Greeley,Colorado,Weld,08,123
+970,303,FALSE,Loveland,Colorado,Larimer,08,069
+971,503,FALSE,Aloha,Oregon,Washington,41,067
+971,503,FALSE,Beaverton,Oregon,Washington,41,067
+971,503,FALSE,Gresham,Oregon,Multnomah,41,051
+971,503,FALSE,Hillsboro,Oregon,Washington,41,067
+971,503,FALSE,Keizer,Oregon,Marion,41,047
+971,503,FALSE,Lake Oswego,Oregon,Clackamas,41,005
+971,503,FALSE,McMinnville,Oregon,Yamhill,41,071
+971,503,FALSE,Milwaukie,Oregon,Clackamas,41,005
+971,503,FALSE,Oregon City,Oregon,Clackamas,41,005
+971,503,FALSE,Portland,Oregon,Multnomah,41,051
+971,503,FALSE,Salem,Oregon,Marion,41,047
+971,503,FALSE,Tigard,Oregon,Washington,41,067
+971,503,FALSE,Tualatin,Oregon,Washington,41,067
+971,503,FALSE,West Linn,Oregon,Clackamas,41,005
+971,503,FALSE,Woodburn,Oregon,Marion,41,047
+972,214,FALSE,Allen,Texas,Collin,48,085
+972,214,FALSE,Carrollton,Texas,Dallas,48,113
+972,214,FALSE,Cedar Hill,Texas,Dallas,48,113
+972,214,FALSE,Coppell,Texas,Dallas,48,113
+972,214,FALSE,Dallas,Texas,Dallas,48,113
+972,214,FALSE,DeSoto,Texas,Dallas,48,113
+972,214,FALSE,Duncanville,Texas,Dallas,48,113
+972,214,FALSE,Farmers Branch,Texas,Dallas,48,113
+972,214,FALSE,Flower Mound,Texas,Denton,48,121
+972,214,FALSE,Frisco,Texas,Collin,48,085
+972,214,FALSE,Garland,Texas,Dallas,48,113
+972,214,FALSE,Grand Prairie,Texas,Dallas,48,113
+972,214,FALSE,Irving,Texas,Dallas,48,113
+972,214,FALSE,Lancaster,Texas,Dallas,48,113
+972,214,FALSE,Lewisville,Texas,Denton,48,121
+972,214,FALSE,McKinney,Texas,Collin,48,085
+972,214,FALSE,Mesquite,Texas,Dallas,48,113
+972,214,FALSE,Plano,Texas,Collin,48,085
+972,214,FALSE,Richardson,Texas,Dallas,48,113
+972,214,FALSE,Rowlett,Texas,Dallas,48,113
+972,214,FALSE,The Colony,Texas,Denton,48,121
+972,214,FALSE,University Park,Texas,Dallas,48,113
+972,214,FALSE,Waxahachie,Texas,Ellis,48,139
+973,201,FALSE,Belleville,New Jersey,Essex,34,013
+973,201,FALSE,Bloomfield,New Jersey,Essex,34,013
+973,201,FALSE,Clifton,New Jersey,Passaic,34,031
+973,201,FALSE,East Orange,New Jersey,Essex,34,013
+973,201,FALSE,Garfield,New Jersey,Bergen,34,003
+973,201,FALSE,Irvington,New Jersey,Essex,34,013
+973,201,FALSE,Livingston,New Jersey,Essex,34,013
+973,201,FALSE,Lodi,New Jersey,Bergen,34,003
+973,201,FALSE,Maplewood,New Jersey,Essex,34,013
+973,201,FALSE,Montclair,New Jersey,Essex,34,013
+973,201,FALSE,Morristown,New Jersey,Morris,34,027
+973,201,FALSE,Newark,New Jersey,Essex,34,013
+973,201,FALSE,Nutley,New Jersey,Essex,34,013
+973,201,FALSE,West Orange,New Jersey,Essex,34,013
+973,201,FALSE,Passaic,New Jersey,Passaic,34,031
+973,201,FALSE,Paterson,New Jersey,Passaic,34,031
+973,201,FALSE,Wayne,New Jersey,Passaic,34,031
+973,201,FALSE,West Milford,New Jersey,Passaic,34,031
+978,617,FALSE,Beverly,Massachusetts,Essex,25,009
+978,617,FALSE,Chelmsford,Massachusetts,Middlesex,25,017
+978,617,FALSE,Danvers,Massachusetts,Essex,25,009
+978,617,FALSE,Fitchburg,Massachusetts,Worcester,25,027
+978,617,FALSE,Gardner,Massachusetts,Worcester,25,027
+978,617,FALSE,Gloucester,Massachusetts,Essex,25,009
+978,617,FALSE,Haverhill,Massachusetts,Essex,25,009
+978,617,FALSE,Lawrence,Massachusetts,Essex,25,009
+978,617,FALSE,Leominster,Massachusetts,Worcester,25,027
+978,617,FALSE,Lowell,Massachusetts,Middlesex,25,017
+978,617,FALSE,Methuen,Massachusetts,Essex,25,009
+978,617,FALSE,South Peabody,Massachusetts,Essex,25,009
+978,617,FALSE,Salem,Massachusetts,Essex,25,009
+978,617,FALSE,Wilmington,Massachusetts,Middlesex,25,017
+979,713,FALSE,Bryan,Texas,Brazos,48,041
+979,713,FALSE,College Station,Texas,Brazos,48,041
+979,713,FALSE,Lake Jackson,Texas,Brazoria,48,039
+980,704,FALSE,Charlotte,North Carolina,Mecklenburg,37,119
+980,704,FALSE,Concord,North Carolina,Cabarrus,37,025
+980,704,FALSE,South Gastonia,North Carolina,Gaston,37,071
+980,704,FALSE,Huntersville,North Carolina,Mecklenburg,37,119
+980,704,FALSE,Kannapolis,North Carolina,Cabarrus,37,025
+980,704,FALSE,Matthews,North Carolina,Mecklenburg,37,119
+980,704,FALSE,Monroe,North Carolina,Union,37,179
+980,704,FALSE,Salisbury,North Carolina,Rowan,37,159
+980,704,FALSE,Statesville,North Carolina,Iredell,37,097
+984,704,FALSE,Apex,North Carolina,Wake,37,183
+984,704,FALSE,Cary,North Carolina,Wake,37,183
+984,704,FALSE,Chapel Hill,North Carolina,Orange,37,135
+984,704,FALSE,Durham,North Carolina,Durham,37,063
+984,704,FALSE,Goldsboro,North Carolina,Wayne,37,191
+984,704,FALSE,West Raleigh,North Carolina,Wake,37,183
+984,704,FALSE,Sanford,North Carolina,Lee,37,105
+985,504,FALSE,Houma,Louisiana,Terrebonne,22,109
+985,504,FALSE,Laplace,Louisiana,St. John the Baptist,22,095
+985,504,FALSE,Slidell,Louisiana,St. Tammany,22,103
+989,517,FALSE,Bay City,Michigan,Bay,26,017
+989,517,FALSE,Midland,Michigan,Midland,26,111
+989,517,FALSE,Mount Pleasant,Michigan,Isabella,26,073
+989,517,FALSE,Saginaw,Michigan,Saginaw,26,145
+854,803,FALSE,North Charleston,South Carolina,Charleston,45,019
+854,803,FALSE,Florence,South Carolina,Florence,45,041
+854,803,FALSE,Goose Creek,South Carolina,Berkeley,45,015
+854,803,FALSE,Hilton Head Island,South Carolina,Beaufort,45,013
+854,803,FALSE,Mount Pleasant,South Carolina,Charleston,45,019
+854,803,FALSE,North Myrtle Beach,South Carolina,Horry,45,051
+854,803,FALSE,Summerville,South Carolina,Dorchester,45,035
+204,NA,NA,Winnipeg,Manitoba,NA,NA,NA
+204,NA,NA,Portage la Prairie,Manitoba,NA,NA,NA
+204,NA,NA,Flin Flon,Manitoba,NA,NA,NA
+204,NA,NA,Steinbach,Manitoba,NA,NA,NA
+204,NA,NA,Thompson,Manitoba,NA,NA,NA
+204,NA,NA,Winkler,Manitoba,NA,NA,NA
+204,NA,NA,Brandon,Manitoba,NA,NA,NA
+204,NA,NA,Selkirk,Manitoba,NA,NA,NA
+204,NA,NA,Morden,Manitoba,NA,NA,NA
+204,NA,NA,Dauphin,Manitoba,NA,NA,NA
+204,NA,NA,The Pas,Manitoba,NA,NA,NA
+226,NA,NA,Orangeville,Ontario,NA,NA,NA
+226,NA,NA,Guelph,Ontario,NA,NA,NA
+226,NA,NA,Brantford,Ontario,NA,NA,NA
+226,NA,NA,London,Ontario,NA,NA,NA
+226,NA,NA,St. Thomas,Ontario,NA,NA,NA
+226,NA,NA,Kitchener,Ontario,NA,NA,NA
+226,NA,NA,Windsor,Ontario,NA,NA,NA
+226,NA,NA,Goderich,Ontario,NA,NA,NA
+226,NA,NA,Paris,Ontario,NA,NA,NA
+226,NA,NA,Woodstock,Ontario,NA,NA,NA
+226,NA,NA,Sarnia,Ontario,NA,NA,NA
+226,NA,NA,Owen Sound,Ontario,NA,NA,NA
+226,NA,NA,Stratford,Ontario,NA,NA,NA
+226,NA,NA,Aylmer,Ontario,NA,NA,NA
+226,NA,NA,Hanover,Ontario,NA,NA,NA
+226,NA,NA,Petrolia,Ontario,NA,NA,NA
+226,NA,NA,Amherstburg,Ontario,NA,NA,NA
+236,NA,NA,Victoria,British Columbia,NA,NA,NA
+236,NA,NA,Aldergrove,British Columbia,NA,NA,NA
+236,NA,NA,West Vancouver,British Columbia,NA,NA,NA
+236,NA,NA,White Rock,British Columbia,NA,NA,NA
+236,NA,NA,Richmond,British Columbia,NA,NA,NA
+236,NA,NA,Prince George,British Columbia,NA,NA,NA
+236,NA,NA,Cranbrook,British Columbia,NA,NA,NA
+236,NA,NA,West Kelowna,British Columbia,NA,NA,NA
+236,NA,NA,Kamloops,British Columbia,NA,NA,NA
+236,NA,NA,Penticton,British Columbia,NA,NA,NA
+236,NA,NA,Quesnel,British Columbia,NA,NA,NA
+236,NA,NA,Vernon,British Columbia,NA,NA,NA
+236,NA,NA,Nelson,British Columbia,NA,NA,NA
+236,NA,NA,Salmon Arm,British Columbia,NA,NA,NA
+236,NA,NA,Terrace,British Columbia,NA,NA,NA
+236,NA,NA,Williams Lake,British Columbia,NA,NA,NA
+236,NA,NA,Duncan,British Columbia,NA,NA,NA
+249,NA,NA,Bracebridge,Ontario,NA,NA,NA
+249,NA,NA,Parry Sound,Ontario,NA,NA,NA
+249,NA,NA,Collingwood,Ontario,NA,NA,NA
+249,NA,NA,Greater Sudbury,Ontario,NA,NA,NA
+249,NA,NA,Midland,Ontario,NA,NA,NA
+249,NA,NA,Timmins,Ontario,NA,NA,NA
+249,NA,NA,North Bay,Ontario,NA,NA,NA
+249,NA,NA,Peterborough,Ontario,NA,NA,NA
+249,NA,NA,Orillia,Ontario,NA,NA,NA
+249,NA,NA,Barrie,Ontario,NA,NA,NA
+249,NA,NA,Huntsville,Ontario,NA,NA,NA
+249,NA,NA,Temiskaming Shores,Ontario,NA,NA,NA
+249,NA,NA,Kirkland Lake,Ontario,NA,NA,NA
+249,NA,NA,Kapuskasing,Ontario,NA,NA,NA
+250,NA,NA,Revelstoke,British Columbia,NA,NA,NA
+250,NA,NA,Campbell River,British Columbia,NA,NA,NA
+250,NA,NA,Port Alberni,British Columbia,NA,NA,NA
+250,NA,NA,Courtenay,British Columbia,NA,NA,NA
+250,NA,NA,Victoria,British Columbia,NA,NA,NA
+250,NA,NA,West Kelowna,British Columbia,NA,NA,NA
+250,NA,NA,Kamloops,British Columbia,NA,NA,NA
+250,NA,NA,Dawson Creek,British Columbia,NA,NA,NA
+250,NA,NA,Fort St. John,British Columbia,NA,NA,NA
+250,NA,NA,Parksville,British Columbia,NA,NA,NA
+250,NA,NA,Trail,British Columbia,NA,NA,NA
+250,NA,NA,Vernon,British Columbia,NA,NA,NA
+250,NA,NA,Nanaimo,British Columbia,NA,NA,NA
+250,NA,NA,Ladysmith,British Columbia,NA,NA,NA
+250,NA,NA,Duncan,British Columbia,NA,NA,NA
+250,NA,NA,Salmon Arm,British Columbia,NA,NA,NA
+250,NA,NA,Quesnel,British Columbia,NA,NA,NA
+250,NA,NA,Williams Lake,British Columbia,NA,NA,NA
+250,NA,NA,Penticton,British Columbia,NA,NA,NA
+250,NA,NA,Prince George,British Columbia,NA,NA,NA
+250,NA,NA,Fernie,British Columbia,NA,NA,NA
+250,NA,NA,Kitimat,British Columbia,NA,NA,NA
+250,NA,NA,Merritt,British Columbia,NA,NA,NA
+250,NA,NA,Castlegar,British Columbia,NA,NA,NA
+250,NA,NA,Nelson,British Columbia,NA,NA,NA
+250,NA,NA,Summerland,British Columbia,NA,NA,NA
+250,NA,NA,Cranbrook,British Columbia,NA,NA,NA
+250,NA,NA,Kimberley,British Columbia,NA,NA,NA
+250,NA,NA,North Saanich,British Columbia,NA,NA,NA
+250,NA,NA,Terrace,British Columbia,NA,NA,NA
+250,NA,NA,Prince Rupert,British Columbia,NA,NA,NA
+250,NA,NA,Sooke,British Columbia,NA,NA,NA
+250,NA,NA,Smithers,British Columbia,NA,NA,NA
+289,NA,NA,Ajax,Ontario,NA,NA,NA
+289,NA,NA,Brampton,Ontario,NA,NA,NA
+289,NA,NA,Ancaster,Ontario,NA,NA,NA
+289,NA,NA,Burlington,Ontario,NA,NA,NA
+289,NA,NA,St. Catharines,Ontario,NA,NA,NA
+289,NA,NA,Cobourg,Ontario,NA,NA,NA
+289,NA,NA,Oakville,Ontario,NA,NA,NA
+289,NA,NA,Oshawa,Ontario,NA,NA,NA
+289,NA,NA,Pickering,Ontario,NA,NA,NA
+289,NA,NA,Newmarket,Ontario,NA,NA,NA
+289,NA,NA,Hamilton,Ontario,NA,NA,NA
+289,NA,NA,Niagara Falls,Ontario,NA,NA,NA
+289,NA,NA,Fort Erie,Ontario,NA,NA,NA
+289,NA,NA,Richmond Hill,Ontario,NA,NA,NA
+289,NA,NA,Milton,Ontario,NA,NA,NA
+289,NA,NA,Markham,Ontario,NA,NA,NA
+289,NA,NA,Welland,Ontario,NA,NA,NA
+289,NA,NA,Uxbridge,Ontario,NA,NA,NA
+289,NA,NA,Port Colborne,Ontario,NA,NA,NA
+289,NA,NA,Keswick,Ontario,NA,NA,NA
+306,NA,NA,Regina,Saskatchewan,NA,NA,NA
+306,NA,NA,Saskatoon,Saskatchewan,NA,NA,NA
+306,NA,NA,North Battleford,Saskatchewan,NA,NA,NA
+306,NA,NA,Moose Jaw,Saskatchewan,NA,NA,NA
+306,NA,NA,Melfort,Saskatchewan,NA,NA,NA
+306,NA,NA,Lloydminster,Saskatchewan,NA,NA,NA
+306,NA,NA,Estevan,Saskatchewan,NA,NA,NA
+306,NA,NA,Prince Albert,Saskatchewan,NA,NA,NA
+306,NA,NA,Swift Current,Saskatchewan,NA,NA,NA
+306,NA,NA,Yorkton,Saskatchewan,NA,NA,NA
+306,NA,NA,Weyburn,Saskatchewan,NA,NA,NA
+343,NA,NA,Clarence-Rockland,Ontario,NA,NA,NA
+343,NA,NA,Ottawa,Ontario,NA,NA,NA
+343,NA,NA,Carleton Place,Ontario,NA,NA,NA
+343,NA,NA,Brockville,Ontario,NA,NA,NA
+343,NA,NA,Belleville,Ontario,NA,NA,NA
+343,NA,NA,Kingston,Ontario,NA,NA,NA
+343,NA,NA,Greater Napanee,Ontario,NA,NA,NA
+343,NA,NA,Cornwall,Ontario,NA,NA,NA
+343,NA,NA,Renfrew,Ontario,NA,NA,NA
+343,NA,NA,Pembroke,Ontario,NA,NA,NA
+343,NA,NA,Perth,Ontario,NA,NA,NA
+343,NA,NA,Gananoque,Ontario,NA,NA,NA
+343,NA,NA,Hawkesbury,Ontario,NA,NA,NA
+343,NA,NA,Smiths Falls,Ontario,NA,NA,NA
+365,NA,NA,Hamilton,Ontario,NA,NA,NA
+365,NA,NA,Oshawa,Ontario,NA,NA,NA
+403,NA,NA,Calgary,Alberta,NA,NA,NA
+403,NA,NA,Taber,Alberta,NA,NA,NA
+403,NA,NA,Red Deer,Alberta,NA,NA,NA
+403,NA,NA,Okotoks,Alberta,NA,NA,NA
+403,NA,NA,Lethbridge,Alberta,NA,NA,NA
+403,NA,NA,Airdrie,Alberta,NA,NA,NA
+403,NA,NA,Rocky Mountain House,Alberta,NA,NA,NA
+403,NA,NA,Stettler,Alberta,NA,NA,NA
+403,NA,NA,Strathmore,Alberta,NA,NA,NA
+403,NA,NA,High River,Alberta,NA,NA,NA
+403,NA,NA,Coaldale,Alberta,NA,NA,NA
+403,NA,NA,Brooks,Alberta,NA,NA,NA
+403,NA,NA,Olds,Alberta,NA,NA,NA
+403,NA,NA,Banff,Alberta,NA,NA,NA
+403,NA,NA,Medicine Hat,Alberta,NA,NA,NA
+403,NA,NA,Canmore,Alberta,NA,NA,NA
+403,NA,NA,Ponoka,Alberta,NA,NA,NA
+403,NA,NA,Cochrane,Alberta,NA,NA,NA
+403,NA,NA,Lacombe,Alberta,NA,NA,NA
+403,NA,NA,Sylvan Lake,Alberta,NA,NA,NA
+416,NA,NA,Toronto,Ontario,NA,NA,NA
+416,NA,NA,Ancaster,Ontario,NA,NA,NA
+418,NA,NA,Baie-Saint-Paul,Québec,NA,NA,NA
+418,NA,NA,La Malbaie,Québec,NA,NA,NA
+418,NA,NA,Saint-Jean-sur-Richelieu,Québec,NA,NA,NA
+418,NA,NA,Québec,Québec,NA,NA,NA
+418,NA,NA,Saint-Lambert-de-Lauzon,Québec,NA,NA,NA
+418,NA,NA,Montmagny,Québec,NA,NA,NA
+418,NA,NA,Sainte-Marie,Québec,NA,NA,NA
+418,NA,NA,Alma,Québec,NA,NA,NA
+418,NA,NA,Jonquière,Québec,NA,NA,NA
+418,NA,NA,Saint-Raymond,Québec,NA,NA,NA
+418,NA,NA,Beauceville,Québec,NA,NA,NA
+418,NA,NA,Saint-Félicien,Québec,NA,NA,NA
+418,NA,NA,Matane,Québec,NA,NA,NA
+418,NA,NA,Sainte-Anne-des-Plaines,Québec,NA,NA,NA
+418,NA,NA,Dolbeau-Mistassini,Québec,NA,NA,NA
+418,NA,NA,La Tuque,Québec,NA,NA,NA
+418,NA,NA,Sainte-Marthe-sur-le-Lac,Québec,NA,NA,NA
+418,NA,NA,Rivière-du-Loup,Québec,NA,NA,NA
+418,NA,NA,Roberval,Québec,NA,NA,NA
+418,NA,NA,Thetford-Mines,Québec,NA,NA,NA
+418,NA,NA,Donnacona,Québec,NA,NA,NA
+418,NA,NA,Baie-Comeau,Québec,NA,NA,NA
+418,NA,NA,Saint-Henri,Québec,NA,NA,NA
+418,NA,NA,Notre-Dame-des-Prairies,Québec,NA,NA,NA
+418,NA,NA,Rimouski,Québec,NA,NA,NA
+418,NA,NA,Saint-Augustin-de-Desmaures,Québec,NA,NA,NA
+418,NA,NA,Saint-Basile-le-Grand,Québec,NA,NA,NA
+418,NA,NA,Amqui,Québec,NA,NA,NA
+418,NA,NA,Sept-Îles,Québec,NA,NA,NA
+418,NA,NA,Gaspé,Québec,NA,NA,NA
+418,NA,NA,Val-des-Monts,Québec,NA,NA,NA
+418,NA,NA,Port-Cartier,Québec,NA,NA,NA
+418,NA,NA,Chandler,Québec,NA,NA,NA
+418,NA,NA,Pont-Rouge,Québec,NA,NA,NA
+418,NA,NA,Val-d'Or,Québec,NA,NA,NA
+418,NA,NA,Sainte-Catherine,Québec,NA,NA,NA
+418,NA,NA,Trois-Rivières,Québec,NA,NA,NA
+418,NA,NA,Sainte-Agathe-des-Monts,Québec,NA,NA,NA
+418,NA,NA,Laval,Québec,NA,NA,NA
+418,NA,NA,Côte-Saint-Luc,Québec,NA,NA,NA
+418,NA,NA,Sainte-Adèle,Québec,NA,NA,NA
+418,NA,NA,Chibougamau,Québec,NA,NA,NA
+418,NA,NA,Sainte-Anne-des-Monts,Québec,NA,NA,NA
+418,NA,NA,Mont-Joli,Québec,NA,NA,NA
+418,NA,NA,Pointe-Claire,Québec,NA,NA,NA
+418,NA,NA,Saint-Lin-Laurentides,Québec,NA,NA,NA
+418,NA,NA,Notre-Dame-de-l'Île-Perrot,Québec,NA,NA,NA
+431,NA,NA,Winnipeg,Manitoba,NA,NA,NA
+431,NA,NA,Steinbach,Manitoba,NA,NA,NA
+431,NA,NA,Brandon,Manitoba,NA,NA,NA
+431,NA,NA,Morden,Manitoba,NA,NA,NA
+431,NA,NA,Flin Flon,Manitoba,NA,NA,NA
+431,NA,NA,Dauphin,Manitoba,NA,NA,NA
+431,NA,NA,Thompson,Manitoba,NA,NA,NA
+431,NA,NA,The Pas,Manitoba,NA,NA,NA
+431,NA,NA,Selkirk,Manitoba,NA,NA,NA
+431,NA,NA,Winkler,Manitoba,NA,NA,NA
+431,NA,NA,Portage la Prairie,Manitoba,NA,NA,NA
+437,NA,NA,Toronto,Ontario,NA,NA,NA
+438,NA,NA,Montréal-Ouest,Québec,NA,NA,NA
+438,NA,NA,Notre-Dame-de-l'Île-Perrot,Québec,NA,NA,NA
+438,NA,NA,Pointe-Claire,Québec,NA,NA,NA
+438,NA,NA,Sainte-Adèle,Québec,NA,NA,NA
+450,NA,NA,Châteauguay,Québec,NA,NA,NA
+450,NA,NA,Hudson,Québec,NA,NA,NA
+450,NA,NA,Granby,Québec,NA,NA,NA
+450,NA,NA,Sainte-Anne-des-Plaines,Québec,NA,NA,NA
+450,NA,NA,Lachute,Québec,NA,NA,NA
+450,NA,NA,Saint-Lambert-de-Lauzon,Québec,NA,NA,NA
+450,NA,NA,Saint-Hyacinthe,Québec,NA,NA,NA
+450,NA,NA,Saint-Jean-sur-Richelieu,Québec,NA,NA,NA
+450,NA,NA,Sainte-Adèle,Québec,NA,NA,NA
+450,NA,NA,Saint-Lin-Laurentides,Québec,NA,NA,NA
+450,NA,NA,Vaudreuil-Dorion,Québec,NA,NA,NA
+450,NA,NA,Salaberry-de-Valleyfield,Québec,NA,NA,NA
+450,NA,NA,Beauharnois,Québec,NA,NA,NA
+450,NA,NA,Saint-Sauveur,Québec,NA,NA,NA
+450,NA,NA,Laval,Québec,NA,NA,NA
+450,NA,NA,Baie-Saint-Paul,Québec,NA,NA,NA
+450,NA,NA,Acton Vale,Québec,NA,NA,NA
+450,NA,NA,Québec,Québec,NA,NA,NA
+450,NA,NA,Sorel-Tracy,Québec,NA,NA,NA
+450,NA,NA,Pont-Rouge,Québec,NA,NA,NA
+450,NA,NA,Mirabel,Québec,NA,NA,NA
+450,NA,NA,Cowansville,Québec,NA,NA,NA
+450,NA,NA,Beloeil,Québec,NA,NA,NA
+450,NA,NA,Rivière-du-Loup,Québec,NA,NA,NA
+450,NA,NA,Joliette,Québec,NA,NA,NA
+450,NA,NA,Boucherville,Québec,NA,NA,NA
+450,NA,NA,Saint-Jérôme,Québec,NA,NA,NA
+450,NA,NA,Chambly,Québec,NA,NA,NA
+450,NA,NA,La Prairie,Québec,NA,NA,NA
+450,NA,NA,Saint-Bruno-de-Montarville,Québec,NA,NA,NA
+450,NA,NA,Varennes,Québec,NA,NA,NA
+450,NA,NA,Longueuil,Québec,NA,NA,NA
+450,NA,NA,Saint-Constant,Québec,NA,NA,NA
+450,NA,NA,Farnham,Québec,NA,NA,NA
+450,NA,NA,Notre-Dame-des-Prairies,Québec,NA,NA,NA
+450,NA,NA,Sainte-Marthe-sur-le-Lac,Québec,NA,NA,NA
+450,NA,NA,Terrebonne,Québec,NA,NA,NA
+450,NA,NA,Mascouche,Québec,NA,NA,NA
+450,NA,NA,Saint-Eustache,Québec,NA,NA,NA
+450,NA,NA,Sainte-Julie,Québec,NA,NA,NA
+450,NA,NA,Rawdon,Québec,NA,NA,NA
+450,NA,NA,Lavaltrie,Québec,NA,NA,NA
+450,NA,NA,Brownsburg-Chatham,Québec,NA,NA,NA
+450,NA,NA,Saint-Augustin-de-Desmaures,Québec,NA,NA,NA
+450,NA,NA,Marieville,Québec,NA,NA,NA
+450,NA,NA,Bromont,Québec,NA,NA,NA
+450,NA,NA,L'Assomption,Québec,NA,NA,NA
+506,NA,NA,Edmundston,New Brunswick,NA,NA,NA
+506,NA,NA,Saint John,New Brunswick,NA,NA,NA
+506,NA,NA,Moncton,New Brunswick,NA,NA,NA
+506,NA,NA,Fredericton,New Brunswick,NA,NA,NA
+506,NA,NA,Oromocto,New Brunswick,NA,NA,NA
+506,NA,NA,Miramichi,New Brunswick,NA,NA,NA
+506,NA,NA,Bathurst,New Brunswick,NA,NA,NA
+506,NA,NA,Campbellton,New Brunswick,NA,NA,NA
+506,NA,NA,Sackville,New Brunswick,NA,NA,NA
+514,NA,NA,Jonquière,Québec,NA,NA,NA
+514,NA,NA,Montréal-Ouest,Québec,NA,NA,NA
+514,NA,NA,Sainte-Adèle,Québec,NA,NA,NA
+514,NA,NA,Pointe-Claire,Québec,NA,NA,NA
+514,NA,NA,Notre-Dame-de-l'Île-Perrot,Québec,NA,NA,NA
+519,NA,NA,London,Ontario,NA,NA,NA
+519,NA,NA,Dorchester,Ontario,NA,NA,NA
+519,NA,NA,St. Thomas,Ontario,NA,NA,NA
+519,NA,NA,Kitchener,Ontario,NA,NA,NA
+519,NA,NA,Brantford,Ontario,NA,NA,NA
+519,NA,NA,Orangeville,Ontario,NA,NA,NA
+519,NA,NA,Windsor,Ontario,NA,NA,NA
+519,NA,NA,Guelph,Ontario,NA,NA,NA
+519,NA,NA,Owen Sound,Ontario,NA,NA,NA
+519,NA,NA,Stratford,Ontario,NA,NA,NA
+519,NA,NA,Woodstock,Ontario,NA,NA,NA
+519,NA,NA,Paris,Ontario,NA,NA,NA
+519,NA,NA,Ingersoll,Ontario,NA,NA,NA
+519,NA,NA,Sarnia,Ontario,NA,NA,NA
+519,NA,NA,Hanover,Ontario,NA,NA,NA
+519,NA,NA,Goderich,Ontario,NA,NA,NA
+519,NA,NA,Amherstburg,Ontario,NA,NA,NA
+519,NA,NA,Aylmer,Ontario,NA,NA,NA
+519,NA,NA,Petrolia,Ontario,NA,NA,NA
+519,NA,NA,Ancaster,Ontario,NA,NA,NA
+579,NA,NA,Cowansville,Québec,NA,NA,NA
+579,NA,NA,Granby,Québec,NA,NA,NA
+579,NA,NA,Longueuil,Québec,NA,NA,NA
+579,NA,NA,Boucherville,Québec,NA,NA,NA
+579,NA,NA,Vaudreuil-Dorion,Québec,NA,NA,NA
+579,NA,NA,Laval,Québec,NA,NA,NA
+579,NA,NA,Chambly,Québec,NA,NA,NA
+579,NA,NA,La Prairie,Québec,NA,NA,NA
+579,NA,NA,Marieville,Québec,NA,NA,NA
+579,NA,NA,Saint-Bruno-de-Montarville,Québec,NA,NA,NA
+579,NA,NA,Saint-Jean-sur-Richelieu,Québec,NA,NA,NA
+579,NA,NA,Saint-Hyacinthe,Québec,NA,NA,NA
+579,NA,NA,Sainte-Adèle,Québec,NA,NA,NA
+579,NA,NA,Beloeil,Québec,NA,NA,NA
+579,NA,NA,Mascouche,Québec,NA,NA,NA
+579,NA,NA,Pont-Rouge,Québec,NA,NA,NA
+579,NA,NA,Saint-Jérôme,Québec,NA,NA,NA
+579,NA,NA,Saint-Lambert-de-Lauzon,Québec,NA,NA,NA
+579,NA,NA,Baie-Saint-Paul,Québec,NA,NA,NA
+579,NA,NA,Sorel-Tracy,Québec,NA,NA,NA
+579,NA,NA,Joliette,Québec,NA,NA,NA
+579,NA,NA,Salaberry-de-Valleyfield,Québec,NA,NA,NA
+579,NA,NA,Saint-Eustache,Québec,NA,NA,NA
+579,NA,NA,Sainte-Julie,Québec,NA,NA,NA
+579,NA,NA,Mirabel,Québec,NA,NA,NA
+579,NA,NA,Bromont,Québec,NA,NA,NA
+579,NA,NA,Rawdon,Québec,NA,NA,NA
+579,NA,NA,Lavaltrie,Québec,NA,NA,NA
+579,NA,NA,L'Assomption,Québec,NA,NA,NA
+579,NA,NA,Saint-Constant,Québec,NA,NA,NA
+579,NA,NA,Châteauguay,Québec,NA,NA,NA
+579,NA,NA,Notre-Dame-des-Prairies,Québec,NA,NA,NA
+579,NA,NA,Sainte-Anne-des-Plaines,Québec,NA,NA,NA
+579,NA,NA,Lachute,Québec,NA,NA,NA
+579,NA,NA,Terrebonne,Québec,NA,NA,NA
+579,NA,NA,Saint-Augustin-de-Desmaures,Québec,NA,NA,NA
+579,NA,NA,Saint-Sauveur,Québec,NA,NA,NA
+581,NA,NA,Alma,Québec,NA,NA,NA
+581,NA,NA,Québec,Québec,NA,NA,NA
+581,NA,NA,Saint-Lambert-de-Lauzon,Québec,NA,NA,NA
+581,NA,NA,Dolbeau-Mistassini,Québec,NA,NA,NA
+581,NA,NA,Rivière-du-Loup,Québec,NA,NA,NA
+581,NA,NA,Sainte-Marthe-sur-le-Lac,Québec,NA,NA,NA
+581,NA,NA,Roberval,Québec,NA,NA,NA
+581,NA,NA,Saint-Félicien,Québec,NA,NA,NA
+581,NA,NA,Sainte-Marie,Québec,NA,NA,NA
+581,NA,NA,Matane,Québec,NA,NA,NA
+581,NA,NA,Baie-Saint-Paul,Québec,NA,NA,NA
+581,NA,NA,La Malbaie,Québec,NA,NA,NA
+581,NA,NA,Rimouski,Québec,NA,NA,NA
+581,NA,NA,Jonquière,Québec,NA,NA,NA
+581,NA,NA,Saint-Henri,Québec,NA,NA,NA
+581,NA,NA,Thetford-Mines,Québec,NA,NA,NA
+581,NA,NA,Sainte-Anne-des-Plaines,Québec,NA,NA,NA
+581,NA,NA,Montmagny,Québec,NA,NA,NA
+581,NA,NA,Saint-Jean-sur-Richelieu,Québec,NA,NA,NA
+581,NA,NA,Port-Cartier,Québec,NA,NA,NA
+581,NA,NA,La Tuque,Québec,NA,NA,NA
+581,NA,NA,Sept-Îles,Québec,NA,NA,NA
+581,NA,NA,Pont-Rouge,Québec,NA,NA,NA
+581,NA,NA,Amqui,Québec,NA,NA,NA
+581,NA,NA,Val-d'Or,Québec,NA,NA,NA
+581,NA,NA,Sainte-Anne-des-Monts,Québec,NA,NA,NA
+581,NA,NA,Saint-Basile-le-Grand,Québec,NA,NA,NA
+581,NA,NA,Donnacona,Québec,NA,NA,NA
+581,NA,NA,Mont-Joli,Québec,NA,NA,NA
+581,NA,NA,Gaspé,Québec,NA,NA,NA
+581,NA,NA,Pointe-Claire,Québec,NA,NA,NA
+581,NA,NA,Chandler,Québec,NA,NA,NA
+581,NA,NA,Sainte-Adèle,Québec,NA,NA,NA
+581,NA,NA,Beauceville,Québec,NA,NA,NA
+581,NA,NA,Sainte-Agathe-des-Monts,Québec,NA,NA,NA
+581,NA,NA,Chibougamau,Québec,NA,NA,NA
+581,NA,NA,Notre-Dame-des-Prairies,Québec,NA,NA,NA
+581,NA,NA,Laval,Québec,NA,NA,NA
+581,NA,NA,Sainte-Catherine,Québec,NA,NA,NA
+581,NA,NA,Trois-Rivières,Québec,NA,NA,NA
+581,NA,NA,Saint-Lin-Laurentides,Québec,NA,NA,NA
+581,NA,NA,Val-des-Monts,Québec,NA,NA,NA
+581,NA,NA,Notre-Dame-de-l'Île-Perrot,Québec,NA,NA,NA
+587,NA,NA,Bonnyville,Alberta,NA,NA,NA
+587,NA,NA,Calgary,Alberta,NA,NA,NA
+587,NA,NA,Lethbridge,Alberta,NA,NA,NA
+587,NA,NA,Banff,Alberta,NA,NA,NA
+587,NA,NA,St. Albert,Alberta,NA,NA,NA
+587,NA,NA,Sherwood Park,Alberta,NA,NA,NA
+587,NA,NA,Airdrie,Alberta,NA,NA,NA
+587,NA,NA,Beaumont,Alberta,NA,NA,NA
+587,NA,NA,Canmore,Alberta,NA,NA,NA
+587,NA,NA,Cochrane,Alberta,NA,NA,NA
+587,NA,NA,Devon,Alberta,NA,NA,NA
+587,NA,NA,Fort McMurray,Alberta,NA,NA,NA
+587,NA,NA,Fort Saskatchewan,Alberta,NA,NA,NA
+587,NA,NA,Grande Prairie,Alberta,NA,NA,NA
+587,NA,NA,High River,Alberta,NA,NA,NA
+587,NA,NA,Leduc,Alberta,NA,NA,NA
+587,NA,NA,Medicine Hat,Alberta,NA,NA,NA
+587,NA,NA,Morinville,Alberta,NA,NA,NA
+587,NA,NA,Okotoks,Alberta,NA,NA,NA
+587,NA,NA,Spruce Grove,Alberta,NA,NA,NA
+587,NA,NA,Stony Plain,Alberta,NA,NA,NA
+587,NA,NA,Strathmore,Alberta,NA,NA,NA
+587,NA,NA,Camrose,Alberta,NA,NA,NA
+587,NA,NA,Peace River,Alberta,NA,NA,NA
+587,NA,NA,Vegreville,Alberta,NA,NA,NA
+587,NA,NA,Brooks,Alberta,NA,NA,NA
+587,NA,NA,Westlock,Alberta,NA,NA,NA
+587,NA,NA,Slave Lake,Alberta,NA,NA,NA
+587,NA,NA,Edson,Alberta,NA,NA,NA
+587,NA,NA,Red Deer,Alberta,NA,NA,NA
+587,NA,NA,Drayton Valley,Alberta,NA,NA,NA
+587,NA,NA,Wainwright,Alberta,NA,NA,NA
+587,NA,NA,Stettler,Alberta,NA,NA,NA
+587,NA,NA,Lacombe,Alberta,NA,NA,NA
+587,NA,NA,Edmonton,Alberta,NA,NA,NA
+587,NA,NA,Taber,Alberta,NA,NA,NA
+587,NA,NA,Sylvan Lake,Alberta,NA,NA,NA
+587,NA,NA,Coaldale,Alberta,NA,NA,NA
+587,NA,NA,Cold Lake,Alberta,NA,NA,NA
+587,NA,NA,Hinton,Alberta,NA,NA,NA
+587,NA,NA,Wetaskiwin,Alberta,NA,NA,NA
+587,NA,NA,Olds,Alberta,NA,NA,NA
+587,NA,NA,Ponoka,Alberta,NA,NA,NA
+587,NA,NA,Rocky Mountain House,Alberta,NA,NA,NA
+604,NA,NA,New Westminster,British Columbia,NA,NA,NA
+604,NA,NA,Whistler,British Columbia,NA,NA,NA
+604,NA,NA,Richmond,British Columbia,NA,NA,NA
+604,NA,NA,West Vancouver,British Columbia,NA,NA,NA
+604,NA,NA,Powell River,British Columbia,NA,NA,NA
+604,NA,NA,North Vancouver,British Columbia,NA,NA,NA
+604,NA,NA,Sechelt,British Columbia,NA,NA,NA
+604,NA,NA,Abbotsford,British Columbia,NA,NA,NA
+604,NA,NA,Aldergrove,British Columbia,NA,NA,NA
+604,NA,NA,Chilliwack,British Columbia,NA,NA,NA
+604,NA,NA,Ladner,British Columbia,NA,NA,NA
+604,NA,NA,White Rock,British Columbia,NA,NA,NA
+604,NA,NA,Langley,British Columbia,NA,NA,NA
+604,NA,NA,Pitt Meadows,British Columbia,NA,NA,NA
+604,NA,NA,Port Moody,British Columbia,NA,NA,NA
+604,NA,NA,Gibsons,British Columbia,NA,NA,NA
+613,NA,NA,Perth,Ontario,NA,NA,NA
+613,NA,NA,Ottawa,Ontario,NA,NA,NA
+613,NA,NA,Smiths Falls,Ontario,NA,NA,NA
+613,NA,NA,Cornwall,Ontario,NA,NA,NA
+613,NA,NA,Belleville,Ontario,NA,NA,NA
+613,NA,NA,Brockville,Ontario,NA,NA,NA
+613,NA,NA,Kingston,Ontario,NA,NA,NA
+613,NA,NA,Carleton Place,Ontario,NA,NA,NA
+613,NA,NA,Pembroke,Ontario,NA,NA,NA
+613,NA,NA,Hawkesbury,Ontario,NA,NA,NA
+613,NA,NA,Greater Napanee,Ontario,NA,NA,NA
+613,NA,NA,Gananoque,Ontario,NA,NA,NA
+613,NA,NA,Clarence-Rockland,Ontario,NA,NA,NA
+613,NA,NA,Renfrew,Ontario,NA,NA,NA
+613,NA,NA,Petawawa,Ontario,NA,NA,NA
+613,NA,NA,Arnprior,Ontario,NA,NA,NA
+613,NA,NA,Ancaster,Ontario,NA,NA,NA
+639,NA,NA,Prince Albert,Saskatchewan,NA,NA,NA
+639,NA,NA,Regina,Saskatchewan,NA,NA,NA
+639,NA,NA,Saskatoon,Saskatchewan,NA,NA,NA
+639,NA,NA,Estevan,Saskatchewan,NA,NA,NA
+639,NA,NA,Lloydminster,Saskatchewan,NA,NA,NA
+647,NA,NA,Toronto,Ontario,NA,NA,NA
+705,NA,NA,Peterborough,Ontario,NA,NA,NA
+705,NA,NA,Parry Sound,Ontario,NA,NA,NA
+705,NA,NA,Bracebridge,Ontario,NA,NA,NA
+705,NA,NA,Sault Ste. Marie,Ontario,NA,NA,NA
+705,NA,NA,Greater Sudbury,Ontario,NA,NA,NA
+705,NA,NA,Midland,Ontario,NA,NA,NA
+705,NA,NA,Barrie,Ontario,NA,NA,NA
+705,NA,NA,Timmins,Ontario,NA,NA,NA
+705,NA,NA,North Bay,Ontario,NA,NA,NA
+705,NA,NA,Huntsville,Ontario,NA,NA,NA
+705,NA,NA,Angus,Ontario,NA,NA,NA
+705,NA,NA,Orillia,Ontario,NA,NA,NA
+705,NA,NA,Elliot Lake,Ontario,NA,NA,NA
+705,NA,NA,Collingwood,Ontario,NA,NA,NA
+705,NA,NA,Kapuskasing,Ontario,NA,NA,NA
+705,NA,NA,Wasaga Beach,Ontario,NA,NA,NA
+705,NA,NA,Temiskaming Shores,Ontario,NA,NA,NA
+705,NA,NA,Kirkland Lake,Ontario,NA,NA,NA
+705,NA,NA,Gravenhurst,Ontario,NA,NA,NA
+705,NA,NA,Ancaster,Ontario,NA,NA,NA
+709,NA,NA,Stephenville,Newfoundland and Labrador,NA,NA,NA
+709,NA,NA,Corner Brook,Newfoundland and Labrador,NA,NA,NA
+709,NA,NA,Happy Valley-Goose Bay,Newfoundland and Labrador,NA,NA,NA
+709,NA,NA,St. John's,Newfoundland and Labrador,NA,NA,NA
+709,NA,NA,Bay Roberts,Newfoundland and Labrador,NA,NA,NA
+709,NA,NA,Grand Falls-Windsor,Newfoundland and Labrador,NA,NA,NA
+709,NA,NA,Carbonear,Newfoundland and Labrador,NA,NA,NA
+778,NA,NA,West Vancouver,British Columbia,NA,NA,NA
+778,NA,NA,Abbotsford,British Columbia,NA,NA,NA
+778,NA,NA,Smithers,British Columbia,NA,NA,NA
+778,NA,NA,Vernon,British Columbia,NA,NA,NA
+778,NA,NA,West Kelowna,British Columbia,NA,NA,NA
+778,NA,NA,Port Moody,British Columbia,NA,NA,NA
+778,NA,NA,Richmond,British Columbia,NA,NA,NA
+778,NA,NA,Kamloops,British Columbia,NA,NA,NA
+778,NA,NA,Victoria,British Columbia,NA,NA,NA
+778,NA,NA,Courtenay,British Columbia,NA,NA,NA
+778,NA,NA,New Westminster,British Columbia,NA,NA,NA
+778,NA,NA,Aldergrove,British Columbia,NA,NA,NA
+778,NA,NA,North Vancouver,British Columbia,NA,NA,NA
+778,NA,NA,Revelstoke,British Columbia,NA,NA,NA
+778,NA,NA,Fort St. John,British Columbia,NA,NA,NA
+778,NA,NA,Cranbrook,British Columbia,NA,NA,NA
+778,NA,NA,Ladner,British Columbia,NA,NA,NA
+778,NA,NA,Williams Lake,British Columbia,NA,NA,NA
+778,NA,NA,Nanaimo,British Columbia,NA,NA,NA
+778,NA,NA,Nelson,British Columbia,NA,NA,NA
+778,NA,NA,Terrace,British Columbia,NA,NA,NA
+778,NA,NA,Dawson Creek,British Columbia,NA,NA,NA
+778,NA,NA,Trail,British Columbia,NA,NA,NA
+778,NA,NA,Duncan,British Columbia,NA,NA,NA
+778,NA,NA,Gibsons,British Columbia,NA,NA,NA
+778,NA,NA,Langley,British Columbia,NA,NA,NA
+778,NA,NA,Prince George,British Columbia,NA,NA,NA
+778,NA,NA,Salmon Arm,British Columbia,NA,NA,NA
+778,NA,NA,White Rock,British Columbia,NA,NA,NA
+778,NA,NA,Port Alberni,British Columbia,NA,NA,NA
+778,NA,NA,Quesnel,British Columbia,NA,NA,NA
+778,NA,NA,Campbell River,British Columbia,NA,NA,NA
+778,NA,NA,Merritt,British Columbia,NA,NA,NA
+778,NA,NA,Ladysmith,British Columbia,NA,NA,NA
+778,NA,NA,North Saanich,British Columbia,NA,NA,NA
+778,NA,NA,Sooke,British Columbia,NA,NA,NA
+778,NA,NA,Prince Rupert,British Columbia,NA,NA,NA
+778,NA,NA,Pitt Meadows,British Columbia,NA,NA,NA
+778,NA,NA,Sechelt,British Columbia,NA,NA,NA
+778,NA,NA,Castlegar,British Columbia,NA,NA,NA
+778,NA,NA,Penticton,British Columbia,NA,NA,NA
+778,NA,NA,Kimberley,British Columbia,NA,NA,NA
+778,NA,NA,Parksville,British Columbia,NA,NA,NA
+778,NA,NA,Summerland,British Columbia,NA,NA,NA
+778,NA,NA,Fernie,British Columbia,NA,NA,NA
+778,NA,NA,Chilliwack,British Columbia,NA,NA,NA
+778,NA,NA,Whistler,British Columbia,NA,NA,NA
+778,NA,NA,Powell River,British Columbia,NA,NA,NA
+778,NA,NA,Kitimat,British Columbia,NA,NA,NA
+780,NA,NA,Edmonton,Alberta,NA,NA,NA
+780,NA,NA,Bonnyville,Alberta,NA,NA,NA
+780,NA,NA,Drayton Valley,Alberta,NA,NA,NA
+780,NA,NA,Whitecourt,Alberta,NA,NA,NA
+780,NA,NA,Westlock,Alberta,NA,NA,NA
+780,NA,NA,Vegreville,Alberta,NA,NA,NA
+780,NA,NA,Fort McMurray,Alberta,NA,NA,NA
+780,NA,NA,Peace River,Alberta,NA,NA,NA
+780,NA,NA,Hinton,Alberta,NA,NA,NA
+780,NA,NA,Edson,Alberta,NA,NA,NA
+780,NA,NA,Camrose,Alberta,NA,NA,NA
+780,NA,NA,Grande Prairie,Alberta,NA,NA,NA
+780,NA,NA,Slave Lake,Alberta,NA,NA,NA
+780,NA,NA,Wainwright,Alberta,NA,NA,NA
+780,NA,NA,Wetaskiwin,Alberta,NA,NA,NA
+780,NA,NA,St. Albert,Alberta,NA,NA,NA
+780,NA,NA,Sherwood Park,Alberta,NA,NA,NA
+780,NA,NA,Spruce Grove,Alberta,NA,NA,NA
+780,NA,NA,Morinville,Alberta,NA,NA,NA
+780,NA,NA,Fort Saskatchewan,Alberta,NA,NA,NA
+780,NA,NA,Stony Plain,Alberta,NA,NA,NA
+780,NA,NA,Leduc,Alberta,NA,NA,NA
+780,NA,NA,Cold Lake,Alberta,NA,NA,NA
+780,NA,NA,Beaumont,Alberta,NA,NA,NA
+780,NA,NA,Devon,Alberta,NA,NA,NA
+782,NA,NA,Halifax,Nova Scotia,NA,NA,NA
+782,NA,NA,Yarmouth,Nova Scotia,NA,NA,NA
+782,NA,NA,New Glasgow,Nova Scotia,NA,NA,NA
+782,NA,NA,Charlottetown,Prince Edward Island,NA,NA,NA
+807,NA,NA,Dryden,Ontario,NA,NA,NA
+807,NA,NA,Thunder Bay,Ontario,NA,NA,NA
+807,NA,NA,Fort Frances,Ontario,Koochiching,27,071
+807,NA,NA,Ancaster,Ontario,NA,NA,NA
+819,NA,NA,Sherbrooke,Québec,NA,NA,NA
+819,NA,NA,Magog,Québec,NA,NA,NA
+819,NA,NA,Mont-Laurier,Québec,NA,NA,NA
+819,NA,NA,Notre-Dame-des-Prairies,Québec,NA,NA,NA
+819,NA,NA,Sainte-Marthe-sur-le-Lac,Québec,NA,NA,NA
+819,NA,NA,Sainte-Agathe-des-Monts,Québec,NA,NA,NA
+819,NA,NA,Amos,Québec,NA,NA,NA
+819,NA,NA,Sainte-Adèle,Québec,NA,NA,NA
+819,NA,NA,Asbestos,Québec,NA,NA,NA
+819,NA,NA,Saint-Lambert-de-Lauzon,Québec,NA,NA,NA
+819,NA,NA,Louiseville,Québec,NA,NA,NA
+819,NA,NA,Princeville,Québec,NA,NA,NA
+819,NA,NA,Trois-Rivières,Québec,NA,NA,NA
+819,NA,NA,Shawinigan,Québec,NA,NA,NA
+819,NA,NA,Drummondville,Québec,NA,NA,NA
+819,NA,NA,Plessisville,Québec,NA,NA,NA
+819,NA,NA,Nicolet,Québec,NA,NA,NA
+819,NA,NA,Val-des-Monts,Québec,NA,NA,NA
+819,NA,NA,Val-d'Or,Québec,NA,NA,NA
+819,NA,NA,Rouyn-Noranda,Québec,NA,NA,NA
+819,NA,NA,Sainte-Marie,Québec,NA,NA,NA
+819,NA,NA,Bécancour,Québec,NA,NA,NA
+819,NA,NA,La Sarre,Québec,NA,NA,NA
+819,NA,NA,Victoriaville,Québec,NA,NA,NA
+819,NA,NA,Gatineau,Québec,NA,NA,NA
+819,NA,NA,Saint-Léonard,Québec,NA,NA,NA
+819,NA,NA,Saint-Basile-le-Grand,Québec,NA,NA,NA
+819,NA,NA,Bois-des-Filion,Québec,NA,NA,NA
+819,NA,NA,Coaticook,Québec,NA,NA,NA
+819,NA,NA,Windsor,Québec,NA,NA,NA
+819,NA,NA,La Tuque,Québec,NA,NA,NA
+819,NA,NA,Sainte-Anne-des-Plaines,Québec,NA,NA,NA
+819,NA,NA,Saint-Jean-sur-Richelieu,Québec,NA,NA,NA
+819,NA,NA,Saint-Bruno-de-Montarville,Québec,NA,NA,NA
+819,NA,NA,Rivière-du-Loup,Québec,NA,NA,NA
+819,NA,NA,Jonquière,Québec,NA,NA,NA
+825,NA,NA,Calgary,Alberta,NA,NA,NA
+825,NA,NA,Edmonton,Alberta,NA,NA,NA
+825,NA,NA,Red Deer,Alberta,NA,NA,NA
+825,NA,NA,Fort McMurray,Alberta,NA,NA,NA
+825,NA,NA,Westlock,Alberta,NA,NA,NA
+867,NA,NA,Yellowknife,Northwest Territories,NA,NA,NA
+867,NA,NA,Iqaluit,Nunavut,NA,NA,NA
+867,NA,NA,Whitehorse,Yukon Territory,NA,NA,NA
+873,NA,NA,Sherbrooke,Québec,NA,NA,NA
+873,NA,NA,Sainte-Adèle,Québec,NA,NA,NA
+873,NA,NA,Trois-Rivières,Québec,NA,NA,NA
+873,NA,NA,Drummondville,Québec,NA,NA,NA
+873,NA,NA,Shawinigan,Québec,NA,NA,NA
+873,NA,NA,Saint-Lambert-de-Lauzon,Québec,NA,NA,NA
+873,NA,NA,Sainte-Agathe-des-Monts,Québec,NA,NA,NA
+873,NA,NA,Victoriaville,Québec,NA,NA,NA
+873,NA,NA,Sainte-Marie,Québec,NA,NA,NA
+873,NA,NA,Rouyn-Noranda,Québec,NA,NA,NA
+873,NA,NA,La Sarre,Québec,NA,NA,NA
+873,NA,NA,Val-d'Or,Québec,NA,NA,NA
+873,NA,NA,Mont-Laurier,Québec,NA,NA,NA
+873,NA,NA,Coaticook,Québec,NA,NA,NA
+873,NA,NA,Amos,Québec,NA,NA,NA
+873,NA,NA,Gatineau,Québec,NA,NA,NA
+873,NA,NA,Louiseville,Québec,NA,NA,NA
+873,NA,NA,Val-des-Monts,Québec,NA,NA,NA
+873,NA,NA,La Tuque,Québec,NA,NA,NA
+873,NA,NA,Magog,Québec,NA,NA,NA
+873,NA,NA,Notre-Dame-des-Prairies,Québec,NA,NA,NA
+873,NA,NA,Sainte-Marthe-sur-le-Lac,Québec,NA,NA,NA
+902,NA,NA,Charlottetown,Prince Edward Island,NA,NA,NA
+902,NA,NA,Sydney,Nova Scotia,NA,NA,NA
+902,NA,NA,Halifax,Nova Scotia,NA,NA,NA
+902,NA,NA,Bridgewater,Nova Scotia,NA,NA,NA
+902,NA,NA,Glace Bay,Nova Scotia,NA,NA,NA
+902,NA,NA,Amherst,Nova Scotia,NA,NA,NA
+902,NA,NA,Kentville,Nova Scotia,NA,NA,NA
+902,NA,NA,New Glasgow,Nova Scotia,NA,NA,NA
+902,NA,NA,Summerside,Prince Edward Island,NA,NA,NA
+902,NA,NA,Truro,Nova Scotia,NA,NA,NA
+902,NA,NA,Yarmouth,Nova Scotia,NA,NA,NA
+902,NA,NA,Antigonish,Nova Scotia,NA,NA,NA
+905,NA,NA,Markham,Ontario,NA,NA,NA
+905,NA,NA,Milton,Ontario,NA,NA,NA
+905,NA,NA,Cobourg,Ontario,NA,NA,NA
+905,NA,NA,Oakville,Ontario,NA,NA,NA
+905,NA,NA,Oshawa,Ontario,NA,NA,NA
+905,NA,NA,Brampton,Ontario,NA,NA,NA
+905,NA,NA,Hamilton,Ontario,NA,NA,NA
+905,NA,NA,Burlington,Ontario,NA,NA,NA
+905,NA,NA,Richmond Hill,Ontario,NA,NA,NA
+905,NA,NA,St. Catharines,Ontario,NA,NA,NA
+905,NA,NA,Ajax,Ontario,NA,NA,NA
+905,NA,NA,Newmarket,Ontario,NA,NA,NA
+905,NA,NA,Pickering,Ontario,NA,NA,NA
+905,NA,NA,Niagara Falls,Ontario,NA,NA,NA
+905,NA,NA,Ancaster,Ontario,NA,NA,NA
+905,NA,NA,Welland,Ontario,NA,NA,NA
+905,NA,NA,Keswick,Ontario,NA,NA,NA
+905,NA,NA,Port Colborne,Ontario,NA,NA,NA
+905,NA,NA,Uxbridge,Ontario,NA,NA,NA
+905,NA,NA,Fort Erie,Ontario,NA,NA,NA
+904,305,FALSE,Macclenny,Florida,Baker,12,003
+904,305,FALSE,Starke,Florida,Bradford,12,007
+321,305,FALSE,Cocoa,Florida,Brevard,12,009
+407,305,FALSE,Cocoa,Florida,Brevard,12,009
+850,305,FALSE,Blountstown,Florida,Calhoun,12,013
+352,305,FALSE,Inverness,Florida,Citrus,12,017
+904,305,FALSE,Green Cove Springs,Florida,Clay,12,019
+386,305,FALSE,Lake City,Florida,Columbia,12,023
+863,305,FALSE,Arcadia,Florida,DeSoto,12,027
+352,305,FALSE,Cross City,Florida,Dixie,12,029
+850,305,FALSE,Port St. Joe,Florida,Gulf,12,045
+386,305,FALSE,Jasper,Florida,Hamilton,12,047
+850,305,FALSE,Monticello,Florida,Jefferson,12,065
+352,305,FALSE,Tavares,Florida,Lake,12,069
+239,305,FALSE,Fort Myers,Florida,Lee,12,071
+352,305,FALSE,Bronson,Florida,Levy,12,075
+863,305,FALSE,Wauchula,Florida,Hardee,12,049
+863,305,FALSE,LaBelle,Florida,Hendry,12,051
+352,305,FALSE,Brooksville,Florida,Pasco,12,101
+863,305,FALSE,Sebring,Florida,Highlands,12,055
+850,305,FALSE,Pensacola,Florida,Escambia,12,033
+850,305,FALSE,Apalachicola,Florida,Franklin,12,037
+850,305,FALSE,Quincy,Florida,Gadsden,12,039
+850,305,FALSE,Chipley,Florida,Washington,12,133
+850,305,FALSE,Kissimmee,Florida,Osceola,12,097
+813,305,FALSE,Dade City,Florida,Pasco,12,101
+727,305,FALSE,St. Petersburg,Florida,Pinellas,12,103
+386,305,FALSE,Palatka,Florida,Putnam,12,107
+850,305,FALSE,Milton,Florida,Santa Rosa,12,113
+772,305,FALSE,Vero Beach,Florida,Indian River,12,061
+352,305,FALSE,Bushnell,Florida,Hernando,12,053
+386,305,FALSE,Live Oak,Florida,Suwannee,12,121
+850,305,FALSE,Perry,Florida,Taylor,12,123
+386,305,FALSE,Lake Butler,Florida,Union,12,125
+850,305,FALSE,Crawfordville,Florida,Wakulla,12,129
+850,305,FALSE,DeFuniak Springs,Florida,Walton,12,131
+231,616,FALSE,Traverse City,Michigan,Grand Traverse,26,055
+586,313,FALSE,Mount Clemens,Michigan,Macomb,26,099
+906,616,FALSE,Ishpeming,Michigan,Marquette,26,103
+906,616,FALSE,Houghton,Michigan,Houghton,26,061
+989,517,FALSE,Alpena,Michigan,NA,NA,NA
+248,313,FALSE,Bloomfield Township,Michigan,Oakland,26,125
+616,616,TRUE,Muskegon,Michigan,Muskegon,26,121
+989,517,FALSE,West Branch,Michigan,Ogemaw,26,129
+906,616,FALSE,Negaunee,Michigan,Marquette,26,103
+517,517,TRUE,Owosso,Michigan,Shiawassee,26,155
+231,616,FALSE,Holland,Michigan,Ottawa,26,139
+231,616,FALSE,Manistee,Michigan,Manistee,26,101
+586,313,FALSE,Macomb Township,Michigan,Macomb,26,099
+313,313,TRUE,East Detroit,Michigan,Macomb,26,099
+616,616,TRUE,Caledonia,Michigan,Kent,26,081
+517,517,TRUE,St. Johns,Michigan,Gladwin,26,051
+989,517,FALSE,East Tawas,Michigan,Iosco,26,069
+269,616,FALSE,Coldwater,Michigan,Branch,26,023
+906,616,FALSE,Iron Mountain,Michigan,Dickinson,26,043
+989,517,FALSE,Ogemaw,Michigan,Ogemaw,26,129
+616,616,TRUE,Zeeland,Michigan,Ottawa,26,139
+518,518,TRUE,Albany,New York,Albany,36,001
+212,212,TRUE,Manhattan,New York,New York,36,061
+718,212,FALSE,Queens,New York,Queens,36,081
+585,716,FALSE,Batavia,New York,Genesee,36,037
+585,716,FALSE,Geneseo,New York,Livingston,36,051
+315,315,TRUE,Oswego,New York,Oswego,36,075
+518,518,TRUE,Glens Falls,New York,Warren,36,113
+585,716,FALSE,Canandaigua,New York,Ontario,36,069
+716,716,TRUE,Lockport,New York,Niagara,36,063
+585,716,FALSE,East Rochester,New York,Monroe,36,055
+315,315,TRUE,Cortland,New York,Cortland,36,023
+518,518,TRUE,Amsterdam,New York,Montgomery,36,057
+518,518,TRUE,Schroon Lake,New York,Essex,36,031
+518,518,TRUE,Cohoes,New York,Albany,36,001
+607,315,FALSE,Oneonta,New York,Otsego,36,077
+518,518,TRUE,Mechanicville,New York,Rensselaer,36,083
+518,518,TRUE,Rensselaer,New York,Rensselaer,36,083
+518,518,TRUE,Lake George,New York,Warren,36,113
+516,914,FALSE,Westbury,New York,Nassau,36,059
+315,315,TRUE,Ilion,New York,Herkimer,36,043
+516,914,FALSE,North Hempstead,New York,Nassau,36,059
+415,415,TRUE,San Francisco,California,San Francisco,06,075
+916,916,TRUE,Sacramento,California,Sacramento,06,067
+909,213,FALSE,Riverside,California,Riverside,06,065
+661,213,FALSE,Antelope Valley,California,Los Angeles,06,037
+818,213,FALSE,Glendale,California,Los Angeles,06,037
+209,916,FALSE,Modesto,California,Stanislaus,06,099
+530,916,FALSE,Grass Valley,California,Nevada,06,057
+415,415,TRUE,San Mateo,California,San Mateo,06,081
+530,916,FALSE,Mount Shasta,California,Siskiyou,06,093
+661,213,FALSE,Castaic,California,Los Angeles,06,037
+216,216,TRUE,Cleveland,Ohio,Cuyahoga,39,035
+330,216,FALSE,Canton,Ohio,Stark,39,151
+513,513,TRUE,Springfield,Ohio,Clark,39,023
+937,513,FALSE,Englewood,Ohio,Montgomery,39,113
+440,216,FALSE,Avon Lake,Ohio,Lorain,39,093
+740,614,FALSE,London,Ohio,Madison,39,097
+513,513,TRUE,West Chester,Ohio,Butler,39,017
+937,513,FALSE,Greenville,Ohio,Darke,39,037
+614,614,TRUE,Canal Winchester,Ohio,Franklin,39,049
+440,216,FALSE,Sheffield Lake,Ohio,NA,NA,NA
+312,312,TRUE,Chicago,Illinois,Cook,17,031
+618,618,TRUE,Carterville,Illinois,Ballard,21,007
+618,618,TRUE,Centralia,Illinois,Marion,17,121
+312,312,TRUE,Oak Park,Illinois,Cook,17,031
+618,618,TRUE,Du Quoin,Illinois,Perry,17,145
+618,618,TRUE,East St. Louis,Illinois,St. Clair,17,163
+618,618,TRUE,West Frankfort,Illinois,Franklin,17,055
+217,217,TRUE,Bloomington,Illinois,McLean,17,113
+847,312,FALSE,Lake Zurich,Illinois,Lake,17,097
+215,215,TRUE,Bristol,Pennsylvania,Bucks,42,017
+570,717,FALSE,Pottsville,Pennsylvania,Schuylkill,42,107
+215,215,TRUE,West Chester,Pennsylvania,Chester,42,029
+717,717,TRUE,Carlisle,Pennsylvania,Cumberland,42,041
+610,215,FALSE,West Norriton,Pennsylvania,Montgomery,42,091
+717,717,TRUE,Chambersburg,Pennsylvania,Franklin,42,055
+570,717,FALSE,Shamokin,Pennsylvania,Northumberland,42,097
+570,717,FALSE,Nanticoke,Pennsylvania,Pike,42,103
+814,814,TRUE,Greensburg,Pennsylvania,Westmoreland,42,129
+610,215,FALSE,Conshohocken,Pennsylvania,Montgomery,42,091
+570,717,FALSE,Selinsgrove,Pennsylvania,Northumberland,42,097
+717,717,TRUE,Dauphin,Pennsylvania,Dauphin,42,043
+617,617,TRUE,Boston,Massachusetts,Suffolk,25,025
+413,413,TRUE,Springfield,Massachusetts,Hampden,25,013
+781,617,FALSE,Quincy,Massachusetts,Norfolk,25,021
+617,617,TRUE,Brockton,Massachusetts,Plymouth,25,023
+413,413,TRUE,Chicopee,Massachusetts,Hampden,25,013
+781,617,FALSE,Plymouth,Massachusetts,Plymouth,25,023
+413,413,TRUE,Easthampton,Massachusetts,Hampshire,25,015
+978,617,FALSE,Peabody,Massachusetts,Essex,25,009
+978,617,FALSE,Andover,Massachusetts,Essex,25,009
+508,617,FALSE,Burlington,Massachusetts,Middlesex,25,017
+617,617,TRUE,Marlborough,Massachusetts,Middlesex,25,017
+713,713,TRUE,Houston,Texas,Harris,48,201
+713,713,TRUE,Galveston,Texas,Galveston,48,167
+210,512,FALSE,San Marcos,Texas,Hays,48,209
+512,512,TRUE,Pflugerville,Texas,Travis,48,453
+952,612,FALSE,Eagan,Minnesota,Dakota,27,037
+218,218,TRUE,Bemidji,Minnesota,Beltrami,27,007
+651,612,FALSE,Mankato,Minnesota,Blue Earth,27,013
+763,612,FALSE,Coon Rapids,Minnesota,Anoka,27,003
+218,218,TRUE,Brainerd,Minnesota,Crow Wing,27,035
+320,218,FALSE,Alexandria,Minnesota,Douglas,27,041
+651,612,FALSE,Stillwater,Minnesota,St. Croix,55,109
+218,218,TRUE,Grand Rapids,Minnesota,Itasca,27,061
+320,218,FALSE,Willmar,Minnesota,Kandiyohi,27,067
+763,612,FALSE,Chaska,Minnesota,Carver,27,019
+507,612,FALSE,Litchfield,Minnesota,Meeker,27,093
+320,218,FALSE,Little Falls,Minnesota,Morrison,27,097
+651,612,FALSE,Faribault,Minnesota,Rice,27,131
+573,314,FALSE,West Plains,Missouri,Howell,29,091
+660,816,FALSE,Marshall,Missouri,Saline,29,195
+417,816,FALSE,Neosho,Missouri,Newton,29,145
+573,314,FALSE,Poplar Bluff,Missouri,Butler,29,023
+636,314,FALSE,University City,Missouri,St. Louis,29,189
+573,314,FALSE,Sikeston,Missouri,Scott,29,201
+660,816,FALSE,Hannibal,Missouri,Marion,29,127
+573,314,FALSE,Marshfield,Missouri,Webster,29,225
+660,816,FALSE,Trenton,Missouri,Grundy,29,079
+417,816,FALSE,Carthage,Missouri,Jasper,29,097
+573,314,FALSE,Boonville,Missouri,Cooper,29,053
+660,816,FALSE,Knob Noster,Missouri,Johnson,29,101
+316,316,TRUE,Derby,Kansas,Sedgwick,20,173
+785,913,FALSE,Leavenworth,Kansas,Platte,29,165
+620,316,FALSE,Colby,Kansas,Thomas,20,193
+316,316,TRUE,Andover,Kansas,Sedgwick,20,173
+620,316,FALSE,Great Bend,Kansas,Barton,20,009
+785,913,FALSE,Atchison,Kansas,Atchison,20,005
+620,316,FALSE,McPherson,Kansas,McPherson,20,113
+316,316,TRUE,El Dorado,Kansas,Butler,20,015
+620,316,FALSE,Pratt,Kansas,Pratt,20,151
+620,316,FALSE,Anthony,Kansas,Harper,20,077
+620,316,FALSE,Independence,Kansas,Montgomery,20,125
+785,913,FALSE,Burlington,Kansas,Coffey,20,031
+620,316,FALSE,Coffeyville,Kansas,Montgomery,20,125
+785,913,FALSE,Paola,Kansas,Miami,20,121
+515,515,TRUE,Des Moines,Iowa,Polk,19,153
+563,319,FALSE,Burlington,Iowa,Des Moines,19,057
+515,515,TRUE,Clive,Iowa,Polk,19,153
+515,515,TRUE,Waukee,Iowa,Dallas,19,049
+563,319,FALSE,Decorah,Iowa,Winneshiek,19,191
+712,712,TRUE,Carroll,Iowa,Carroll,19,027
+515,515,TRUE,Newton,Iowa,Jasper,19,099
+641,515,FALSE,Indianola,Iowa,Warren,19,181
+712,712,TRUE,Atlantic,Iowa,Cass,19,029
+765,317,FALSE,Lafayette,Indiana,Tippecanoe,18,157
+219,317,FALSE,Fort Wayne,Indiana,Allen,18,003
+260,317,FALSE,South Bend,Indiana,St. Joseph,18,141
+812,812,TRUE,Jasper,Indiana,Dubois,18,037
+765,317,FALSE,Frankfort,Indiana,Clinton,18,023
+260,317,FALSE,Auburn,Indiana,DeKalb,18,033
+317,317,TRUE,Westfield,Indiana,Hamilton,18,057
+812,812,TRUE,Greensburg,Indiana,Decatur,18,031
+765,317,FALSE,Logansport,Indiana,Cass,18,017
+812,812,TRUE,Seymour,Indiana,Jackson,18,071
+414,414,TRUE,Milwaukee,Wisconsin,Milwaukee,55,079
+414,414,TRUE,Kenosha,Wisconsin,Kenosha,55,059
+715,715,TRUE,La Crosse,Wisconsin,La Crosse,55,063
+715,715,TRUE,Chippewa Falls,Wisconsin,Chippewa,55,017
+920,414,FALSE,West Bend,Wisconsin,Washington,55,131
+715,715,TRUE,Marshfield,Wisconsin,Wood,55,141
+608,715,FALSE,Baraboo,Wisconsin,Sauk,55,111
+608,715,FALSE,Richland Center,Wisconsin,Richland,55,103
+715,715,TRUE,Menomonie,Wisconsin,Dunn,55,033
+262,414,FALSE,Port Washington,Wisconsin,Ozaukee,55,089
+715,715,TRUE,Shawano,Wisconsin,Shawano,55,115
+608,715,FALSE,Lodi,Wisconsin,Columbia,55,021
+608,715,FALSE,Platteville,Wisconsin,Grant,55,043
+715,715,TRUE,Rhinelander,Wisconsin,Oneida,55,085
+641,515,FALSE,Greenfield,Iowa,Guthrie,19,077
+641,515,FALSE,Corning,Iowa,Adams,19,003
+563,319,FALSE,Waukon,Iowa,Allamakee,19,005
+641,515,FALSE,Centerville,Iowa,Appanoose,19,007
+319,319,TRUE,Vinton,Iowa,Benton,19,011
+515,515,TRUE,Boone,Iowa,Boone,19,015
+319,319,TRUE,Waverly,Iowa,Black Hawk,19,013
+319,319,TRUE,Independence,Iowa,Buchanan,19,019
+712,712,TRUE,Storm Lake,Iowa,Buena Vista,19,021
+319,319,TRUE,Allison,Iowa,Butler,19,023
+712,712,TRUE,Rockwell City,Iowa,Calhoun,19,025
+563,319,FALSE,Tipton,Iowa,Cedar,19,031
+712,712,TRUE,Cherokee,Iowa,Cherokee,19,035
+641,515,FALSE,New Hampton,Iowa,Chickasaw,19,037
+641,515,FALSE,Osceola,Iowa,Clarke,19,039
+712,712,TRUE,Spencer,Iowa,Clay,19,041
+712,712,TRUE,Denison,Iowa,Crawford,19,047
+515,515,TRUE,Adel,Iowa,Dallas,19,049
+563,319,FALSE,Manchester,Iowa,Delaware,19,055
+712,712,TRUE,Spirit Lake,Iowa,Clay,19,041
+712,712,TRUE,Estherville,Iowa,Kossuth,19,109
+563,319,FALSE,Fayette,Iowa,Fayette,19,065
+641,515,FALSE,Charles City,Iowa,Floyd,19,067
+641,515,FALSE,Hampton,Iowa,Hancock,19,081
+712,712,TRUE,Shenandoah,Iowa,Page,19,145
+515,515,TRUE,Jefferson,Iowa,Greene,19,073
+319,319,TRUE,Grundy Center,Iowa,Grundy,19,075
+641,515,FALSE,Guthrie Center,Iowa,Guthrie,19,077
+515,515,TRUE,Webster City,Iowa,Hamilton,19,079
+641,515,FALSE,Garnert,Iowa,Hancock,19,081
+641,515,FALSE,Eldora,Iowa,Hardin,19,083
+712,712,TRUE,Logan,Iowa,Harrison,19,085
+319,319,TRUE,Mount Pleasant,Iowa,Henry,19,087
+563,319,FALSE,Cresco,Iowa,Howard,19,089
+515,515,TRUE,Humboldt,Iowa,Humboldt,19,091
+712,712,TRUE,Ida Grove,Iowa,Ida,19,093
+319,319,TRUE,Marengo,Iowa,Iowa,19,095
+563,319,FALSE,Maquoketa,Iowa,Jackson,19,097
+641,515,FALSE,Fairfield,Iowa,Jefferson,19,101
+563,319,FALSE,Anamosa,Iowa,Jones,19,105
+641,515,FALSE,Sigourney,Iowa,Keokuk,19,107
+319,319,TRUE,Fort Madison,Iowa,Hancock,17,067
+641,515,FALSE,Chariton,Iowa,Wayne,19,185
+712,712,TRUE,Rock Rapids,Iowa,Lyon,19,119
+515,515,TRUE,Winterset,Iowa,Madison,19,121
+641,515,FALSE,Oskaloosa,Iowa,Mahaska,19,123
+641,515,FALSE,Knoxville,Iowa,Marion,19,125
+712,712,TRUE,Glenwood,Iowa,Mills,19,129
+641,515,FALSE,Albia,Iowa,Monroe,19,135
+712,712,TRUE,Red Oak,Iowa,Montgomery,19,137
+712,712,TRUE,Primghar,Iowa,Cherokee,19,035
+712,712,TRUE,Sibley,Iowa,Osceola,19,143
+712,712,TRUE,Clarinda,Iowa,Page,19,145
+712,712,TRUE,Emmetsburg,Iowa,Palo Alto,19,147
+712,712,TRUE,Le Mars,Iowa,Plymouth,19,149
+641,515,FALSE,Grinnell,Iowa,Poweshiek,19,157
+641,515,FALSE,Mount Ayr,Iowa,Ringgold,19,159
+712,712,TRUE,Sac City,Iowa,Carroll,19,027
+563,319,FALSE,Davenport,Iowa,Scott,19,163
+712,712,TRUE,Harlan,Iowa,Shelby,19,165
+515,515,TRUE,Ames,Iowa,Story,19,169
+641,515,FALSE,Toledo,Iowa,Tama,19,171
+641,515,FALSE,Bedford,Iowa,Taylor,19,173
+641,515,FALSE,Creston,Iowa,Union,19,175
+641,515,FALSE,Keosauqua,Iowa,Van Buren,19,177
+515,515,TRUE,Indianola,Iowa,Warren,19,181
+319,319,TRUE,Washington,Iowa,Washington,19,183
+641,515,FALSE,Corydon,Iowa,Wayne,19,185
+641,515,FALSE,Forest City,Iowa,Winnebago,19,189
+641,515,FALSE,Northwood,Iowa,Worth,19,195
+515,515,TRUE,Clarion,Iowa,Wright,19,197
+586,313,FALSE,Macomb,Michigan,Macomb,26,099
+906,616,FALSE,Marquette,Michigan,Marquette,26,103
+269,616,FALSE,Benton Harbor,Michigan,Berrien,26,021
+248,313,FALSE,Auburn Hills,Michigan,Oakland,26,125
+313,313,TRUE,Southfield,Michigan,Oakland,26,125
+586,313,FALSE,St. Clair Shores,Michigan,Macomb,26,099
+231,616,FALSE,Big Rapids,Michigan,Mecosta,26,107
+616,616,TRUE,Rockford,Michigan,Kent,26,081
+269,616,FALSE,Hastings,Michigan,Barry,26,015
+586,313,FALSE,Clinton Township,Michigan,Macomb,26,099
+517,517,TRUE,Greenville,Michigan,Montcalm,26,117
+313,313,TRUE,Brownstown Township,Michigan,Wayne,26,163
+248,313,FALSE,Southgate,Michigan,Wayne,26,163
+269,616,FALSE,Sturgis,Michigan,St. Joseph,26,149
+269,616,FALSE,Marshall,Michigan,Calhoun,26,025
+248,313,FALSE,Huntington Woods,Michigan,Oakland,26,125
+989,517,FALSE,Harbor Springs,Michigan,NA,NA,NA
+269,616,FALSE,Albion,Michigan,Calhoun,26,025
+517,517,TRUE,Blissfield,Michigan,Lenawee,26,091
+906,616,FALSE,Sault Ste. Marie,Michigan,Chippewa,26,033
+231,616,FALSE,Ludington,Michigan,Mason,26,105
+269,616,FALSE,Cadillac,Michigan,Wexford,26,165
+906,616,FALSE,Escanaba,Michigan,Delta,26,041
+915,915,TRUE,Alpine,Texas,Brewster,48,043
+915,915,TRUE,Marfa,Texas,Presidio,48,377
+915,915,TRUE,Van Horn,Texas,Culberson,48,109
+512,512,TRUE,Burnet,Texas,Burnet,48,053
+915,915,TRUE,Perryton,Texas,Ochiltree,48,357
+915,915,TRUE,Memphis,Texas,Hall,48,191
+915,915,TRUE,Tulia,Texas,Swisher,48,437
+915,915,TRUE,Childress,Texas,Childress,48,075
+915,915,TRUE,Paducah,Texas,Cottle,48,101
+915,915,TRUE,Silverton,Texas,Briscoe,48,045
+915,915,TRUE,Sanderson,Texas,Terrell,48,443
+915,915,TRUE,Fort Stockton,Texas,Pecos,48,371
+409,713,FALSE,Kountze,Texas,Hardin,48,199
+409,713,FALSE,Newton,Texas,Newton,48,351
+512,512,TRUE,Johnson City,Texas,Blanco,48,031
+915,915,TRUE,Stratford,Texas,Sherman,48,421
+830,512,FALSE,Leakey,Texas,Real,48,385
+915,915,TRUE,Panhandle,Texas,Carson,48,065
+409,713,FALSE,Woodville,Texas,Tyler,48,457
+830,512,FALSE,Rocksprings,Texas,Edwards,48,137
+915,915,TRUE,Ozona,Texas,Crockett,48,105
+707,415,FALSE,Mendocino,California,Mendocino,06,045
+707,415,FALSE,Fort Bragg,California,Mendocino,06,045
+415,415,TRUE,Bolinas,California,Marin,06,041
+650,415,FALSE,Half Moon Bay,California,San Mateo,06,081
+831,415,FALSE,Capitola,California,Santa Cruz,06,087
+805,213,FALSE,Cambria,California,San Luis Obispo,06,079
+805,213,FALSE,Carpinteria,California,Santa Barbara,06,083
+530,916,FALSE,Alturas,California,Modoc,06,049
+530,916,FALSE,Weed,California,Siskiyou,06,093
+530,916,FALSE,Quincy,California,Plumas,06,063
+530,916,FALSE,Chester,California,Plumas,06,063
+707,415,FALSE,Crescent City,California,Del Norte,06,015
+530,916,FALSE,Yreka,California,Siskiyou,06,093
+707,415,FALSE,Fortuna,California,Humboldt,06,023
+507,612,FALSE,Albert Lea,Minnesota,Freeborn,27,047
+507,612,FALSE,Blue Earth,Minnesota,Faribault,27,043
+507,612,FALSE,Preston,Minnesota,Fillmore,27,045
+507,612,FALSE,Jackson,Minnesota,Jackson,27,063
+507,612,FALSE,New Ulm,Minnesota,Brown,27,015
