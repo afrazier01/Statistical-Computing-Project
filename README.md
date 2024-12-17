@@ -5,3 +5,5 @@ The American Telephone and Telegraph Company (AT&T) initially established 86 are
 There are several theories about how the original area codes were assigned in 1947. Most notably, it is believed that the most populated areas, counties, or regions were assigned area codes that were faster to dial. This was because rotary phones required “dialing back” after each number was selected. Consequently, as the theory proposes, area codes like 213 and 312 were assigned to densely populated areas, as they required only six dial pulls, compared to area codes like 704, which required 18 dial pulls.
 
 In this report, I have used data I preprocessed in a separate QMD file to explore different questions through advanced data transformations and statistical methods.
+
+I have uploaded both rendered QMD and PDF files for the pre-analysis data transformations and final project report. You must download the files for view.
